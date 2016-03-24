@@ -9,10 +9,37 @@
 #     http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #     http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 
+
+from os.path import dirname,  join,  abspath
+from datetime import datetime
+
 BOT_NAME = 'getnews'
 
 SPIDER_MODULES = ['getnews.spiders']
 NEWSPIDER_MODULE = 'getnews.spiders'
+USER_AGENT = 'Mozilla/5.0 (Windows NT 6.1; rv:24.0) Gecko/20100101 Firefox/24.0'
+
+LOG_ENABLED = True
+LOG_LEVEL = 'WARNING'
+
+
+DEBUG=True
+JSON_DIR = 'json'
+DATA_DIR = 'data'
+LOG_DIR = 'log'
+NOW = datetime.utcnow().replace(microsecond=0).isoformat().replace(':', '-')
+LOG_FILENAME =  NOW + '_' + BOT_NAME + '.log'
+BASE_PATH = dirname(dirname(abspath(__file__)))
+JSON_PATH = join(BASE_PATH,  JSON_DIR)
+DATA_PATH = join(BASE_PATH,  DATA_DIR)
+LOG_PATH = join(BASE_PATH,  LOG_DIR)
+LOG_FULLPATH = join(LOG_PATH,  LOG_FILENAME)
+
+LOG_FORMAT = "%(levelname)s [%(name)s] ( %(filename)s:%(lineno)s, in %(funcName)s) ______ %(message)s"
+
+
+LOG_FILE = LOG_FULLPATH
+  # options: CRITICAL, ERROR, WARNING, INFO, DEBUG
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
