@@ -1,0 +1,8 @@
+2016-03-23 20:31:22 [scrapy] INFO: Scrapy 1.0.5 started (bot: getnews)
+2016-03-23 20:31:22 [scrapy] INFO: Optional features available: ssl, http11
+2016-03-23 20:31:22 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'getnews.spiders', 'SPIDER_MODULES': ['getnews.spiders'], 'FEED_URI': 'file:///root/getnews/items/getnews/mawto_spider/bb8bccdef15711e5a6d00401bc28f001.jl', 'LOG_FILE': 'logs/getnews/mawto_spider/bb8bccdef15711e5a6d00401bc28f001.log', 'BOT_NAME': 'getnews'}
+2016-03-23 20:31:22 [scrapy] INFO: Enabled extensions: CloseSpider, FeedExporter, TelnetConsole, LogStats, CoreStats, SpiderState
+2016-03-23 20:31:22 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2016-03-23 20:31:22 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2016-03-23 20:31:22 [twisted] CRITICAL: Unhandled error in Deferred:
+2016-03-23 20:31:22 [twisted] CRITICAL: 

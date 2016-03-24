@@ -1,0 +1,14 @@
+sudo apt-get update
+sudo apt-get install python-pip python-dev libxml2-dev libxslt-dev python-lxml libpq-dev
+
+
+scrapyd-deploy -l
+This should output something similar to:
+
+default http://localhost:6800/
+Next you can deploy the project (getnews):
+
+scrapyd-deploy default -p getnews
+And finally run the spider:
+
+curl http://localhost:6800/schedule.json -d project=getnews -d spider=mawto_spider
