@@ -1,0 +1,36 @@
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Canada\xc2\xa0',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/canada/manitoba/delay-flights-winnipeg-1.3617513',
+ 'originallink': [u'http://www.cbc.ca/news/canada/manitoba/delay-flights-winnipeg-1.3617513'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Winnipeg&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Winnipeg&ict=clu_bl'],
+ 'snippet': [u'Flights are gradually resuming after being grounded for at least two hours Sunday night at the Winnipeg James Richardson International Airport.'],
+ 'sublinks': [u'http://winnipeg.ctvnews.ca/all-outbound-flights-from-winnipeg-airport-delayed-due-to-security-incident-related-to-baggage-1.2932465'],
+ 'topstory': [u"Outgoing flights gradually resume after 'security incident' at Winnipeg airport"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 100, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.maritime-executive.com/article/kerry-warns-beijing-over-air-defense-zone',
+ 'originallink': [u'http://www.maritime-executive.com/article/kerry-warns-beijing-over-air-defense-zone'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=John+Kerry&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=John+Kerry&ict=clu_bl'],
+ 'snippet': [u'U.S. Secretary of State John Kerry said on Sunday the United States would consider any Chinese establishment of an air defense zone over the South China Sea to be a "provocative and destabilizing act.'],
+ 'sublinks': [u'http://www.straitstimes.com/multimedia/photos/oasis-of-democracy-between-big-powers'],
+ 'topstory': [u'Kerry Warns Beijing Over Air Defense Zone']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 100, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'

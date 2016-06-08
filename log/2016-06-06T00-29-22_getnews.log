@@ -1,0 +1,1801 @@
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://globalnews.ca/news/2742400/vancouver-tries-to-snag-talent-with-impact-jobs/',
+ 'originallink': [u'http://globalnews.ca/news/2742400/vancouver-tries-to-snag-talent-with-impact-jobs/'],
+ 'related': [],
+ 'snippet': [u'VANCOUVER - As Michelle Reid watches Vancouver house prices soar while preparing for the arrival of her first baby, she sometimes kicks herself for not buying property 10 years ago.'],
+ 'sublinks': [],
+ 'topstory': [u'Vancouver tries to snag talent with impact jobs']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/business/alberta-wildfire-economy-poloz-1.3616894',
+ 'originallink': [u'http://www.cbc.ca/news/business/alberta-wildfire-economy-poloz-1.3616894'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Stephen+Poloz&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Stephen+Poloz&ict=clu_bl'],
+ 'snippet': [u"Bank of Canada governor Stephen Poloz says it's hard to predict when the Canadian economy will rebound from the huge Alberta wildfire that destroyed communities and forced the shut down of crucial oil operations."],
+ 'sublinks': [u'http://www.macleans.ca/economy/public-private-debt-levels-depend-on-fiscal-and-monetary-policy-mix-poloz/'],
+ 'topstory': [u'Timing of economic rebound from Alberta wildfire hard to forecast, Stephen Poloz says']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cantechletter.com/2016/06/20000-bc-built-three-wheeled-electric-car-launch-july/',
+ 'originallink': [u'http://www.cantechletter.com/2016/06/20000-bc-built-three-wheeled-electric-car-launch-july/'],
+ 'related': [],
+ 'snippet': [u"Electra Meccanica's SOLO. The all electric, single passenger, three-wheeled commuter vehicle that is built in British Columbia will launch this summer."],
+ 'sublinks': [],
+ 'topstory': [u'$20000 BC-built, three-wheeled electric car to launch in July']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'https://www.thestar.com/news/gta/2016/06/05/20000-take-to-the-dvp-for-heart-and-stroke-foundation.html',
+ 'originallink': [u'https://www.thestar.com/news/gta/2016/06/05/20000-take-to-the-dvp-for-heart-and-stroke-foundation.html'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Don+Valley+Parkway&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Don+Valley+Parkway&ict=clu_bl'],
+ 'snippet': [u"Muggy weather didn't stop hundreds of cyclists and runners (and walkers) from participating in the Heart and Stroke Foundation's 29th Annual Becel Heart and Stroke Ride Sunday morning."],
+ 'sublinks': [u'http://www.insidetoronto.com/news-story/6707663-gardiner-and-don-valley-closed-because-of-the-becel-ride-for-heart/'],
+ 'topstory': [u'20000 take to the DVP for Heart and Stroke Foundation']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology',
+ 'extras': [u"Pebble's new Core pocket computer will ship with Alexa voice integration"],
+ 'extraslink': [u'http://techcrunch.com/2016/06/02/pebbles-core-alexa/'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://mobilesyrup.com/2016/06/02/amazons-alexa-will-arrive-in-canada-next-year-inside-the-pebble-core/',
+ 'originallink': [u'http://mobilesyrup.com/2016/06/02/amazons-alexa-will-arrive-in-canada-next-year-inside-the-pebble-core/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Pebble&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Alexa+Internet&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Pebble&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Alexa+Internet&ict=clu_bl'],
+ 'snippet': [u"It looks like Amazon's Alexa voice-activated virtual assistant, the same technology that powers the company's Echo device, is set to come to Canada inside Pebble's recently announced Core fitness-focused wearable."],
+ 'sublinks': [u'http://www.eweek.com/mobile/pebbles-upcoming-core-wearable-to-get-amazon-alexa-voice-services.html'],
+ 'topstory': [u"Amazon's Alexa will arrive in Canada next year inside the Pebble Core"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.bnn.ca/News/2016/6/3/Another-record-breaking-month-for-Toronto-housing-amid-fears-of-overheating-.aspx',
+ 'originallink': [u'http://www.bnn.ca/News/2016/6/3/Another-record-breaking-month-for-Toronto-housing-amid-fears-of-overheating-.aspx'],
+ 'related': [],
+ 'snippet': [u"While some still only cautiously refer to Canada's hottest housing markets as being in a \u201cB-Word\u201d, Ryan Lewenza says \u201cbubble\u201d very clearly describes the trend in Vancouver and Toronto real estate."],
+ 'sublinks': [],
+ 'topstory': [u"'We're in a bubble': Record home sales in Toronto and Vancouver intensify fears of overheating"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World\xc2\xa0',
+ 'extras': [u'King Salman calls on Muslims to close ranks and renounce extremism',
+            u"Fasting for Ramadan won't be easy \u2013 it's the coffee I'll miss the most",
+            u'Muslims worldwide prepare for Ramadan'],
+ 'extraslink': [u'http://saudigazette.com.sa/saudi-arabia/king-salman-calls-muslims-close-ranks-renounce-extremism/',
+                u'http://www.theguardian.com/world/commentisfree/2016/jun/05/fasting-for-ramadan-wont-be-easy-its-the-coffee-ill-miss-the-most',
+                u'http://darkroom.baltimoresun.com/2016/06/muslims-worldwide-prepare-for-ramadan/'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbsnews.com/news/obama-swipes-at-donald-trump-in-ramadan-statement/',
+ 'originallink': [u'http://www.cbsnews.com/news/obama-swipes-at-donald-trump-in-ramadan-statement/'],
+ 'related': [],
+ 'snippet': [u"President Obama issued a statement Sunday evening extending best wishes to Muslims in the U.S. and around the world at the start of Islam's holy month of Ramadan."],
+ 'sublinks': [u'http://www.dailysabah.com/religion/2016/06/06/ramadan-ushers-in-sharing-prayers-across-turkey'],
+ 'topstory': [u"Obama's Ramadan statement includes veiled swipe at Trump"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.simcoe.com/news-story/6707754-impaired-driver-blew-twice-the-legal-limit-police/',
+ 'originallink': [u'http://www.simcoe.com/news-story/6707754-impaired-driver-blew-twice-the-legal-limit-police/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Barrie&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Barrie&ict=clu_bl'],
+ 'snippet': [u'A tip from the public led police to lay an impaired driving charge Saturday night. Barrie police were contacted in the early evening by a resident regarding a swerving vehicle.'],
+ 'sublinks': [u'https://www.barrietoday.com/local-news/62-year-old-man-blows-twice-the-legal-limit-310976'],
+ 'topstory': [u'Impaired driver blew twice the legal limit: police']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [u'Bay Ferries: Baillie creating uncertainty about ferry service not good for attracting business'],
+ 'extraslink': [u'http://www.thevanguard.ca/News/Local/2016-06-02/article-4547725/Bay-Ferries%3A-Baillie-creating-uncertainty-about-ferry-service-not-good-for-attracting-business/1'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/canada/nova-scotia/cat-ferry-yarmouth-harbour-route-1.3616450',
+ 'originallink': [u'http://www.cbc.ca/news/canada/nova-scotia/cat-ferry-yarmouth-harbour-route-1.3616450'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Bay+Ferries&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Nova+Scotia&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Bay+Ferries&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Nova+Scotia&ict=clu_bl'],
+ 'snippet': [u'People in Yarmouth will be able to get their first look at the new Cat ferry Saturday evening. The vessel, which will provide high-speed service between Yarmouth, Nova Scotia and Portland, Maine is expected to arrive in the harbour sometime after 7 p.m..'],
+ 'sublinks': [u'http://atlantic.ctvnews.ca/bay-ferries-ceo-says-tory-leader-s-comments-are-destabilizing-company-1.2929504'],
+ 'topstory': [u'Cat ferry to arrive in Yarmouth harbour Saturday evening']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Science',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.ctvnews.ca/sci-tech/russian-rocket-that-worried-inuit-groups-has-launched-1.2932413',
+ 'originallink': [u'http://www.ctvnews.ca/sci-tech/russian-rocket-that-worried-inuit-groups-has-launched-1.2932413'],
+ 'related': [],
+ 'snippet': [u'OTTAWA -- The federal government says a Russian rocket that upset Inuit groups over its potential to pollute Arctic waters with toxic fuel has launched.'],
+ 'sublinks': [],
+ 'topstory': [u'Russian rocket that worried Inuit groups has launched']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World\xc2\xa0',
+ 'extras': [u"Switzerland's voters rejects basic income plan",
+            u'Swiss reject basic income for all: projection',
+            u"Switzerland rejected universal basic income - but that doesn't mark the end of the idea for Europe",
+            u'Of Course We Can Afford A Universal Basic Income: Do We Want One Though?'],
+ 'extraslink': [u'http://www.bbc.com/news/world-europe-36454060',
+                u'http://www.expatica.com/ch/news/Swiss-reject-basic-income-for-all-projection_696857.html',
+                u'http://www.independent.co.uk/voices/editorials/switzerland-has-rejected-universal-basic-income-but-that-doesnt-mark-the-end-of-the-idea-for-europe-a7066311.html',
+                u'http://www.forbes.com/sites/timworstall/2016/06/04/of-course-we-can-afford-a-universal-basic-income-do-we-want-one-though/'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/business/swiss-referendum-guaranteed-income-1.3617059',
+ 'originallink': [u'http://www.cbc.ca/news/business/swiss-referendum-guaranteed-income-1.3617059'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Switzerland&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Switzerland&ict=clu_bl'],
+ 'snippet': [u'Swiss voters overwhelmingly rejected a proposal that would have guaranteed everyone in the Alpine nation an unconditional basic income, according to projections published Sunday by public broadcaster SRF1.'],
+ 'sublinks': [u'http://www.theglobeandmail.com/report-on-business/international-business/european-business/swiss-vote-to-reject-free-income-plan-after-worker-vs-robot-debate/article30281071/'],
+ 'topstory': [u'Swiss voters overwhelmingly reject proposal for unconditional basic income']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology',
+ 'extras': [u'Overwatch'],
+ 'extraslink': [u'https://en.wikipedia.org/wiki/Overwatch_%28video_game%29'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.scmp.com/culture/arts-entertainment/article/1963778/game-review-overwatch-good-it-gets',
+ 'originallink': [u'http://www.scmp.com/culture/arts-entertainment/article/1963778/game-review-overwatch-good-it-gets'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Overwatch&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Overwatch&ict=clu_bl'],
+ 'snippet': [u'Hello, my name is Rory, and I have an Overwatch problem. As I am writing this, it has been about 12 hours since my last game - a loss, thanks to a useless healer bent on only using his offensive orbs.'],
+ 'sublinks': [u'http://wegotthiscovered.com/gaming/blizzard-bans-thousands-of-overwatch-cheaters/'],
+ 'topstory': [u'Game review: Overwatch is as good as it gets']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://kitchener.ctvnews.ca/participants-raise-over-88-000-at-kw-gutsy-walk-for-crohn-s-and-colitis-1.2932482',
+ 'originallink': [u'http://kitchener.ctvnews.ca/participants-raise-over-88-000-at-kw-gutsy-walk-for-crohn-s-and-colitis-1.2932482'],
+ 'related': [u"/news/section?cf=all&hl=en&pz=1&ned=ca&q=Crohn's+disease&ict=clu_top",
+             u"/news/section?cf=all&hl=en&pz=1&ned=ca&q=Crohn's+disease&ict=clu_top"],
+ 'snippet': [u"The Annual Crohn's and Colitis Gutsy Walk took place in Waterloo today. Local honorary chair, Jillian Ferguson, has been living with Crohn's for the last 9 years."],
+ 'sublinks': [],
+ 'topstory': [u"Participants raise over $88000 at KW Gutsy Walk for Crohn's and Colitis"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'https://www.thestar.com/news/queenspark/2016/06/04/how-cpp-reform-could-kill-ontarios-pension-plan-cohn.html',
+ 'originallink': [u'https://www.thestar.com/news/queenspark/2016/06/04/how-cpp-reform-could-kill-ontarios-pension-plan-cohn.html'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Ontario&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Ontario&ict=clu_bl'],
+ 'snippet': [u'Ontario Liberals are under pressure to accept a grand (albeit minimal) national CPP compromise, lest they be burned. The Ontario pension plan ranks as one of the boldest social innovations in a generation - fully funded and carefully targeted, a '],
+ 'sublinks': [u'http://www.metronews.ca/news/canada/2016/06/03/ontario-to-forge-ahead-with-pension-plan-absent-cpp-deal-wynne-says.html'],
+ 'topstory': [u"How CPP reform could kill Ontario's pension plan: Cohn"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Science',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.torontosun.com/2016/06/03/the-duckspeak-of-climate-change',
+ 'originallink': [u'http://www.torontosun.com/2016/06/03/the-duckspeak-of-climate-change'],
+ 'related': [],
+ 'snippet': [u'We hear it all the time: \u201cClimate change is real\u201d, \u201c97% of experts agree\u201d, \u201cwe must increase our use of green energy to reduce carbon pollution\u201d.'],
+ 'sublinks': [u'http://calgaryherald.com/opinion/columnists/phillips-alberta-will-lead-in-reducing-emissions'],
+ 'topstory': [u"The 'duckspeak' of climate change"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World\xc2\xa0',
+ 'extras': [u'Mass grave containing 400 bodies found near Fallujah',
+            u'Battle for Falluja: Not Shias versus Sunnis but Iraqis versus ISIS'],
+ 'extraslink': [u'http://rudaw.net/english/middleeast/iraq/050620162',
+                u'http://www.cnn.com/2016/06/03/opinions/falluja-shias-sunnis-iraq-isis/'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/world/iraq-fallujah-isis-recapture-operation-1.3617282',
+ 'originallink': [u'http://www.cbc.ca/news/world/iraq-fallujah-isis-recapture-operation-1.3617282'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Fallujah&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Islamic+State+of+Iraq+and+the+Levant&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Iraq&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Fallujah&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Islamic+State+of+Iraq+and+the+Levant&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Iraq&ict=clu_bl'],
+ 'snippet': [u'Iraqi forces secured the southern edge of the Islamic State in Iraq and Syria (ISIS) stronghold of Fallujah on Sunday, two weeks after the launch of an operation to recapture the city, the commander overseeing the operation said.'],
+ 'sublinks': [u'http://www.nzherald.co.nz/world/news/article.cfm?c_id=2&objectid=11651523'],
+ 'topstory': [u'Iraqi forces secure southern edge of ISIS stronghold of Fallujah']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://techcrunch.com/2016/06/05/tcaps-hearing-aids/',
+ 'originallink': [u'http://techcrunch.com/2016/06/05/tcaps-hearing-aids/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=United+States+Army&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=United+States+Army&ict=clu_bl'],
+ 'snippet': [u"TCAPS - that's Tactical Communication and Protective System - are a sort of combo connected earplug/hearing aid currently being deployed by the US Army to both reduce hearing loss from explosive sounds and enhance perception of quiet tones."],
+ 'sublinks': [u'http://www.techmalak.com/the-us-army-is-using-these-innovative-smart-earplugs/'],
+ 'topstory': [u'The US Army is deploying smart earplugs that block out loud noises and enhance quiet ones']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cknw.com/syn/107/141769/141769',
+ 'originallink': [u'http://www.cknw.com/syn/107/141769/141769'],
+ 'related': [],
+ 'snippet': [u'WINNIPEG - You may be able to cross Portage and Main on foot by next summer. Mayor Brian Bowman says talks with the property owners at the corners of the intersection are going well.'],
+ 'sublinks': [],
+ 'topstory': [u'Bowman Hopes Portage And Main Open To Pedestrians Next Summer']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Science',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/canada/british-columbia/bee-researcher-says-urban-centres-in-b-c-are-havens-for-bees-1.3613046',
+ 'originallink': [u'http://www.cbc.ca/news/canada/british-columbia/bee-researcher-says-urban-centres-in-b-c-are-havens-for-bees-1.3613046'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Beekeeping&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Beekeeping&ict=clu_bl'],
+ 'snippet': [u"It turns out bees aren't actually that busy. But when the hive insects do work they do so with such coordinated efficiency that they accomplish a lot."],
+ 'sublinks': [u'http://www.recorder.com/Bees-2587981'],
+ 'topstory': [u"Bee researcher says urban centres in BC are 'havens' for bees"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World\xc2\xa0',
+ 'extras': [u'Tropical rains, possible tornadoes threaten half of the US'],
+ 'extraslink': [u'https://www.washingtonpost.com/national/tropical-rains-possible-tornadoes-threaten-half-of-the-us/2016/06/04/7890f416-2a7f-11e6-8329-6104954928d2_story.html'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://thechronicleherald.ca/world/1370035-tropical-storm-colin-forms-in-gulf-speeds-toward-florida',
+ 'originallink': [u'http://thechronicleherald.ca/world/1370035-tropical-storm-colin-forms-in-gulf-speeds-toward-florida'],
+ 'related': [],
+ 'snippet': [u"TALLAHASSEE, Fla. - Tropical Storm Colin formed in the Gulf of Mexico Sunday and was speeding on a course to hit Florida on Monday with rains that forecasters said could cause serious flooding along much of the state's Gulf coast."],
+ 'sublinks': [u'http://in.reuters.com/article/us-storm-colin-idINKCN0YR0WV'],
+ 'topstory': [u'Tropical Storm Colin forms in Gulf, speeds toward Florida']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://nintendoenthusiast.com/news/shante-half-genie-hero-gets-physical-release-date/',
+ 'originallink': [u'http://nintendoenthusiast.com/news/shante-half-genie-hero-gets-physical-release-date/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Wii+U&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Wii+U&ict=clu_bl'],
+ 'snippet': [u"XSEED has been a very busy company this week. Aside from announcing a new eShop game called Exile's End (which will also be coming to the Vita and PS4), they announced they would be bringing WayForward's Shantae: Half-Genie Hero to retail stores\xa0..."],
+ 'sublinks': [u'http://www.hardcoregamer.com/2016/06/04/shantae-half-genie-hero-gets-release-date/210094/'],
+ 'topstory': [u'Shante: Half-Genie Hero Gets Physical Release Date']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/canada/montreal/saputo-neilson-chocolate-milk-recall-1.3616452',
+ 'originallink': [u'http://www.cbc.ca/news/canada/montreal/saputo-neilson-chocolate-milk-recall-1.3616452'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Listeria+monocytogenes&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Listeria+monocytogenes&ict=clu_bl'],
+ 'snippet': [u'Saputo is recalling its Neilson brand chocolate milk because it may be contaminated with listeria. The company says some recent cases of illness may be linked to its product.'],
+ 'sublinks': [u'http://www.kelownadailycourier.ca/news/national_news/article_f185e28c-1e14-53fe-ab09-421040bfc03b.html'],
+ 'topstory': [u'Neilson chocolate milk recalled due to listeria concerns']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [u"Fed's next move needn't depend on jobs numbers",
+            u'Federal Reserve Plan for Raising Rates Sidetracked by Weak Jobs Data'],
+ 'extraslink': [u'http://www.chicagotribune.com/news/sns-wp-blm-bg-editorial-fed-3f315650-29c3-11e6-8329-6104954928d2-20160603-story.html',
+                u'http://www.wsj.com/articles/federal-reserve-plan-for-raising-rates-stalled-by-weak-jobs-data-1465156018'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'https://www.thestar.com/business/2016/06/03/us-hiring-in-may-slows-to-just-38000-jobs-the-fewest-in-5-years.html',
+ 'originallink': [u'https://www.thestar.com/business/2016/06/03/us-hiring-in-may-slows-to-just-38000-jobs-the-fewest-in-5-years.html'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Federal+Reserve+System&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=United+States+of+America&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Federal+Reserve+System&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=United+States+of+America&ict=clu_bl'],
+ 'snippet': [u'While the unemployment did fall, it fell for a problematic reason: Nearly a half-million jobless Americans stopped looking for work and were no longer counted as unemployed.'],
+ 'sublinks': [u'http://www.businessinsider.com/david-rosenberg-warns-of-recession-2016-6'],
+ 'topstory': [u'US hiring in May slows to just 38000 jobs, the fewest in 5 years']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Canada\xc2\xa0',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.kelownadailycourier.ca/news/national_news/article_cf89456f-e228-5fef-9e12-0afe29f1e130.html',
+ 'originallink': [u'http://www.kelownadailycourier.ca/news/national_news/article_cf89456f-e228-5fef-9e12-0afe29f1e130.html'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Lotteries&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Lotto+6/49&ict=clu_bl'],
+ 'snippet': [u"TORONTO - There is one winning ticket for the $7 million jackpot in Saturday night's Lotto 649 draw, and it was purchased somewhere in Ontario."],
+ 'sublinks': [],
+ 'topstory': [u"One winning ticket for $7 million jackpot in Saturday night's Lotto 649"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology',
+ 'extras': [u'\xa3100000 spent on policing neo-Nazi, anti-fascist protests and Naked Bike Ride in Bristol'],
+ 'extraslink': [u'http://www.bristolpost.co.uk/100-000-spent-policing-neo-Nazi-anti-facist/story-29360059-detail/story.html'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.walesonline.co.uk/whats-on/whats-on-news/cardiff-world-naked-bike-ride-11430565',
+ 'originallink': [u'http://www.walesonline.co.uk/whats-on/whats-on-news/cardiff-world-naked-bike-ride-11430565'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=World+Naked+Bike+Ride&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Nudity&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=World+Naked+Bike+Ride&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Nudity&ict=clu_bl'],
+ 'snippet': [u'The ninth annual Cardiff World Naked Bike ride took place on Sunday, attracting around 150 cyclists to take to the roads of the Welsh capital.'],
+ 'sublinks': [u'http://metro.co.uk/2016/06/05/people-on-naked-bike-ride-manage-to-avoid-fascists-5925036/'],
+ 'topstory': [u"Cardiff World Naked Bike Ride takes to the roads of the city - and here's what it looked like"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.nugget.ca/2016/06/04/lhins-a-disaster---mpp',
+ 'originallink': [u'http://www.nugget.ca/2016/06/04/lhins-a-disaster---mpp'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Ontario&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Ontario&ict=clu_bl'],
+ 'snippet': [u'Nipissing MPP Vic Fedeli has little confidence that putting home care in the hands of Local Health Integration Networks will result in improved patient care.'],
+ 'sublinks': [u'https://www.thestar.com/news/queenspark/2016/06/02/reforms-will-make-ontario-healthcare-more-seamless-says-minister.html'],
+ 'topstory': [u"LHINs 'a disaster' - MPP"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.bnn.ca/News/2016/6/3/Petro-Canada-sees-fuel-shortages-out-West-due-to-Fort-Mac-wildfires-refinery-outage.aspx',
+ 'originallink': [u'http://www.bnn.ca/News/2016/6/3/Petro-Canada-sees-fuel-shortages-out-West-due-to-Fort-Mac-wildfires-refinery-outage.aspx'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Petro-Canada&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Suncor+Energy&ict=clu_bl'],
+ 'snippet': [u"The Fort McMurray wildfires and an unplanned outage at an Edmonton refinery are leading to shortages at Suncor's (SU.TO) Petro-Canada stations across Western Canada."],
+ 'sublinks': [],
+ 'topstory': [u'Petro-Canada sees fuel shortages out West due to Fort Mac wildfires, refinery outage']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Science',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'https://www.sudbury.com/national/some-say-the-fate-of-british-columbias-old-growth-forests-rests-in-the-balance-309829',
+ 'originallink': [u'https://www.sudbury.com/national/some-say-the-fate-of-british-columbias-old-growth-forests-rests-in-the-balance-309829'],
+ 'related': [],
+ 'snippet': [u"SAANICH, B.C. - The Douglas fir Andy MacKinnon leans against is 40 metres tall. It's likely more than 500 years old and its fire-scarred trunk is almost two metres in diameter."],
+ 'sublinks': [],
+ 'topstory': [u"Some say the fate of British Columbia's old-growth forests rests in the balance"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Canada\xc2\xa0',
+ 'extras': [u'Ontario Liberal Party held 100 exclusive fundraising events in 2015'],
+ 'extraslink': [u'http://www.cbc.ca/news/canada/toronto/kathleen-wynne-ontario-liberal-fundraising-ticket-price-1.3612431'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.citynews.ca/2016/06/04/electoral-reform-lipstick-and-divorce-3-ways-politics-touched-cdns-this-week-2/',
+ 'originallink': [u'http://www.citynews.ca/2016/06/04/electoral-reform-lipstick-and-divorce-3-ways-politics-touched-cdns-this-week-2/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Electoral+reform&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Liberal+Party+of+Canada&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Electoral+reform&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Liberal+Party+of+Canada&ict=clu_bl'],
+ 'snippet': [u'FILE - A voter casts their ballot at a polling station in the Montreal riding of NDG-Westmount on election day, October 19, 2015. The Liberals changed direction on Thursday and decided to accept an NDP plan to restructure a parliamentary committee that '],
+ 'sublinks': [u'http://www.thespec.com/opinion-story/6706469-collaboration-in-parliament-who-knew-/'],
+ 'topstory': [u'Electoral reform, lipstick and divorce: 3 ways politics touched Cdns this week']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/canada/ottawa/rowan-stringer-rugby-field-1.3616778',
+ 'originallink': [u'http://www.cbc.ca/news/canada/ottawa/rowan-stringer-rugby-field-1.3616778'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Barrhaven&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Barrhaven&ict=clu_bl'],
+ 'snippet': [u'A Barrhaven rugby field was officially renamed "Rowan\'s Pitch" in memory of Rowan Stringer, the Ottawa teenager who died in 2013 after suffering multiple head injuries playing high school rugby.'],
+ 'sublinks': [u'http://www.ottawasun.com/2016/06/05/rowans-pitch-named-in-honour-of-rugby-player'],
+ 'topstory': [u"'Rowan's Pitch' dedicated to memory of young rugby player"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://globalnews.ca/news/2739753/frenchs-announces-plans-to-bottle-ketchup-in-toronto/',
+ 'originallink': [u'http://globalnews.ca/news/2739753/frenchs-announces-plans-to-bottle-ketchup-in-toronto/'],
+ 'related': [u"/news/section?cf=all&hl=en&pz=1&ned=ca&q=French's&ict=clu_bl",
+             u"/news/section?cf=all&hl=en&pz=1&ned=ca&q=French's&ict=clu_bl"],
+ 'snippet': [u"French's Food Company is hoping to put the squeeze on the Canadian ketchup market after it announced a new deal to produce ketchup in Toronto with Canadian tomatoes beginning in 2017."],
+ 'sublinks': [u'https://www.thestar.com/business/2016/06/02/toronto-plant-to-make-frenchs-ketchup.html'],
+ 'topstory': [u"French's announces plans to bottle ketchup in Toronto"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Science',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://technology.inquirer.net/48232/ph-satellite-shows-how-isabela-looks-from-space',
+ 'originallink': [u'http://technology.inquirer.net/48232/ph-satellite-shows-how-isabela-looks-from-space'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Department+of+Science+and+Technology&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Department+of+Science+and+Technology&ict=clu_bl'],
+ 'snippet': [u'Picture shows an image of the province of Isabela in the island of Luzon, the Republic of Philippines, taken by the medium field-of-view color camera (MFC), captured at 9:15 (PHT) on May 17, 2016.'],
+ 'sublinks': [u'http://interaksyon.com/article/128641/diwata-1-tests-out-ok-with-initial-telemetered-images-from-orbit'],
+ 'topstory': [u'PH satellite shows how Isabela looks from space']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Canada\xc2\xa0',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://kitchener.ctvnews.ca/man-s-body-found-in-pickup-truck-left-underwater-following-crash-1.2929601',
+ 'originallink': [u'http://kitchener.ctvnews.ca/man-s-body-found-in-pickup-truck-left-underwater-following-crash-1.2929601'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Hagersville&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Hagersville&ict=clu_bl'],
+ 'snippet': [u"One man's body has been found inside a pickup truck that became submerged in a quarry near Hagersville, south of Brantford. For much of the day, the truck had been underwater with authorities unsure how many people, if any, were trapped inside."],
+ 'sublinks': [u'http://www.kelownadailycourier.ca/news/national_news/article_4af4f8b5-71c3-5dad-a3e1-0cb0d1474e3d.html'],
+ 'topstory': [u"Man's body found in pickup truck left underwater following crash"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.610cktb.com/news/2016/06/05/niagara-police-catch-young-driver-while-conducting-ride',
+ 'originallink': [u'http://www.610cktb.com/news/2016/06/05/niagara-police-catch-young-driver-while-conducting-ride'],
+ 'related': [],
+ 'snippet': [u"Niagara Police were out this weekend conducting a RIDE checkpoint in the town of Grimsby. On Friday night officers stopped about 40 vehicles to make sure people weren't drinking and driving."],
+ 'sublinks': [],
+ 'topstory': [u'Niagara Police catch young driver while conducting RIDE']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.standard-freeholder.com/2016/06/05/als-wal-the-colour-of-awareness',
+ 'originallink': [u'http://www.standard-freeholder.com/2016/06/05/als-wal-the-colour-of-awareness'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Amyotrophic+lateral+sclerosis&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Amyotrophic+lateral+sclerosis&ict=clu_bl'],
+ 'snippet': [u'Doug Yendell at the Walk for ALS on Saturday June 4, 2016 in Cornwall, Ont. Yendell was diagnosed last July with the disease and wanted to take part in the walk, at least for a little while.'],
+ 'sublinks': [u'http://www.cbc.ca/news/canada/saskatchewan/dozens-walk-regina-lumsden-als-research-june4-1.3616763'],
+ 'topstory': [u'ALS wal: The colour of awareness']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://af.reuters.com/article/commoditiesNews/idAFL1N18V13G',
+ 'originallink': [u'http://af.reuters.com/article/commoditiesNews/idAFL1N18V13G'],
+ 'related': [],
+ 'snippet': [u"CHICAGO, June 3 (Reuters) - U.S. soybean futures backed off two-year highs on Friday, with investment funds locking in profits from the oilseed's sharp rally this week."],
+ 'sublinks': [u'http://www.agrimoney.com/marketreport/am-markets-hot-ag-market-lifts-soybeans-to-22-month-high--3629.html'],
+ 'topstory': [u'GRAINS-Profit-taking pulls soy from 2-year highs; corn, wheat firm']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Science',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.floridatoday.com/story/tech/science/space/2016/06/04/launch-week-ulas-delta-iv-heavy-set-launch-nro/85199192/',
+ 'originallink': [u'http://www.floridatoday.com/story/tech/science/space/2016/06/04/launch-week-ulas-delta-iv-heavy-set-launch-nro/85199192/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=SpaceX&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=SpaceX&ict=clu_bl'],
+ 'snippet': [u'United Launch Alliance is poised to launch its first mission since March, with a heavy-lift Delta IV rocket targeting an afternoon launch Thursday, June 9, from Cape Canaveral Air Force Station.'],
+ 'sublinks': [u'http://www.universetoday.com/129322/mars-at-closest-earth-approach-over-spacex-recovered-falcon-9-at-sea-photo/'],
+ 'topstory': [u"Launch week: ULA's Delta IV Heavy set to launch for NRO"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Canada\xc2\xa0',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/canada/manitoba/delay-flights-winnipeg-1.3617513',
+ 'originallink': [u'http://www.cbc.ca/news/canada/manitoba/delay-flights-winnipeg-1.3617513'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Winnipeg&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Winnipeg&ict=clu_bl'],
+ 'snippet': [u'Flights are gradually resuming after being grounded for at least two hours Sunday night at the Winnipeg James Richardson International Airport.'],
+ 'sublinks': [u'http://winnipeg.ctvnews.ca/all-outbound-flights-from-winnipeg-airport-delayed-due-to-security-incident-related-to-baggage-1.2932465'],
+ 'topstory': [u"Outgoing flights gradually resume after 'security incident' at Winnipeg airport"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.mirror.co.uk/tech/apple-wwdc-2016-ios-10-8111682',
+ 'originallink': [u'http://www.mirror.co.uk/tech/apple-wwdc-2016-ios-10-8111682'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Apple&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Apple&ict=clu_bl'],
+ 'snippet': [u'The Californian tech giant traditionally uses the event in San Francisco to unveil its latest software updates for its iPhone, iPad and Apple Watch, Mac and Apple TV.'],
+ 'sublinks': [u'http://www.phonearena.com/news/WWDC-2016-app-updated-with-Apple-TV-support-and-a-dark-theme_id81830'],
+ 'topstory': [u'Apple WWDC 2016: iOS 10 and revamped Apple Music to be unveiled at Worldwide Developers Conference in June']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/canada/nova-scotia/bionic-knee-brace-arthritis-1.3617314',
+ 'originallink': [u'http://www.cbc.ca/news/canada/nova-scotia/bionic-knee-brace-arthritis-1.3617314'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Arthritis&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Arthritis&ict=clu_bl'],
+ 'snippet': [u'A Dartmouth man who has osteoarthritis and other knee injuries was able to complete the 5K Walk to Fight Arthritis thanks to a bionic knee brace developed by a Nova Scotia company.'],
+ 'sublinks': [u'http://globalnews.ca/news/2742331/halifax-mom-top-canadian-fundraiser-in-annual-walk-to-fight-arthritis/'],
+ 'topstory': [u'Bionic knee brace gets trial at Halifax arthritis walk']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cheknews.ca/cowichan-valley-ramps-water-conservation-drought-concerns-183454/',
+ 'originallink': [u'http://www.cheknews.ca/cowichan-valley-ramps-water-conservation-drought-concerns-183454/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Cowichan+Valley+Regional+District&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Cowichan+Valley+Regional+District&ict=clu_bl'],
+ 'snippet': [u'The Cowichan Valley Regional District will be the first on the Island to move to stage two watering restrictions Monday, as the region looks to avert critically low flows on the Cowichan River in the months ahead.'],
+ 'sublinks': [u'http://www.cowichanvalleycitizen.com/news/381705481.html'],
+ 'topstory': [u'Cowichan Valley ramps up water conservation over drought concerns']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Science',
+ 'extras': [u'Study suggests dogs domesticated twice in Eurasia'],
+ 'extraslink': [u'http://nbc4i.com/2016/06/05/study-suggests-dogs-domesticated-twice-in-eurasia/'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.inquisitr.com/3172325/new-dog-study-contradicts-previous-theories-about-the-domestication-of-mans-best-friend/',
+ 'originallink': [u'http://www.inquisitr.com/3172325/new-dog-study-contradicts-previous-theories-about-the-domestication-of-mans-best-friend/'],
+ 'related': [],
+ 'snippet': [u"The debate as to where dogs came from has been going on for decades. Many scientists can't agree on whether the dog was domesticated in Europe or the Far East."],
+ 'sublinks': [u'http://www.businessinsider.com/how-wolves-became-dogs-2016-6'],
+ 'topstory': [u"New Dog Study Contradicts Previous Theories About The Domestication Of Man's Best Friend"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.autonews.com/article/20160605/OEM06/306069964/honda-merges-into-autonomous-traffic',
+ 'originallink': [u'http://www.autonews.com/article/20160605/OEM06/306069964/honda-merges-into-autonomous-traffic'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Honda+Motor+Company&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Honda+Motor+Company&ict=clu_bl'],
+ 'snippet': [u"An autonomous Acura RLX approaches a mannequin during one of Honda's self-driving demonstrations at the GoMentum Station. CONCORD, Calif."],
+ 'sublinks': [u'http://www.heraldbulletin.com/opinion/columns/auto-review-luxury-power-and-efficiency/article_090c1ab8-e811-5717-941c-0eb5ee501278.html'],
+ 'topstory': [u'Honda merges into autonomous traffic']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://globalnews.ca/news/2738864/national-recall-issued-for-sunflower-seeds-and-granola-bars/?iframe=true&preview=true',
+ 'originallink': [u'http://globalnews.ca/news/2738864/national-recall-issued-for-sunflower-seeds-and-granola-bars/?iframe=true&preview=true'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Clif+Bar+%26+Company&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Clif+Bar+%26+Company&ict=clu_bl'],
+ 'snippet': [u'The Canadian Food Inspection Agency issued a food recall Thursday, due to a possible listeria contamination. The products in question include Harvest brand Quinoa Granola Bars and Spitz brand Sunflower Kernels.'],
+ 'sublinks': [u'http://www.ctvnews.ca/health/energy-bars-granola-bars-sunflowers-seeds-recalled-over-listeria-fears-1.2931392'],
+ 'topstory': [u'National recall issued for sunflower seeds and granola bars']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Science',
+ 'extras': [u'Ask Ethan: Is The Universe Expanding Faster Than Expected?'],
+ 'extraslink': [u'http://www.forbes.com/sites/startswithabang/2016/06/04/ask-ethan-is-the-universe-expanding-faster-than-expected/'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.denverpost.com/2016/06/04/hold-on-tight-universe-is-expanding-faster-than-we-thought/',
+ 'originallink': [u'http://www.denverpost.com/2016/06/04/hold-on-tight-universe-is-expanding-faster-than-we-thought/'],
+ 'related': [],
+ 'snippet': [u"You've probably already heard that the universe is expanding. It's been doing so since the Big Bang - about 13.7 billion years ago - so you've had plenty of time to get in the loop."],
+ 'sublinks': [u'http://www.lakeconews.com/index.php?option=com_content&view=article&id=46609:-space-news-universe-expanding-faster-than-expected&catid=1:latest&Itemid=197'],
+ 'topstory': [u'Hold on tight: Universe is expanding faster than we thought']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World',
+ 'extras': [u'Taliban Gunmen Kill Seven In Afghan Courthouse Attack'],
+ 'extraslink': [u'http://www.rferl.org/content/article/27780320.html'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.un.org/apps/news/story.asp?NewsID=54141',
+ 'originallink': [u'http://www.un.org/apps/news/story.asp?NewsID=54141'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Taliban&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Afghanistan&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Taliban&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Afghanistan&ict=clu_bl'],
+ 'snippet': [u"The United Nations Secretary-General's Special Representative for Afghanistan and head of UNAMA, Nicholas Haysom. Photo by UNAMA/Fardin Waezi."],
+ 'sublinks': [u'http://ca.reuters.com/article/topNews/idCAKCN0YR0C9'],
+ 'topstory': [u'Afghanistan: UN condemns attack targeting Logar judicial officials']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.gizmodo.com.au/2016/06/you-probably-dont-need-to-optimise-your-ssd-anymore/',
+ 'originallink': [u'http://www.gizmodo.com.au/2016/06/you-probably-dont-need-to-optimise-your-ssd-anymore/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Samsung+Electronics+Limited&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Samsung+Electronics+Limited&ict=clu_bl'],
+ 'snippet': [u"When solid state drives were first becoming commonplace, most sites (our own included) suggested ways to optimise your SSD. With the exception of very rare cases, this just isn't necessary any more."],
+ 'sublinks': [u'http://thetechnews.com/2016/06/05/this-samsung-nvme-ssd-is-just-a-weight-of-a-paper-and-sized-of-your-thumb-nail/'],
+ 'topstory': [u"You Probably Don't Need To Optimise Your SSD Anymore"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cumberlandnewsnow.com/News/Local/2016-06-05/article-4550345/Relay-for-Life-gets-personal-for-Allaby/1',
+ 'originallink': [u'http://www.cumberlandnewsnow.com/News/Local/2016-06-05/article-4550345/Relay-for-Life-gets-personal-for-Allaby/1'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Relay+For+Life&ict=clu_bl'],
+ 'snippet': [u"Survivors enter the Amherst Stadium during the Canadian Cancer Society's Relay for Life. Teams raised $73,300 with more money being collected."],
+ 'sublinks': [],
+ 'topstory': [u'Relay for Life gets personal for Allaby']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'https://www.thestar.com/news/world/2016/06/05/forestry-experts-assess-threat-to-unesco-world-heritage-forest-in-poland.html',
+ 'originallink': [u'https://www.thestar.com/news/world/2016/06/05/forestry-experts-assess-threat-to-unesco-world-heritage-forest-in-poland.html'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Poland&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Poland&ict=clu_bl'],
+ 'snippet': [u"Extensive logging has begun in Poland's ancient Bialowieza Forest to stop the spread of beetles. The sun shines through trees in a protected area of Bialowieza forest, the last primeval forest in Europe, near Bialowieza village, Poland."],
+ 'sublinks': [u'http://www.thenews.pl/1/9/Artykul/255646,UNESCO-delegates-inspect-mass-logging-in-Bialowieza'],
+ 'topstory': [u'Forestry experts assess threat to UNESCO world heritage forest in Poland']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Science',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.techtimes.com/articles/162970/20160605/it-only-takes-two-brain-cells-for-snails-to-make-decisions.htm',
+ 'originallink': [u'http://www.techtimes.com/articles/162970/20160605/it-only-takes-two-brain-cells-for-snails-to-make-decisions.htm'],
+ 'related': [],
+ 'snippet': [u'In a first-of-its-kind study, researchers were able to identify two brain neurons responsible for decision making in freshwater snails.'],
+ 'sublinks': [u'http://www.thebritishjournal.com/science/snails-help-build-robot-brains-university-sussex-says-887-2016/'],
+ 'topstory': [u'It Only Takes Two Brain Cells For Snails To Make Decisions']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/canada/manitoba/boy-injured-whytewold-ness-crash-1.3617363',
+ 'originallink': [u'http://www.cbc.ca/news/canada/manitoba/boy-injured-whytewold-ness-crash-1.3617363'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Winnipeg&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Winnipeg&ict=clu_bl'],
+ 'snippet': [u'A six-year-old boy is in stable condition after being hit by a vehicle in Silver Heights on Sunday. It happened at about 10:50 a.m.'],
+ 'sublinks': [u'http://globalnews.ca/news/2742653/winnipeg-boy-hospitalized-after-hit-and-run/'],
+ 'topstory': [u'Boy, 6, in stable condition after Silver Heights crash, Winnipeg police say']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.metronews.ca/news/toronto/2016/06/05/autism-ontario-program-frustration.html',
+ 'originallink': [u'http://www.metronews.ca/news/toronto/2016/06/05/autism-ontario-program-frustration.html'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Autism&ict=clu_bl'],
+ 'snippet': [u'Cliff McIntosh, 16, helps his family prepare dinner in their north Toronto home. Both he and his sister Clara are on the autism spectrum, and their mother says without IBI their lives would be very different.'],
+ 'sublinks': [],
+ 'topstory': [u'Uproar over new autism guidelines reflects frustration about Ontarios whole system']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.stcatharinesstandard.ca/2016/06/01/from-two-egg-to-chicken-places-with-the-oddest-names',
+ 'originallink': [u'http://www.stcatharinesstandard.ca/2016/06/01/from-two-egg-to-chicken-places-with-the-oddest-names'],
+ 'related': [],
+ 'snippet': [u"TWO EGG, FLORIDA: Located about 70 miles northwest of Florida's capital, Tallahassee, Two Egg is a small farming community where people used to trade eggs for goods at the general store."],
+ 'sublinks': [],
+ 'topstory': [u'From Two Egg to Chicken: Places with the oddest names']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/canada/hamilton/news/severe-thunderstorm-watch-issued-for-hamilton-sunday-afternoon-1.3617339',
+ 'originallink': [u'http://www.cbc.ca/news/canada/hamilton/news/severe-thunderstorm-watch-issued-for-hamilton-sunday-afternoon-1.3617339'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Hamilton&ict=clu_bl'],
+ 'snippet': [u'Hamilton will see rain, strong winds and possible severe thunderstorms Sunday afternoon, forecasters at Environment Canada warn. They ended a severe thunderstorm warning around 3:15 p.m.'],
+ 'sublinks': [],
+ 'topstory': [u'Severe thunderstorm watch issued for Hamilton Sunday afternoon']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://androidandme.com/2016/06/news/moto-z-style-mod-backplates-leak-showing-leather-wood-and-other-options/',
+ 'originallink': [u'http://androidandme.com/2016/06/news/moto-z-style-mod-backplates-leak-showing-leather-wood-and-other-options/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Motorola+Moto&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Motorola+Moto&ict=clu_bl'],
+ 'snippet': [u'The Lenovo-owned Motorola has plans to launch a Moto Z, instead of a Moto X, flagship device this year, changing up the brand a little bit.'],
+ 'sublinks': [u'http://www.androidauthority.com/new-leak-shows-moto-z-moto-maker-back-panel-options-696724/'],
+ 'topstory': [u'Moto Z Style Mod backplates leak showing leather, wood, and other options']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.theguardian.pe.ca/News/Local/2016-06-05/article-4550274/Walk-to-Fight-Arthritis-raises-more-than-$16,000-in-P.E.I./1',
+ 'originallink': [u'http://www.theguardian.pe.ca/News/Local/2016-06-05/article-4550274/Walk-to-Fight-Arthritis-raises-more-than-$16,000-in-P.E.I./1'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Arthritis&ict=clu_bl'],
+ 'snippet': [u"Mary Ann O'Halloran has seen how easily personal mobility can often be taken for granted. Both of her sons, 6 and 8, are diagnosed with juvenile arthritis."],
+ 'sublinks': [],
+ 'topstory': [u'Walk to Fight Arthritis raises more than $16000 in PEI']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.insidebrockville.com/news-story/6707926-hydro-one-complaints-voiced-at-brockville-demonstration/',
+ 'originallink': [u'http://www.insidebrockville.com/news-story/6707926-hydro-one-complaints-voiced-at-brockville-demonstration/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Hydro+One&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Hydro+One&ict=clu_bl'],
+ 'snippet': [u'Enough is Enough Hydro One rally leader Jenni Gates speaks from the heart on Saturday to those gathered in Brockville as Leeds-Grenville MPP Steve Clark shares his views on the Hydro One costs and financial process.'],
+ 'sublinks': [u'http://www.thecerbatgem.com/hydro-one-ltd-h-to-issue-c0-21-quarterly-dividend/'],
+ 'topstory': [u'Hydro One complaints voiced at Brockville demonstration']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Science',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.varsity.co.uk/science/10259',
+ 'originallink': [u'http://www.varsity.co.uk/science/10259'],
+ 'related': [],
+ 'snippet': [u'When John F. Kennedy announced the Apollo missions in 1961, a fever took its grip across the globe. It would be an easy task to argue the achievements that followed rank among the greatest feats of human engineering, if not human progress.'],
+ 'sublinks': [],
+ 'topstory': [u'We have a moral duty to go to Mars']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World',
+ 'extras': [u'Lightering Operations Begin on Ship Stuck in Lake Superior'],
+ 'extraslink': [u'http://www.fox21online.com/news/local-news/Lightering-Operations-Begin-on-Ship-Stuck-in-Lake-Superior/39889186'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://saultonline.com/2016/06/visiting-the-roger-blough-and-the-gros-cap-reef/',
+ 'originallink': [u'http://saultonline.com/2016/06/visiting-the-roger-blough-and-the-gros-cap-reef/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Roger+Blough&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Lake+Superior&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Roger+Blough&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Lake+Superior&ict=clu_bl'],
+ 'snippet': [u'The Roger Blough owned by Canadian national Railway, and operated by Keystone was damaged when she went aground Friday, May 27th on Gros Cap Reef in Whitefish Bay.'],
+ 'sublinks': [u'http://www.inforum.com/news/4047855-crews-free-grounded-lake-superior-freighter'],
+ 'topstory': [u'Visiting the Roger Blough and the Gros Cap Reef']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.gamereactor.eu/news/424553/Hellblades+dev+diary+dives+deeper+into+combat/',
+ 'originallink': [u'http://www.gamereactor.eu/news/424553/Hellblades+dev+diary+dives+deeper+into+combat/'],
+ 'related': [],
+ 'snippet': [u"Do you remember the development diary we got back in April? Back then we said it detailed Hellblade's combat system. Turns out, it barely touched the surface."],
+ 'sublinks': [],
+ 'topstory': [u"Hellblade's dev diary dives deeper into combat"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.insideottawavalley.com/news-story/6705820-the-ticks-are-here-get-informed-at-naturalists-meeting-in-arnprior-june-7/',
+ 'originallink': [u'http://www.insideottawavalley.com/news-story/6705820-the-ticks-are-here-get-informed-at-naturalists-meeting-in-arnprior-june-7/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Lyme+disease&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Lyme+disease&ict=clu_bl'],
+ 'snippet': [u'Closing her eyes after days of dragging wooded and grassy areas for these blood-sucking parasites, visions of ticks, described in a 2014 interview, were understandable.'],
+ 'sublinks': [u'http://www.saugertiesx.com/2016/06/05/letters-june-2-9/'],
+ 'topstory': [u'The ticks are here: get informed at naturalists...']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.fool.com/investing/2016/06/04/forget-oil-this-miner-says-silver-is-going-to-140.aspx',
+ 'originallink': [u'http://www.fool.com/investing/2016/06/04/forget-oil-this-miner-says-silver-is-going-to-140.aspx'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Silver&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Silver&ict=clu_bl'],
+ 'snippet': [u'Past rallies will pale in comparison to what this miner says is in store for the gray metal. Rich Duprey. (TMFCop). Jun 4, 2016 at 9:06AM.'],
+ 'sublinks': [u'http://news.xinhuanet.com/english/2016-06/04/c_135411220.htm'],
+ 'topstory': [u'Forget Oil: This Miner Says Silver Is Going to $140 an Ounce']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Science',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://timesofindia.indiatimes.com/tech/tech-news/Now-squeeze-out-colours-from-microscopic-marbles/articleshow/52604853.cms',
+ 'originallink': [u'http://timesofindia.indiatimes.com/tech/tech-news/Now-squeeze-out-colours-from-microscopic-marbles/articleshow/52604853.cms'],
+ 'related': [],
+ 'snippet': [u'London, June 5 (IANS) A team of researchers has devised a new method for stacking microscopic marbles into regular layers, producing intriguing materials which scatter light into intense colours and which change colour when twisted or stretched.'],
+ 'sublinks': [],
+ 'topstory': [u'Now, squeeze out colours from microscopic marbles']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World',
+ 'extras': [u'EU Referendum debate live: Michael Gove makes the case for Brexit on Sky News',
+            u'Business has to speak up on the dangers of Brexit',
+            u'How Brexit will affect British tourism'],
+ 'extraslink': [u'http://www.mirror.co.uk/news/uk-news/eu-referendum-debate-live-michael-8110857',
+                u'http://www.ft.com/cms/s/0/f9bc7492-2986-11e6-8b18-91555f2f4fde.html',
+                u'http://www.independent.co.uk/travel/news-and-advice/brexit-british-tourism-impact-eu-referendum-a7066371.html'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.wsj.com/articles/armed-with-statistics-cameron-struggles-to-win-hearts-in-brexit-debate-1465159864',
+ 'originallink': [u'http://www.wsj.com/articles/armed-with-statistics-cameron-struggles-to-win-hearts-in-brexit-debate-1465159864'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=United+Kingdom+European+Union+membership+referendum,+2016&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=United+Kingdom&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=European+Union&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=United+Kingdom+European+Union+membership+referendum,+2016&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=United+Kingdom&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=European+Union&ict=clu_bl'],
+ 'snippet': [u"This wasn't what was supposed to happen. With just over two weeks to go until the British referendum on European Union membership, Prime Minister David Cameron might have expected his \u201cRemain\u201d campaign to be well ahead."],
+ 'sublinks': [u'http://www.afr.com/news/world/europe/poll-shows-brexit-leave-camp-ahead-by-four-points-20160606-gpcam3'],
+ 'topstory': [u'Armed With Statistics, Cameron Struggles to Win Hearts in Brexit Debate']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.ecommercetimes.com/story/83573.html',
+ 'originallink': [u'http://www.ecommercetimes.com/story/83573.html'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Facebook&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Facebook&ict=clu_bl'],
+ 'snippet': [u'"Text is a prevalent form of communication on Facebook," wrote Facebook software engineers Ahmad Abdulkader, Aparna Lakshmiratan and Joy Zhang in a post describing its capabilities.'],
+ 'sublinks': [u'http://tribbleagency.com/2016/06/04/facebook-s-artificial-intelligence-understands-you/'],
+ 'topstory': [u'Facebook AI Digs Deep Into User Content']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.michigansthumb.com/news/article_8d2b9f9e-29ca-11e6-aae9-2305595b217f.html',
+ 'originallink': [u'http://www.michigansthumb.com/news/article_8d2b9f9e-29ca-11e6-aae9-2305595b217f.html'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Drug+overdose&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Drug+overdose&ict=clu_bl'],
+ 'snippet': [u'FILE- In this Wednesday, Feb. 19, 2014, file photograph, a small bottle of the opiate overdose treatment drug, naloxone, also known by its brand name Narcan, is displayed at the South Jersey AIDS Alliance in Atlantic City, N.J.'],
+ 'sublinks': [u'http://www.dentonrc.com/business-tech/denton-business-headlines/20160604-overdose-antidote-easier-to-buy.ece'],
+ 'topstory': [u'Heroin, painkiller overdose antidote getting easier to buy']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.brandonsun.com/business/breaking-news/us-stocks-dollar-slide-after-weak-jobs-report-381778611.html',
+ 'originallink': [u'http://www.brandonsun.com/business/breaking-news/us-stocks-dollar-slide-after-weak-jobs-report-381778611.html'],
+ 'related': [],
+ 'snippet': [u'Specialists Anthony Matesic, left, and Mario Picone, center, work with trader Tommy Kalkas on the floor of the New York Stock Exchange, Friday, June 3, 2016.'],
+ 'sublinks': [],
+ 'topstory': [u'US stocks, dollar slide after weak jobs report']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Science',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.theweathernetwork.com/news/articles/heres-the-town-that-has-a-new-volcano-forming-under-it/68581',
+ 'originallink': [u'http://www.theweathernetwork.com/news/articles/heres-the-town-that-has-a-new-volcano-forming-under-it/68581'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=New+Zealand&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=New+Zealand&ict=clu_bl'],
+ 'snippet': [u'Saturday, June 4, 2016, 7:02 PM - People in the New Zealand town of Matata finally have a scientific explanation for a swarm of small quakes afflicting the region.'],
+ 'sublinks': [u'http://www.express.co.uk/news/science/676857/IS-world-getting-more-volcanic-Huge-magma-build-up-beneath-under-town-with-NO-volcano'],
+ 'topstory': [u"Here's the town that has a new volcano forming under it"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://hothardware.com/news/motorola-moto-x-pure-64gb-moto-360-sport-for-399',
+ 'originallink': [u'http://hothardware.com/news/motorola-moto-x-pure-64gb-moto-360-sport-for-399'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Motorola+Moto&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Motorola+Solutions&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Moto+360&ict=clu_bl'],
+ 'snippet': [u'Every so often there comes around a deal that has us doing a double take, and the latest promotion for an unlocked Moto X Pure smartphone and Moto 360 smartwatch bundle is one of those times.'],
+ 'sublinks': [],
+ 'topstory': [u'Motorola Bundles Moto X Pure 64GB With Moto 360 Sport For $399']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'https://marcellus.com/news/id/138324/us-services-firms-grew-slowest-pace-since-february-2014/',
+ 'originallink': [u'https://marcellus.com/news/id/138324/us-services-firms-grew-slowest-pace-since-february-2014/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Business&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Business&ict=clu_bl'],
+ 'snippet': [u'In this Wednesday, March 23, 2016, photo, dog groomer Angela Kizirian works on Zack at Bark of the Town, in North Andover, Mass. On Friday, June 3, 2016, the Institute for Supply Management, a trade group of purchasing managers, issues its index of\xa0...'],
+ 'sublinks': [u'http://www.wsj.com/articles/u-s-service-sector-growth-slows-in-may-1464962928'],
+ 'topstory': [u'US services firms grew at slowest pace since February 2014']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World',
+ 'extras': [u'Why Trump will win the White House'],
+ 'extraslink': [u'http://www.miamiherald.com/opinion/article81920737.html'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.wsj.com/articles/bernie-sanders-campaign-is-split-over-whether-to-fight-on-past-tuesday-1465171997',
+ 'originallink': [u'http://www.wsj.com/articles/bernie-sanders-campaign-is-split-over-whether-to-fight-on-past-tuesday-1465171997'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Hillary+Rodham+Clinton&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Donald+Trump&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Hillary+Rodham+Clinton&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Donald+Trump&ict=clu_bl'],
+ 'snippet': [u"A split is emerging inside the Bernie Sanders campaign over whether the senator should stand down after Tuesday's election contests and unite behind Democratic front-runner Hillary Clinton, or take the fight all the way to the July party convention and "],
+ 'sublinks': [u'http://www.wral.com/the-latest-gingrich-trump-attacks-on-judge-a-mistake-/15754802/'],
+ 'topstory': [u'Bernie Sanders Campaign Is Split Over Whether to Fight on Past Tuesday']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology',
+ 'extras': [u"The world isn't ready for Google's Instant Apps"],
+ 'extraslink': [u'http://venturebeat.com/2016/06/05/the-world-isnt-ready-for-googles-instant-apps/'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://9to5google.com/2016/06/05/android-wear-2-more-new-in-it-gallery/',
+ 'originallink': [u'http://9to5google.com/2016/06/05/android-wear-2-more-new-in-it-gallery/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Google&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Android&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Google&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Android&ict=clu_bl'],
+ 'snippet': [u"Back at Google I/O 2016, Google took the wraps off of Android Wear 2.0. The Mountain View company has added a lot of new features in this version, but one thing we've noticed is that - despite many hands-on articles and videos floating around - most\xa0..."],
+ 'sublinks': [u'https://www.bostonglobe.com/business/2016/06/05/games-put-auto-racing-action-palm-your-hand/2sEmKBdz7P87jgqSCuUuqN/story.html'],
+ 'topstory': [u'Hands-on: Android Wear 2.0 has a lot more new features than you probably realize']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.sthelensreporter.co.uk/news/local/diabetes-award-for-school-1-7946763',
+ 'originallink': [u'http://www.sthelensreporter.co.uk/news/local/diabetes-award-for-school-1-7946763'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Diabetes+mellitus&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Diabetes+mellitus&ict=clu_bl'],
+ 'snippet': [u'A school has received a special award that celebrates schools which provide great care and support to children and young people with Type 1 diabetes.'],
+ 'sublinks': [u'http://www.camrosecanadian.com/2016/06/01/participants-needed-for-diabetes-research'],
+ 'topstory': [u'Diabetes award for school']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://therealdeal.com/la/2016/06/03/jll-acquires-development-consulting-firm-merritt-harris/',
+ 'originallink': [u'http://therealdeal.com/la/2016/06/03/jll-acquires-development-consulting-firm-merritt-harris/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=JLL&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=JLL&ict=clu_bl'],
+ 'snippet': [u"From the New York website: In the latest escalation in the arms race against rivals like CBRE, JLL's project and development group has acquired a consulting firm to buff up its growing construction management business."],
+ 'sublinks': [u'http://www.globest.com/sites/johnjordan/2016/06/03/jll-buys-nyc-based-construction-consulting-firm/'],
+ 'topstory': [u'JLL acquires development-consulting firm Merritt & Harris']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Science',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.tbnewswatch.com/Artsentertainment/390236/Army_on_its_way',
+ 'originallink': [u'http://www.tbnewswatch.com/Artsentertainment/390236/Army_on_its_way'],
+ 'related': [],
+ 'snippet': [u"While there's no significant tent caterpillar population in the Thunder Bay area this summer a major influx is about a year or two away, said District of Thunder Bay Health Unit entomologist Ken Deacon."],
+ 'sublinks': [],
+ 'topstory': [u'The army is on its wayLOCAL']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Entertainment\xc2\xa0',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/canada/toronto/bobby-curtola-dead-1.3617348',
+ 'originallink': [u'http://www.cbc.ca/news/canada/toronto/bobby-curtola-dead-1.3617348'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Bobby+Curtola&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Bobby+Curtola&ict=clu_bl'],
+ 'snippet': [u'Former Canadian teen idol and singer Bobby Curtola has died. He was 73. His death was announced Sunday in a statement from his children, who called Curtola "an amazing man who did so much for the people in this world.'],
+ 'sublinks': [u'http://www.billboard.com/articles/news/7393603/bobby-curtola-dead'],
+ 'topstory': [u'Bobby Curtola, former Canadian teen idol, dead at 73']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.therecord.com/news-story/6707837-drug-bust-at-waterloo-hotel/',
+ 'originallink': [u'http://www.therecord.com/news-story/6707837-drug-bust-at-waterloo-hotel/'],
+ 'related': [],
+ 'snippet': [u'A sharp-eyed hotel employee helped get four men arrested for drug-related offences in Waterloo Saturday. The men, all in their 20s, were from the Chatham and London areas, police said.'],
+ 'sublinks': [],
+ 'topstory': [u'Drug bust at Waterloo hotel']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.androidheadlines.com/2016/06/android-6-0-1-marshmallow-heading-oneplus-2.html',
+ 'originallink': [u'http://www.androidheadlines.com/2016/06/android-6-0-1-marshmallow-heading-oneplus-2.html'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=OnePlus+2&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=OnePlus+2&ict=clu_bl'],
+ 'snippet': [u'Android 6.0 Marshmallow continues to reach smartphones from various manufacturers, and now the OnePlus 2 can be lumped into the mix with those that have already picked up the new software.'],
+ 'sublinks': [u'http://www.androidauthority.com/oneplus-2-marshmallow-update-696740/'],
+ 'topstory': [u'Android 6.0.1 Marshmallow Heading Out To OnePlus 2']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://swtimes.com/features/how-perform-heimlich-maneuver',
+ 'originallink': [u'http://swtimes.com/features/how-perform-heimlich-maneuver'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Henry+Heimlich&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Henry+Heimlich&ict=clu_bl'],
+ 'snippet': [u"Choking is the fourth leading cause of unintentional injury-related deaths, so it's important to know how to perform the Heimlich maneuever."],
+ 'sublinks': [u'http://www.philly.com/philly/opinion/20160605_The_Pulse__My_Heimlich_maneuvering.html'],
+ 'topstory': [u'How to perform the Heimlich maneuver']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Science',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'https://www.collective-evolution.com/2016/06/04/new-moon-in-gemini-cultivating-adaptability/',
+ 'originallink': [u'https://www.collective-evolution.com/2016/06/04/new-moon-in-gemini-cultivating-adaptability/'],
+ 'related': [],
+ 'snippet': [u'There will be a New Moon in Gemini on June 4th/5th, which is the beginning of the 29.5 day Moon cycle. In astrological practice, we view New Moons as a new wave of energy happening as the Sun and Moon meet at the exact same point in the zodiac.'],
+ 'sublinks': [],
+ 'topstory': [u'New Moon In Gemini: Cultivating Adaptability']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Entertainment\xc2\xa0',
+ 'extras': [u"Yannick N\xe9zet-S\xe9guin to Succeed James Levine as Met Opera's Music Director",
+            u'Met Opera Names Yannick N\xe9zet-S\xe9guin as New Music Director',
+            u'The Metropolitan Opera Baton Passes To Yannick N\xe9zet-S\xe9guin'],
+ 'extraslink': [u'http://www.nytimes.com/2016/06/03/arts/music/yannick-nezet-seguin-to-succeed-james-levine-as-met-operas-music-director.html',
+                u'http://www.wsj.com/articles/met-opera-names-yannick-nezet-seguin-as-new-music-director-1464873975',
+                u'http://www.npr.org/sections/deceptivecadence/2016/06/03/480638340/the-metropolitan-opera-baton-passes-to-yannick-n-zet-s-guin'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/canada/montreal/yannick-nezet-seguin-montreal-reaction-1.3613815',
+ 'originallink': [u'http://www.cbc.ca/news/canada/montreal/yannick-nezet-seguin-montreal-reaction-1.3613815'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Yannick+N%C3%A9zet-S%C3%A9guin&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Conductors&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Metropolitan+Opera+House&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Yannick+N%C3%A9zet-S%C3%A9guin&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Conductors&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Metropolitan+Opera+House&ict=clu_bl'],
+ 'snippet': [u'Yannick N\xe9zet-S\xe9guin called succeeding James Levine as music director of New York\'s famed Metropolitan Opera the culmination of a "childhood\'s dream.'],
+ 'sublinks': [u'http://www.philly.com/philly/columnists/david_patrick_stearns/20160605_Nzet-Sguin_brings_freshness__new_thinking_to_the_Met.html'],
+ 'topstory': [u"Yannick N\xe9zet-S\xe9guin's Met Opera appointment the pride of Montreal"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.straitstimes.com/multimedia/photos/oasis-of-democracy-between-big-powers',
+ 'originallink': [u'http://www.straitstimes.com/multimedia/photos/oasis-of-democracy-between-big-powers'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=John+Kerry&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=John+Kerry&ict=clu_bl'],
+ 'snippet': [u'A Mongolian archer taking a shot during a Naadam ceremony attended by United States Secretary of State John Kerry in Ulan Bator, Mongolia, yesterday.'],
+ 'sublinks': [u'http://www.voanews.com/content/kerry-mongolia-is-an-oasis-of-democracy/3362332.html'],
+ 'topstory': [u'Oasis of democracy between big powers']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.fool.com/investing/2016/06/05/can-polaris-industries-succeed-where-harley-davids.aspx',
+ 'originallink': [u'http://www.fool.com/investing/2016/06/05/can-polaris-industries-succeed-where-harley-davids.aspx'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Harley-Davidson&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Harley-Davidson&ict=clu_bl'],
+ 'snippet': [u'Just how many times can it successfully bail out a famed, but financially troubled, bike maker? Rich Duprey. (TMFCop). Jun 5, 2016 at 12:10PM.'],
+ 'sublinks': [u'http://www.philly.com/philly/business/cars/20160605_A_Hog_with_millennials.html'],
+ 'topstory': [u'Can Polaris Industries Succeed Where Harley-Davidson Failed?']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.heraldtribune.com/article/20160604/NEWS/160609806',
+ 'originallink': [u'http://www.heraldtribune.com/article/20160604/NEWS/160609806'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=HIV/AIDS&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=HIV&ict=clu_bl'],
+ 'snippet': [u'Jack Cox has been living with HIV for the last 31 years. He is part of the first generational cohort to grow old with the disease, thanks to advances in drug therapies.'],
+ 'sublinks': [],
+ 'topstory': [u'A look at the graying of HIV']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Entertainment\xc2\xa0',
+ 'extras': [u'Feed the Beast: EW review'],
+ 'extraslink': [u'http://www.ew.com/article/2016/06/05/feed-beast-ew-review'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.torontosun.com/2016/06/05/oj-made-in-america-feed-the-beast-and-hell-on-wheels-top-this-weeks-tv-must-sees',
+ 'originallink': [u'http://www.torontosun.com/2016/06/05/oj-made-in-america-feed-the-beast-and-hell-on-wheels-top-this-weeks-tv-must-sees'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Feed+the+Beast&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=AMC&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Feed+the+Beast&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=AMC&ict=clu_bl'],
+ 'snippet': [u"Bill Harris' TV must-sees for the week of June 5. 1. O.J.: Made in America. Debut. Murder, race, celebrity. Hmmm, with all those elements at play, and more, it's not hard to see why the O.J."],
+ 'sublinks': [u'http://www.avclub.com/article/get-your-knives-out-feed-beast-237607'],
+ 'topstory': [u"'OJ: Made in America', 'Feed the Beast' and 'Hell on Wheels' top this week's TV must-sees"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Science',
+ 'extras': [u'Stopping trafficking must be a policy priority in Asia'],
+ 'extraslink': [u'http://www.bangkokpost.com/opinion/opinion/1001437/stopping-trafficking-must-be-a-policy-priority-in-asia'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.un.org/apps/news/story.asp?NewsID=54139',
+ 'originallink': [u'http://www.un.org/apps/news/story.asp?NewsID=54139'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=World+Environment+Day&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Environment&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=World+Environment+Day&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Environment&ict=clu_bl'],
+ 'snippet': [u'Girls dressed in traditional clothes and with their faces and bodies painted in white dance during the official opening of a school for rangers and the environment, at the opening of the World Environment Day activities in Menongue, in the province of\xa0...'],
+ 'sublinks': [u'http://www.aljazeera.com/news/2016/06/rising-environmental-crime-threatens-societies-160605140234439.html'],
+ 'topstory': [u"'Go wild for life,' UN says on World Environment Day"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Entertainment\xc2\xa0',
+ 'extras': [u"Taylor Swift Shows Up at Fan's Wedding, Performs 'Blank Space'",
+            u'Everything Taylor Swift Has Ever Said About Heartbreak and Moving On'],
+ 'extraslink': [u'http://www.billboard.com/articles/columns/pop/7393583/taylor-swift-fan-wedding-blank-space',
+                u'http://www.people.com/people/article/0,,21010477,00.html'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/arts/taylor-swift-wedding-performance-1.3617284',
+ 'originallink': [u'http://www.cbc.ca/news/arts/taylor-swift-wedding-performance-1.3617284'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Taylor+Swift&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Calvin+Harris&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Weddings&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Taylor+Swift&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Calvin+Harris&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Weddings&ict=clu_bl'],
+ 'snippet': [u"A New Jersey couple got a wedding crasher Saturday they didn't dare turn away: Taylor Swift. The superstar surprised newlyweds Kenya Smith and Max Singer - a huge fan - by playing a simple version of her song Blank Space during their reception in\xa0..."],
+ 'sublinks': [u'http://www.winnipegfreepress.com/arts-and-life/entertainment/celebrities/taylor-swift-sings-at-fans-wedding-381907971.html'],
+ 'topstory': [u'Singer-songwriter Taylor Swift surprised a New Jersey couple with performance at their wedding. (Instagram)']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.bramptonguardian.com/news-story/6707689-islamic-month-of-fasting-begins-monday/',
+ 'originallink': [u'http://www.bramptonguardian.com/news-story/6707689-islamic-month-of-fasting-begins-monday/'],
+ 'related': [],
+ 'snippet': [u'Mississauga-based Islamic Society of North America (ISNA) Canada announced Ramadan will start Monday and the first taraweeh (special evening prayers) will be held Sunday.'],
+ 'sublinks': [],
+ 'topstory': [u'Islamic month of fasting begins Monday']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Sports\xc2\xa0',
+ 'extras': [u"Penguins seeking to end 'California Curse'",
+            u'Quality versus quantity: DeBoer presents his theory on why shot totals have favored Penguins',
+            u"Donskoi's overtime winner for Sharks cuts Penguins' edge to 2-1"],
+ 'extraslink': [u'http://triblive.com/sports/penguins/10582101-74/teams-california-ice',
+                u'http://nhl.nbcsports.com/2016/06/05/quality-versus-quantity-deboer-presents-his-theory-on-why-shot-totals-have-favored-penguins/',
+                u'http://www.mercurynews.com/sharks/ci_29979078/sharks-win-overtime-cut-penguins-lead-2-1'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.sportsnet.ca/hockey/nhl/heat-struggling-stars-stanley-cup-final/',
+ 'originallink': [u'http://www.sportsnet.ca/hockey/nhl/heat-struggling-stars-stanley-cup-final/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=San+Jose+Sharks&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Pittsburgh+Penguins&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Stanley+Cup+Finals&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=San+Jose+Sharks&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Pittsburgh+Penguins&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Stanley+Cup+Finals&ict=clu_bl'],
+ 'snippet': [u'Damien Cox and Sean Reynolds recap Game 3 between the Pittsburgh Penguins and San Jose Sharks. headshot Damien Cox June 5, 2016, 7:22 PM.'],
+ 'sublinks': [u'http://news.nationalpost.com/sports/nhl/stanley-cup-final-gets-an-extra-layer-of-intrigue-because-of-june-temperatures-effect-on-ice'],
+ 'topstory': [u'The heat is on for struggling stars in Stanley Cup Final']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.parisbeacon.com/news/article_2c37e318-29f3-11e6-9b91-17828a780d36.html',
+ 'originallink': [u'http://www.parisbeacon.com/news/article_2c37e318-29f3-11e6-9b91-17828a780d36.html'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=E.+coli&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=E.+coli&ict=clu_bl'],
+ 'snippet': [u'General Mills has announced a recall of several different sizes and varieties of Gold Medal Flour Gold Medal Wondra Flour, and Signature Kitchens Flour due to possible E. coli contamination.'],
+ 'sublinks': [u'http://www.rep-am.com/articles/2016/06/05/business/960432.txt'],
+ 'topstory': [u'General Mills announces flour recall']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Sports\xc2\xa0',
+ 'extras': [u'The rules of tennis simply do not apply to Novak Djokovic',
+            u'Being part of the Federer/Nadal era a career booster, says Djokovic'],
+ 'extraslink': [u'http://www.eurosport.com/tennis/french-open/2016/the-rules-of-tennis-simply-do-not-apply-to-novak-djokovic_sto5636977/story.shtml',
+                u'http://www.thestar.com.my/sport/tennis/2016/06/06/being-part-of-the-federernadal-era-a-career-booster-says-djokovic/'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.winnipegfreepress.com/sports/tennis/andy-murray-the-what-if-man-of-tennis-381907761.html',
+ 'originallink': [u'http://www.winnipegfreepress.com/sports/tennis/andy-murray-the-what-if-man-of-tennis-381907761.html'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Andy+Murray&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=French+Open&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Novak+Djokovic&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Andy+Murray&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=French+Open&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Novak+Djokovic&ict=clu_bl'],
+ 'snippet': [u"What if the 29-year-old Scot hadn't been born just one week earlier than Novak Djokovic? What if Roger Federer and Rafael Nadal had found an era other than Murray's to torment?"],
+ 'sublinks': [u'http://edition.cnn.com/2016/06/05/tennis/djokovic-murray-french-open-tennis/index.html'],
+ 'topstory': [u'Andy Murray, the "what if?" man of tennis']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.irishtimes.com/business/financial-services/brian-hayes-to-sit-on-eu-offshore-leaks-committee-1.2673607',
+ 'originallink': [u'http://www.irishtimes.com/business/financial-services/brian-hayes-to-sit-on-eu-offshore-leaks-committee-1.2673607'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Panama+Papers&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Panama+Papers&ict=clu_bl'],
+ 'snippet': [u'Brian Hayes, the Fine Gael MEP, is to be appointed to a new European Parliament committee set up to investigate the widespread offshore tax avoidance and offshore financial activity revealed by the Panama Papers leak.'],
+ 'sublinks': [u'http://scroll.in/article/808441/hello-this-is-john-doe-are-you-interested-in-secret-data-and-then-came-the-panama-papers'],
+ 'topstory': [u'Brian Hayes to sit on EU offshore leaks committee']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Sports\xc2\xa0',
+ 'extras': [u'Mo Farah, Olympic champion, to end track career after 2017 season'],
+ 'extraslink': [u'http://www.cbc.ca/sports/olympics/rio2016/track-field/mo-farah-track-olympics-1.3616563'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'https://ca.sports.yahoo.com/news/farah-breaks-moorcrofts-3-000m-british-record-172507189--spt.html',
+ 'originallink': [u'https://ca.sports.yahoo.com/news/farah-breaks-moorcrofts-3-000m-british-record-172507189--spt.html'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Mohamed+Farah&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=IAAF+Diamond+League&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Mohamed+Farah&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=IAAF+Diamond+League&ict=clu_bl'],
+ 'snippet': [u"(Reuters) - Double Olympic champion Mo Farah continued his build-up to the Rio Games by breaking David Moorcroft's 34-year-old British record in the 3,000 metres at a Diamond League meeting in Birmingham on Sunday."],
+ 'sublinks': [u'https://www.theguardian.com/sport/2016/jun/05/mo-farah-greg-rutherford-diamond-league-meeting-athletics'],
+ 'topstory': [u"Farah breaks Moorcroft's 3000m British record"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.dailynewsegypt.com/2016/06/04/press-trial-syndicate-leaders-vow-storming-headquarters-will-not-pass-unnoticed/',
+ 'originallink': [u'http://www.dailynewsegypt.com/2016/06/04/press-trial-syndicate-leaders-vow-storming-headquarters-will-not-pass-unnoticed/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Egypt&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Egypt&ict=clu_bl'],
+ 'snippet': [u"Qasr Al Nil misdemeanour court postponed on Saturday morning the trial of the Press Syndicate's head Yahia Qalash and two board members to 18 June."],
+ 'sublinks': [u'http://www.albawaba.com/news/sisi-90-percent-prisoners-detained-criminal-not-political-charges-848304'],
+ 'topstory': [u'Press on trial: syndicate leaders vow storming headquarters will not pass unnoticed']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Sports\xc2\xa0',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.thespec.com/news-story/6708196-bouts-with-granite-chinned-george-chuvalo-were-ali-s-canadian-legacy/',
+ 'originallink': [u'http://www.thespec.com/news-story/6708196-bouts-with-granite-chinned-george-chuvalo-were-ali-s-canadian-legacy/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Muhammad+Ali&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Muhammad+Ali&ict=clu_bl'],
+ 'snippet': [u'Canadian boxer George Chuvalo lands a punch to the head of Muhammed Ali during their boxing match in Toronto in 1966. next play/pause pre 2/2.'],
+ 'sublinks': [u'http://www.cbc.ca/news/canada/british-columbia/remembering-muhammad-ali-in-vancouver-1.3616953'],
+ 'topstory': [u"Bouts with granite-chinned George Chuvalo were Ali's Canadian legacy"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Stanley Cup Final\xc2\xa0',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'https://mapleleafshotstove.com/2016/06/04/leafs-links-matthews-results-nhl-draft-combine/',
+ 'originallink': [u'https://mapleleafshotstove.com/2016/06/04/leafs-links-matthews-results-nhl-draft-combine/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=National+Hockey+League&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=National+Hockey+League&ict=clu_bl'],
+ 'snippet': [u'We lost the first two games of the ',
+             u' at Detroit. The night before Game 3 in Pittsburgh, Gary Roberts gathered the team and gave this unreal speech.'],
+ 'sublinks': [u'http://www.lfpress.com/2016/06/03/matthews-believes-he-is-nhl-franchise-centreman-material'],
+ 'topstory': [u'Leafs Links: Matthews Results at the ',
+              u' Draft Combine, Stanley Cup ',
+              u" Game #3 preview, Sean Day's this "]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health\xc2\xa0',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.muskokaregion.com/news-story/6708011-getting-gutsy-for-crohn-s-and-colitis-in-bracebridge/',
+ 'originallink': [u'http://www.muskokaregion.com/news-story/6708011-getting-gutsy-for-crohn-s-and-colitis-in-bracebridge/'],
+ 'related': [u"/news/section?cf=all&hl=en&pz=1&ned=ca&q=Crohn's+disease&ict=clu_bl",
+             u"/news/section?cf=all&hl=en&pz=1&ned=ca&q=Crohn's+disease&ict=clu_bl"],
+ 'snippet': [u"The Gutsy Walk for Crohn's and Colitis Canada took place this morning at Annie Williams Park in Bracebridge with a crowd of about 125 in attendance."],
+ 'sublinks': [u'http://www.bayshorebroadcasting.ca/news_item.php?NewsID=85099'],
+ 'topstory': [u"Getting 'Gutsy' for Crohn's and colitis in Bracebridge"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'

@@ -1,0 +1,20 @@
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology',
+ 'extras': [u'Watch Dogs 2 Confirmed for E3 2016 Reveal'],
+ 'extraslink': [u'http://www.gamespot.com/articles/watch-dogs-2-confirmed-for-e3-2016-reveal/1100-6440426/'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.techtimes.com/articles/162793/20160605/ubisoft-confirmed-to-reveal-watch-dogs-2-at-e3-2016.htm',
+ 'originallink': [u'http://www.techtimes.com/articles/162793/20160605/ubisoft-confirmed-to-reveal-watch-dogs-2-at-e3-2016.htm'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Watch+Dogs&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Ubisoft&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Watch+Dogs&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Ubisoft&ict=clu_bl'],
+ 'snippet': [u'Ubisoft confirmed it will reveal "Watch Dogs 2" at the upcoming E3 2016. Gamers will expect to see a trailer of the game, which will give a glimpse of the gameplay.'],
+ 'sublinks': [u'https://www.gottabemobile.com/2016/06/03/watch-dogs-2-release-everything-we-know-about-the-game-so-far/'],
+ 'topstory': [u"Ubisoft Confirmed To Reveal 'Watch Dogs 2' At E3 2016"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'

@@ -1,0 +1,21 @@
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World\xc2\xa0',
+ 'extras': [u'King Salman calls on Muslims to close ranks and renounce extremism',
+            u"Fasting for Ramadan won't be easy \u2013 it's the coffee I'll miss the most",
+            u'Muslims worldwide prepare for Ramadan'],
+ 'extraslink': [u'http://saudigazette.com.sa/saudi-arabia/king-salman-calls-muslims-close-ranks-renounce-extremism/',
+                u'http://www.theguardian.com/world/commentisfree/2016/jun/05/fasting-for-ramadan-wont-be-easy-its-the-coffee-ill-miss-the-most',
+                u'http://darkroom.baltimoresun.com/2016/06/muslims-worldwide-prepare-for-ramadan/'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbsnews.com/news/obama-swipes-at-donald-trump-in-ramadan-statement/',
+ 'originallink': [u'http://www.cbsnews.com/news/obama-swipes-at-donald-trump-in-ramadan-statement/'],
+ 'related': [],
+ 'snippet': [u"President Obama issued a statement Sunday evening extending best wishes to Muslims in the U.S. and around the world at the start of Islam's holy month of Ramadan."],
+ 'sublinks': [u'http://www.dailysabah.com/religion/2016/06/06/ramadan-ushers-in-sharing-prayers-across-turkey'],
+ 'topstory': [u"Obama's Ramadan statement includes veiled swipe at Trump"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 107, in process_item
+    if resp['generated_key']:
+KeyError: 'generated_key'

@@ -44,7 +44,10 @@ def byteify(input):
 
 class RethinkdbPipeline(object):
 
-    table_name = "ArticleURL"
+    table_name = "ArticleStatus"
+    table_name0 = "ArticleIndex"
+    table_name2 = "ArticleGnews"
+
 
     def __init__(self, rdb_host, rdb_database, rdb_port, rdb_authkey):
         #Init Database connection
@@ -58,7 +61,7 @@ class RethinkdbPipeline(object):
     @classmethod
     def from_crawler(cls, crawler):
         return cls(
-            rdb_host=crawler.settings.get('RDB_HOST', '159.203.16.47'),
+            rdb_host=crawler.settings.get('RDB_HOST', 'testdata.mawto.com'),
             rdb_database=crawler.settings.get('RDB_DATABASE', 'Mawto'),
             rdb_port=crawler.settings.get('RDB_PORT', 28015),
             rdb_authkey=crawler.settings.get('RDB_AUTHKEY', 'atom')
@@ -66,44 +69,38 @@ class RethinkdbPipeline(object):
         )
 
     def open_spider(self, spider):
-        r.connect(host='159.203.16.47',
+        r.connect(host='testdata.mawto.com',
                  port=28015,
                  db='Mawto',
                  auth_key='atom').repl()
 
     def process_item(self, item, spider):
 
-        #data= repr(item).decode("unicode-escape")
-        #category = {k: v for k, v in item.items() if k.startswith('category')}
-        #print (category)
-        #text = {k: v for k, v in dict(item).items()}
-        #text = stringify_dict(text)
-        #for k,v in text.items():
-           #for item in v:
-              #print(item)
-           #print k, 'corresponds to', v
-
-        #Jsonify an item
-        #data = json.dumps(dict(item), ensure_ascii=False).encode('utf8')
         data = yaml.safe_dump(dict(item), allow_unicode=True)
-
-
-        #Remove the Unicode escaped characters
-        #data = data.decode('unicode_escape').encode('ascii','ignore')
-        #Reload as JSON and strip the unicode u'
         data2 = yaml.safe_load(data)
-        #print (data2)
-        #Add the date inserted field
         data2.update({'dateinserted':r.now()})
 
-        #########data2 = {k: ''.join(v) for k, v in data2.items()}
-        #Create a links dict/JSON entity containing URLs
+
         links = {k: ''.join(v) for k, v in data2.items() if k.startswith('link')}
+        link = {k: ''.join(v) for k, v in data2.items() if k.startswith('link')}
         links.update({'dateinserted':r.now()})
         links.update({'summarizable':1})
         links.update({'summarized':0})
         links.update({'animated':0})
-        links.update({'id': r.uuid(v).run() for k, v in links.items() if k.startswith('link')})
-        r.db(self.rdb_database).table(self.table_name).insert(links).run()
-        r.db(self.rdb_database).table('ArticleGnews').insert(data2).run()
+        response = r.db(self.rdb_database).table(self.table_name).insert(links, conflict='error').run()
+        error = response.get('first_error')
+
+        if error:
+            print (" ")
+        else:
+            resp = r.db(self.rdb_database).table(self.table_name0).insert(link, return_changes = True).run()
+
+            if resp.get('generated_keys'):
+               keyid = resp.get('generated_keys')[0]
+               print (keyid)
+               url = resp.get('changes')[0]['new_val']['link']
+               print (url)
+               r.db(self.rdb_database).table(self.table_name).get(url).update({'id': keyid}).run()
+               data2.update({'id': keyid})
+               r.db(self.rdb_database).table(self.table_name2).insert(data2).run()
         return item
