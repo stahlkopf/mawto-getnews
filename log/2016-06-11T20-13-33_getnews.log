@@ -1,0 +1,77 @@
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cknw.com/syn/110/109027/canadas-oldest-operating-airport-turns-90',
+ 'originallink': [u'http://www.cknw.com/syn/110/109027/canadas-oldest-operating-airport-turns-90'],
+ 'related': [],
+ 'snippet': [u"Saturday marks the 90th anniversary of the volunteer run Cooking Lake Airport. It's an airport of distinction - the oldest operating public airport in the country."],
+ 'sublinks': [],
+ 'topstory': [u"Canada's oldest operating airport turns 90"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 104, in process_item
+    resp = r.db(self.rdb_database).table(self.table_name0).insert(link, return_changes = True).run()
+NameError: global name 'link' is not defined
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health',
+ 'extras': [u'Overdose deaths in Maryland continued grim spike last year'],
+ 'extraslink': [u'http://www.baltimoresun.com/health/bs-hs-heroin-overdoses-20160609-story.html'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://globalnews.ca/news/2752430/number-of-accidental-drug-overdoses-rises-significantly-in-2016-coroner/',
+ 'originallink': [u'http://globalnews.ca/news/2752430/number-of-accidental-drug-overdoses-rises-significantly-in-2016-coroner/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Death&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Drug+overdose&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Death&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Drug+overdose&ict=clu_bl'],
+ 'snippet': [u"WATCH: The BC Coroner's Service now says drug overdose deaths are up 75 per cent in the first five months of this year compared to last."],
+ 'sublinks': [u'http://www.castanet.net/news/BC/167823/ODs-outpace-car-deaths'],
+ 'topstory': [u'Number of accidental drug overdoses rises significantly in 2016: Coroner']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 104, in process_item
+    resp = r.db(self.rdb_database).table(self.table_name0).insert(link, return_changes = True).run()
+NameError: global name 'link' is not defined
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.yourrenewablenews.com/wind+turbine+components+industry+-+the+structure+of+a+modern+wind+turbine%3B+an+overview+2016+%E2%80%93+2024_132992.html',
+ 'originallink': [u'http://www.yourrenewablenews.com/wind+turbine+components+industry+-+the+structure+of+a+modern+wind+turbine%3B+an+overview+2016+%E2%80%93+2024_132992.html'],
+ 'related': [],
+ 'snippet': [u'Wind energy is gaining priority over fossil fuels in the power mix of both developed and developing nations as it is capable of addressing power requirements of nations in an environmentally sustainable way.'],
+ 'sublinks': [],
+ 'topstory': [u'Wind turbine components industry - The structure of a modern wind turbine; an overview 2016 \u2013 2024']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 89, in process_item
+    dbid = hashlib.md5(urltools.normalize(url)).hexdigest()
+  File "/usr/local/lib/python2.7/dist-packages/urltools/urltools.py", line 91, in normalize
+    path = normalize_path(parts.path)
+  File "/usr/local/lib/python2.7/dist-packages/urltools/urltools.py", line 211, in normalize_path
+    npath = normpath(unquote(path, exceptions=QUOTE_EXCEPTIONS['path']))
+  File "/usr/local/lib/python2.7/dist-packages/urltools/urltools.py", line 267, in unquote
+    res.append(c + h[2:])
+UnicodeDecodeError: 'utf8' codec can't decode byte 0x93 in position 0: invalid start byte
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Entertainment\xc2\xa0',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/canada/saskatoon/saskatoon-sweet-sixteen-pride-parade-1.3630816',
+ 'originallink': [u'http://www.cbc.ca/news/canada/saskatoon/saskatoon-sweet-sixteen-pride-parade-1.3630816'],
+ 'related': [],
+ 'snippet': [u"People took to the Saskatoon streets to march in the city's annual Pride Parade today. The theme was super sweet 16. The event followed more than a week of events and activities held for the 2016 Saskatoon Pride Festival."],
+ 'sublinks': [u'http://mashable.com/2016/06/11/lgbt-pride-2016-united-states/'],
+ 'topstory': [u'Saskatoon marched with pride for annual parade']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 104, in process_item
+    resp = r.db(self.rdb_database).table(self.table_name0).insert(link, return_changes = True).run()
+NameError: global name 'link' is not defined

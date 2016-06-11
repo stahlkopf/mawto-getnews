@@ -1,0 +1,2433 @@
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Science',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cantechletter.com/2016/06/pentictons-dominion-radio-astrophysical-observatory-holds-open-house/',
+ 'originallink': [u'http://www.cantechletter.com/2016/06/pentictons-dominion-radio-astrophysical-observatory-holds-open-house/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Dominion+Radio+Astrophysical+Observatory&ict=clu_top',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Dominion+Radio+Astrophysical+Observatory&ict=clu_top'],
+ 'snippet': [u'If you find yourself in the Okanagan today, you could be in for a treat. An internationally renowned observatory is opening its doors to the public, for Saturday only.'],
+ 'sublinks': [],
+ 'topstory': [u"Penticton's acclaimed Dominion Radio Astrophysical Observatory holds open house"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Science',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/technology/arctic-amplification-melting-glaciers-greenland-1.3625158',
+ 'originallink': [u'http://www.cbc.ca/news/technology/arctic-amplification-melting-glaciers-greenland-1.3625158'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Greenland&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Greenland&ict=clu_bl'],
+ 'snippet': [u'2015 was a record year for high temperatures and melting glaciers in western Greenland, a heating effect that is amplifying itself and could lead to accelerated warming in the Arctic.'],
+ 'sublinks': [u'https://www.washingtonpost.com/news/capital-weather-gang/wp/2016/06/10/greenland-witnessed-its-highest-june-temperature-ever-recorded-on-thursday/'],
+ 'topstory': [u'Warming temperatures and melting glaciers are accelerating Arctic warming: Bob McDonald']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Science',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.lakeconews.com/index.php?option=com_content&view=article&id=46682:space-news-nasa-radar-finds-ice-age-record-in-mars-polar-cap&catid=1:latest&Itemid=197',
+ 'originallink': [u'http://www.lakeconews.com/index.php?option=com_content&view=article&id=46682:space-news-nasa-radar-finds-ice-age-record-in-mars-polar-cap&catid=1:latest&Itemid=197'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Dust+storms&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Dust+storms&ict=clu_bl'],
+ 'snippet': [u"Scientists using radar data from NASA's Mars Reconnaissance Orbiter (MRO) have found a record of the most recent Martian ice age recorded in the planet's north polar ice cap."],
+ 'sublinks': [u'http://www.clarksvilleonline.com/2016/06/11/nasas-mars-reconnaissance-orbiter-data-shows-dust-storm-pattern-mars/'],
+ 'topstory': [u"Space News: NASA radar finds ice age record in Mars' polar cap"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Science',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.couriermail.com.au/news/sydney-storm-aftermath-homes-at-risk-in-15-coastal-erosion-hotspots/news-story/d357a826ac046074aabe8be5c7283ed5',
+ 'originallink': [u'http://www.couriermail.com.au/news/sydney-storm-aftermath-homes-at-risk-in-15-coastal-erosion-hotspots/news-story/d357a826ac046074aabe8be5c7283ed5'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Sydney&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Sydney&ict=clu_bl'],
+ 'snippet': [u'Fifteen areas containing at least 75 homes have been red-flagged along the NSW coast as \u201cerosion hot-spots\u201d at risk during a major storm.'],
+ 'sublinks': [u'http://www.netnewsledger.com/2016/06/09/climate-change-raising-oceans-threatening-shores/'],
+ 'topstory': [u'They fell into beachside honey trap']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Science',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://gulfnews.com/business/economy/globalised-economy-more-susceptible-to-weather-extremes-scientists-warn-1.1844068',
+ 'originallink': [u'http://gulfnews.com/business/economy/globalised-economy-more-susceptible-to-weather-extremes-scientists-warn-1.1844068'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Economy&ict=clu_bl'],
+ 'snippet': [u"Barcelona: The globalisation of the world's economy this century has made it far more vulnerable to the impacts of extreme weather, including heat stress on workers, scientists said on Friday."],
+ 'sublinks': [],
+ 'topstory': [u'Globalised economy more susceptible to weather extremes, scientists warn']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Science',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'https://www.sciencedaily.com/releases/2016/06/160610140932.htm',
+ 'originallink': [u'https://www.sciencedaily.com/releases/2016/06/160610140932.htm'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Fluid+dynamics&ict=clu_bl'],
+ 'snippet': [u'Date: June 10, 2016; Source: Lawrence Berkeley National Laboratory; Summary: A new mathematical framework allows researchers to capture fluid dynamics coupled to interface motion at unprecedented detail.'],
+ 'sublinks': [],
+ 'topstory': [u'New mathematics accurately captures liquids, surfaces moving in synergy']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Science',
+ 'extras': [u'Climate Change Played a Role in Paris Floods, Report Says',
+            u"Paris floods were 'directly' tied to Global warming, study finds"],
+ 'extraslink': [u'http://time.com/4365004/paris-floods-climate-change/',
+                u'http://mashable.com/2016/06/09/paris-floods-global-warming/'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.techtimes.com/articles/164373/20160611/climate-scientists-say-global-warming-likely-caused-paris-flooding.htm',
+ 'originallink': [u'http://www.techtimes.com/articles/164373/20160611/climate-scientists-say-global-warming-likely-caused-paris-flooding.htm'],
+ 'related': [],
+ 'snippet': [u'Climate experts in France believe that the heavy rainfall that caused flooding in Paris in late May was directly connected to climate change.'],
+ 'sublinks': [u'http://www.theguardian.com/environment/2016/jun/10/paris-floods-made-almost-twice-as-likely-by-climate-change-say-scientists'],
+ 'topstory': [u'Climate Scientists Say Global Warming Likely Caused Paris Flooding']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Science',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.thejakartapost.com/news/2016/06/10/oldest-ancient-human-remains-from-flores-made-public.html',
+ 'originallink': [u'http://www.thejakartapost.com/news/2016/06/10/oldest-ancient-human-remains-from-flores-made-public.html'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Archaeology&ict=clu_bl'],
+ 'snippet': [u'Important findings - Stone tools found during excavation in Mata Menge, Soa Basin, Ngada, Flores, East Nusa Tenggara, are exhibited during a media conference at the Geology Museum in Bandung, on Wednesday evening.'],
+ 'sublinks': [],
+ 'topstory': [u'Oldest ancient human remains from Flores made public']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Science',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.thetelegram.com/News/Local/2016-06-11/article-4556402/SPAWN-believes-salmon-counting-system-on-Harry%26rsquo%3Bs-River-is-flawed/1',
+ 'originallink': [u'http://www.thetelegram.com/News/Local/2016-06-11/article-4556402/SPAWN-believes-salmon-counting-system-on-Harry%26rsquo%3Bs-River-is-flawed/1'],
+ 'related': [],
+ 'snippet': [u"John McCarthy says the Salmon Preservation Association for the Waters of Newfoundland and Labrador (SPAWN) has concerns about the way fish are counted on Harry's River."],
+ 'sublinks': [],
+ 'topstory': [u"SPAWN believes salmon counting system on Harry's River is flawed"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Science',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.huffingtonpost.ca/ecojustice/kinder-morgan-enivironment_b_10378812.html',
+ 'originallink': [u'http://www.huffingtonpost.ca/ecojustice/kinder-morgan-enivironment_b_10378812.html'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Environment+and+Climate+Change+Canada&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Canada&ict=clu_bl'],
+ 'snippet': [u'But the international stage is not the only place the federal government has been making moves. In January, instead of pausing and fixing processes like the ongoing Kinder Morgan pipeline review and the not-yet-started Energy East pipeline review, the\xa0...'],
+ 'sublinks': [],
+ 'topstory': [u"Environment Canada's Kinder Morgan Review Comes Up Short"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Science',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.business-standard.com/article/international/study-on-kyoto-protocol-shows-100-compliance-116061100490_1.html',
+ 'originallink': [u'http://www.business-standard.com/article/international/study-on-kyoto-protocol-shows-100-compliance-116061100490_1.html'],
+ 'related': [],
+ 'snippet': [u'All the countries who signed up to the Kyoto Protocol on climate change complied with their emission targets, says a new study. "There is often scepticism about the importance of international law, and many critics claim that the Kyoto Protocol failed '],
+ 'sublinks': [],
+ 'topstory': [u'Study on Kyoto Protocol shows 100% compliance']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Science',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://timesofindia.indiatimes.com/city/kolkata/15-ornamental-fish-species-pose-threat-to-native-species/articleshow/52705412.cms',
+ 'originallink': [u'http://timesofindia.indiatimes.com/city/kolkata/15-ornamental-fish-species-pose-threat-to-native-species/articleshow/52705412.cms'],
+ 'related': [],
+ 'snippet': [u'Kolkata, June 11 (IANS) As many as 27 ornamental fish species have been reported in the inland wetlands of India and 15 of these have emerged as a threat to the native fish species, according to an invasive alien species expert.'],
+ 'sublinks': [],
+ 'topstory': [u"'15 ornamental fish species pose threat to native species'"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Science',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cnn.com/2016/06/11/health/light-pollution-atlas-milky-way-irpt/',
+ 'originallink': [u'http://www.cnn.com/2016/06/11/health/light-pollution-atlas-milky-way-irpt/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Pollution&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Pollution&ict=clu_bl'],
+ 'snippet': [u"(CNN) If you look up at the evening sky, there's a good chance you will not be able to see what your grandmother saw when she was a little girl."],
+ 'sublinks': [u'http://www.space.com/33138-light-pollution-world-sky-atlas.html'],
+ 'topstory': [u'One-third of the world cannot see the Milky Way -- why that matters']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Science',
+ 'extras': [u'This Dying Baby Planet Never Had a Chance'],
+ 'extraslink': [u'http://gizmodo.com/this-dying-baby-planet-never-had-a-chance-1781568120'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.csmonitor.com/Science/2016/0611/Baby-planet-in-danger-Why-is-this-star-killing-its-own-planet',
+ 'originallink': [u'http://www.csmonitor.com/Science/2016/0611/Baby-planet-in-danger-Why-is-this-star-killing-its-own-planet'],
+ 'related': [],
+ 'snippet': [u'Two million years ago, a planet was born in the constellation Orion. Today, astronomers say it could be in danger of death... at the hands of its own sun.'],
+ 'sublinks': [u'http://www.ibtimes.com/astronomers-discover-potential-hot-jupiter-locked-death-spiral-around-its-star-2381012'],
+ 'topstory': [u'Baby planet in danger: Why is this star killing its own planet?']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Science',
+ 'extras': [u"Experiment 'turns waste CO2 to stone'",
+            u'Scientists turn CO2 to stone in just two years: a solution for climate change? (+video)'],
+ 'extraslink': [u'http://www.bbc.com/news/science-environment-36494501',
+                u'http://www.csmonitor.com/Science/2016/0609/Scientists-turn-CO2-to-stone-in-just-two-years-a-solution-for-climate-change-video'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'https://www.rt.com/news/346224-co2-stored-underground-stone/',
+ 'originallink': [u'https://www.rt.com/news/346224-co2-stored-underground-stone/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Carbon+dioxide&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Carbon+dioxide&ict=clu_bl'],
+ 'snippet': [u'An experiment in Iceland has confirmed that carbon dioxide, a major factor in global climate change, can be trapped in basalt rocks.'],
+ 'sublinks': [u'http://qz.com/704087/iceland-has-developed-an-ingenious-solution-for-combatting-carbon-emissions/'],
+ 'topstory': [u'CO2 from burnt fuel hardens if pumped underground, potentially reversing climate change']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.niagarafallsreview.ca/2016/06/11/ride-to-conquer-cancer-has-some-brotherly-love',
+ 'originallink': [u'http://www.niagarafallsreview.ca/2016/06/11/ride-to-conquer-cancer-has-some-brotherly-love'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=The+Ride+to+Conquer+Cancer&ict=clu_top',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=The+Ride+to+Conquer+Cancer&ict=clu_top'],
+ 'snippet': [u'The Niagara Parkway in Niagara Falls, Ont. was the start and finish line for some of the 4,253 participates in the ninth annual Enbridge Ride To Conquer Cancer on Saturday, June 11, 2016 who helped to raise $17.3 million for the Princess Margaret '],
+ 'sublinks': [],
+ 'topstory': [u'Brotherly love at Ride to Conquer Cancer']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health',
+ 'extras': [u'MS breakthrough: Replacing diseased immune system halts progression, allows repair'],
+ 'extraslink': [u'https://www.sciencedaily.com/releases/2016/06/160609222439.htm'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/canada/ottawa/ms-treatment-impressive-results-ottawa-lancet-1.3609031',
+ 'originallink': [u'http://www.cbc.ca/news/canada/ottawa/ms-treatment-impressive-results-ottawa-lancet-1.3609031'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Multiple+sclerosis&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Stem-cell+therapy&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Multiple+sclerosis&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Stem-cell+therapy&ict=clu_bl'],
+ 'snippet': [u'"We kill you and then we rescue you." This is what Jennifer Molson remembers doctors saying to her about the high-stakes procedure she would undergo in 2002 as part of an Ottawa study that has yielded some promising results in multiple sclerosis patients.'],
+ 'sublinks': [u'http://www.inquisitr.com/3190108/ms-cure-immune-system-replacement-reverses-devastating-disease-offers-hope-to-millions/'],
+ 'topstory': [u"Ottawa doctors' high-risk MS treatment yields 'impressive' results, Lancet finds"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/canada/nova-scotia/doctor-assisted-death-hospital-health-authority-patients-1.3629484',
+ 'originallink': [u'http://www.cbc.ca/news/canada/nova-scotia/doctor-assisted-death-hospital-health-authority-patients-1.3629484'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Nova+Scotia&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Nova+Scotia&ict=clu_bl'],
+ 'snippet': [u"Four Nova Scotians want to die with the help of a doctor and their cases are being assessed to determine whether that's possible, the Nova Scotia Health Authority said Friday."],
+ 'sublinks': [u'http://globalnews.ca/news/2754415/4-nova-scotians-assessed-for-assisted-dying-access-health-authority/'],
+ 'topstory': [u'4 Nova Scotians being assessed for possible doctor-assisted death']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/arts/kirby-planet-robobot-game-review-1.3630062',
+ 'originallink': [u'http://www.cbc.ca/news/arts/kirby-planet-robobot-game-review-1.3630062'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Video+games&ict=clu_top',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Video+games&ict=clu_top'],
+ 'snippet': [u"Kirby, the sentient, marshmallow-like creature who can eat anything and anyone in his path, has been around since 1992, when he first appeared in Kirby's Dream Land for the Nintendo Game Boy."],
+ 'sublinks': [],
+ 'topstory': [u'Kirby: Planet Robobot is Nintendo at its whimsical best']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health',
+ 'extras': [u'Dorchester Relay for Life reaches success'],
+ 'extraslink': [u'http://www.stardem.com/life/article_bf5a85b8-2629-5c54-bf2a-93dae757972d.html'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://blackburnnews.com/chatham/chatham-news/2016/06/11/chathams-relay-life-goes-tonight/',
+ 'originallink': [u'http://blackburnnews.com/chatham/chatham-news/2016/06/11/chathams-relay-life-goes-tonight/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Relay+For+Life&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Cancer&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Relay+For+Life&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Cancer&ict=clu_bl'],
+ 'snippet': [u"The Canadian Cancer Society may be cutting back the hours for this year's Relay for Life in Chatham, but it's not cutting back its fundraising goal."],
+ 'sublinks': [u'http://www.jconline.com/story/news/2016/06/11/relay-life-draws-crowds-despite-heat-wave/85710716/'],
+ 'topstory': [u"Chatham's Relay For Life Goes Tonight"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://thechronicleherald.ca/novascotia/1371604-doctor-team-added-to-cape-breton',
+ 'originallink': [u'http://thechronicleherald.ca/novascotia/1371604-doctor-team-added-to-cape-breton'],
+ 'related': [],
+ 'snippet': [u"Cape Breton's doctor shortage is getting some help as the Nova Scotia Health Authority rolls out a clinic based on the province's new collaborative model."],
+ 'sublinks': [],
+ 'topstory': [u'Doctor team added to Cape Breton']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://newsok.com/article/5503630',
+ 'originallink': [u'http://newsok.com/article/5503630'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Sunscreen&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Sunscreen&ict=clu_bl'],
+ 'snippet': [u'Summer is here and kids are out of school for summer break. While you are enjoying the sun, taking precautions to protect your kids from the harmful rays will pose some long-term benefits.'],
+ 'sublinks': [u'http://timesofindia.indiatimes.com/life-style/beauty/Get-the-most-out-of-your-sunscreen-this-season/articleshow/52699868.cms'],
+ 'topstory': [u'How to keep your kids sun safe this summer']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://canadajournal.net/technology/2017-jaguar-f-pace-review-big-cat-takes-first-steps-fiercely-fought-suv-market-48982-2016/',
+ 'originallink': [u'http://canadajournal.net/technology/2017-jaguar-f-pace-review-big-cat-takes-first-steps-fiercely-fought-suv-market-48982-2016/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Jaguar+Cars&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Jaguar+Cars&ict=clu_bl'],
+ 'snippet': [u'The vehicle it resisted for so long turns out to be its best: the 2017 Jaguar F-Pace does an excellent job of putting just as much emphasis on sport as on utility.'],
+ 'sublinks': [u'http://www.ecanadanow.com/2017-jaguar-f-pace-review-jaguars-first-suv-leaves-positive-impressions/99363/'],
+ 'topstory': [u"The 2017 Jaguar F-Pace Is Proof Crossovers Don't Have To Suck (Video)"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology',
+ 'extras': [u"Hands-free phone use by drivers 'equally distracting'"],
+ 'extraslink': [u'http://www.bbc.co.uk/news/uk-36475180'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.ecanadanow.com/hands-free-devices-in-the-car-are-still-dangerous-study/99362/',
+ 'originallink': [u'http://www.ecanadanow.com/hands-free-devices-in-the-car-are-still-dangerous-study/99362/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Mobile+phones&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Driving&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Mobile+phones&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Driving&ict=clu_bl'],
+ 'snippet': [u'TORONTO - A new British research study has concluded that driving and using a cell phone with a hands-free device is just as distracting as holding onto it.'],
+ 'sublinks': [u'http://www.smh.com.au/technology/mobiles/even-handsfree-mobile-phones-are-dangerous-for-drivers-20160609-gpf69q.html'],
+ 'topstory': [u'Hands-free Devices In The Car Are Still Dangerous: Study']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health',
+ 'extras': [u'Updated Food Recall Warning - Certain sunflower seeds and products containing sunflower seeds recalled due to '],
+ 'extraslink': [u'http://www.inspection.gc.ca/about-the-cfia/newsroom/food-recall-warnings/complete-listing/2016-06-09/eng/1465531783114/1465531786869'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.ctvnews.ca/health/sunflower-seed-recall-expanded-to-include-trail-mixes-1.2939850',
+ 'originallink': [u'http://www.ctvnews.ca/health/sunflower-seed-recall-expanded-to-include-trail-mixes-1.2939850'],
+ 'related': [],
+ 'snippet': [u'The large recall of sunflower seeds and snack products containing the seeds has expanded to include even more products sold in Canada.'],
+ 'sublinks': [u'http://wsav.com/2016/06/10/dollywood-trail-mixes-recalled-for-possible-listeria/'],
+ 'topstory': [u"The recalled Uncle Buck's brand Cajun Hot Mix"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.wellandtribune.ca/2016/06/10/niagara-sport-commission-recognizes-2015-athletes-of-the-year',
+ 'originallink': [u'http://www.wellandtribune.ca/2016/06/10/niagara-sport-commission-recognizes-2015-athletes-of-the-year'],
+ 'related': [],
+ 'snippet': [u"St Catharines Rowing Club member Daniel De Groot is Niagara's male athlete of the year for 2015. JULIE JOCSAK/Postmedia Network."],
+ 'sublinks': [],
+ 'topstory': [u'Niagara Sport Commission recognizes 2015 athletes of the year']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://techcrunch.com/2016/06/10/dango-mind-melds-with-emoji-using-deep-learning-and-suggests-them-while-you-type/',
+ 'originallink': [u'http://techcrunch.com/2016/06/10/dango-mind-melds-with-emoji-using-deep-learning-and-suggests-them-while-you-type/'],
+ 'related': [],
+ 'snippet': [u'Dango is an emoji suggestion chatbot - wait, where are you going? Stay with me, this is actually pretty cool. Okay, so Dango is one of those virtual assistants that lives in your chat apps, and this one is based on a neural network that has been '],
+ 'sublinks': [u'http://canadajournal.net/technology/new-app-uses-neural-networks-choose-perfect-emoji-video-49052-2016/'],
+ 'topstory': [u'Dango mind-melds with emoji using deep learning and suggests them while you type']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://thechronicleherald.ca/wheelsnews/1371161-first-drive-mercedes-benz-c300-coupe',
+ 'originallink': [u'http://thechronicleherald.ca/wheelsnews/1371161-first-drive-mercedes-benz-c300-coupe'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Mercedes-Benz&ict=clu_bl'],
+ 'snippet': [u'CHICOUTIMI, QC - As Mercedes continues to flesh out its line, filling in real and perhaps imagined holes, it adds the C300 4Matic Coupe for 2017.'],
+ 'sublinks': [],
+ 'topstory': [u'First Drive: Mercedes-Benz C300 Coupe']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://scoutmagazine.ca/2016/06/10/opportunity-knocks-denmans-espana-is-on-the-lookout-for-passionate-line-cooks-3/',
+ 'originallink': [u'http://scoutmagazine.ca/2016/06/10/opportunity-knocks-denmans-espana-is-on-the-lookout-for-passionate-line-cooks-3/'],
+ 'related': [],
+ 'snippet': [u'RESTAURANT PORN | Sushi Spot In An Italian Town Dedicated To Fish Would Suit Pender St. GOODS | The Cinematheque Set To Celebrate Shakespeare On The Big Screen With 13 Films \xb7 AWESOME THING WE ATE #976 | The Elusive Tortillas At The Mt.'],
+ 'sublinks': [],
+ 'topstory': [u"OPPORTUNITY KNOCKS | Denman's 'Espana' Is On The Lookout For Passionate Line Cooks"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.thepeterboroughexaminer.com/2016/06/11/open-house-offers-behind-the-scenes-look-at-peterborough-public-health',
+ 'originallink': [u'http://www.thepeterboroughexaminer.com/2016/06/11/open-house-offers-behind-the-scenes-look-at-peterborough-public-health'],
+ 'related': [],
+ 'snippet': [u'Peterborough Family Health Team opened its doors for visitors on the fifth floor on Friday June 10, 2016 at Jackson Square on King St. in Peterborough, Ont.'],
+ 'sublinks': [],
+ 'topstory': [u'Open house offers behind the scenes look at Peterborough Public Health']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.mapleridgenews.com/lifestyles/382384161.html',
+ 'originallink': [u'http://www.mapleridgenews.com/lifestyles/382384161.html'],
+ 'related': [],
+ 'snippet': [u'I last discussed different definitions of the core and about training the core for different purposes - mainly sports specific training.'],
+ 'sublinks': [],
+ 'topstory': [u'More time on the core']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health',
+ 'extras': [u'Overdose deaths in Maryland continued grim spike last year'],
+ 'extraslink': [u'http://www.baltimoresun.com/health/bs-hs-heroin-overdoses-20160609-story.html'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.nanaimobulletin.com/national/vancouver/382389221.html',
+ 'originallink': [u'http://www.nanaimobulletin.com/national/vancouver/382389221.html'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Death&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Drug+overdose&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Death&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Drug+overdose&ict=clu_bl'],
+ 'snippet': [u'VANCOUVER - The BC Coroners Service is offering a sliver of hope in otherwise horrific statistics of drug overdose deaths in the province.'],
+ 'sublinks': [u'http://www.theglobeandmail.com/news/british-columbia/drug-deaths-up-dramatically-in-bc-this-year-but-stats-offer-ray-of-optimism/article30373096/'],
+ 'topstory': [u'Drug deaths up dramatically in B.C. this year, but stats offer ray of optimism']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://mobilesyrup.com/2016/06/10/syrupdrop-june-10-lenovo-announces-moto-z-and-phab-2-pro-at-tech-world/',
+ 'originallink': [u'http://mobilesyrup.com/2016/06/10/syrupdrop-june-10-lenovo-announces-moto-z-and-phab-2-pro-at-tech-world/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Lenovo&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Motorola+Moto&ict=clu_bl'],
+ 'snippet': [u"Welcome back to SyrupDrop! Thanks for joining us for what ended up being an extremely busy week in Canadian tech. After learning which of the devices presented at Lenovo's Tech World were coming to Canada, our team spent some time looking into\xa0..."],
+ 'sublinks': [],
+ 'topstory': [u'SyrupDrop June 10: Lenovo announces Moto Z and Phab 2 Pro at Tech World']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://bc.ctvnews.ca/sharpening-your-selfies-attachable-lenses-for-your-smartphone-1.2940809',
+ 'originallink': [u'http://bc.ctvnews.ca/sharpening-your-selfies-attachable-lenses-for-your-smartphone-1.2940809'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Smartphones&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Smartphones&ict=clu_bl'],
+ 'snippet': [u'Many smartphones already take decent photographs, but new camera lenses designed specifically for your phone can take your pictures to the next level.'],
+ 'sublinks': [u'http://www.gizbot.com/camera/features/common-types-photo-lenses-camera-news-033180.html'],
+ 'topstory': [u'Sharpening your selfies: Attachable lenses for your smartphone']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.washingtontimes.com/news/2016/jun/10/mens-health-week-turn-volume-commitment/',
+ 'originallink': [u'http://www.washingtontimes.com/news/2016/jun/10/mens-health-week-turn-volume-commitment/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Health&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Health&ict=clu_bl'],
+ 'snippet': [u"Championing men's good health - while helping to prevent men's health problems - is not just a man's issue as it impacts families and our community - wives, moms, daughters, sons, sisters, coworkers and friends."],
+ 'sublinks': [u'http://www.prnewswire.com/news-releases/combined-insurance-reminds-men-to-take-proactive-approach-with-their-wellbeing-during-national-mens-health-month-300282976.html'],
+ 'topstory': [u"Men's Health Week: Turn up the volume on commitment"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'https://www.myprincegeorgenow.com/31813/planned-partial-power-outage-uhnbc-starting-tonight/',
+ 'originallink': [u'https://www.myprincegeorgenow.com/31813/planned-partial-power-outage-uhnbc-starting-tonight/'],
+ 'related': [],
+ 'snippet': [u'A planned power outage at the University Hospital of Northern BC will begin at 11pm tonight. Northern Health says the outage could last until tomorrow evening.'],
+ 'sublinks': [],
+ 'topstory': [u'Planned partial power outage f...']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.albanydailystar.com/health/one-out-of-five-new-yorker-has-mental-ilness-waco-technology-time-9908.html',
+ 'originallink': [u'http://www.albanydailystar.com/health/one-out-of-five-new-yorker-has-mental-ilness-waco-technology-time-9908.html'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Mental+health&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Mental+health&ict=clu_bl'],
+ 'snippet': [u"From sad high school students to depressed senior citizens, New York suffers from widespread mental health troubles, Mayor de Blasio's administration reported Thursday for purposes still to be determined."],
+ 'sublinks': [u'http://www.buffalonews.com/opinion/another-voice/another-voice-discrimination-slows-treatment-of-mental-illness-20160611'],
+ 'topstory': [u'One out of Five New Yorker has Mental Ilness \u2013 Waco Technology Time']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.soundguys.com/jaybird-freedom-review-8966/',
+ 'originallink': [u'http://www.soundguys.com/jaybird-freedom-review-8966/'],
+ 'related': [],
+ 'snippet': [u'The Jaybird Freedoms look way nicer now, but at the expense of their battery life and fit. 8.0. Our Rating. 6.9696969696969E+70. User Rating.'],
+ 'sublinks': [],
+ 'topstory': [u'Jaybird Freedom Review']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.digitaltrends.com/cars/karma-automotive-detroit-area-engineering-office/',
+ 'originallink': [u'http://www.digitaltrends.com/cars/karma-automotive-detroit-area-engineering-office/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Fisker+Karma&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Fisker+Karma&ict=clu_bl'],
+ 'snippet': [u"While the Tesla Model S is an undeniable success, another luxury electric car that launched in 2012 didn't fare so well. The extended-range electric Fisker Karma was once viewed as a rival for the Model S, but Fisker Automotive fizzled."],
+ 'sublinks': [u'http://www.beyond.ca/karma-will-call-michigan-home/57124.html'],
+ 'topstory': [u'Karma Automotive sets up shop in Michigan']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.animenewsnetwork.com/daily-briefs/2016-06-11/grand-kingdom-ps4-ps-vita-game-n-american-release-delayed-to-june-28/.103106',
+ 'originallink': [u'http://www.animenewsnetwork.com/daily-briefs/2016-06-11/grand-kingdom-ps4-ps-vita-game-n-american-release-delayed-to-june-28/.103106'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=PlayStation+4&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=PlayStation+4&ict=clu_bl'],
+ 'snippet': [u'No account yet? Registering is free, easy, and private. Discuss in the forum, contribute to the Encyclopedia, build your own MyAnime lists, and more.'],
+ 'sublinks': [u'http://www.hardcoregamer.com/2016/06/11/grand-kingdom-faces-not-so-grand-delay/211105/'],
+ 'topstory': [u"Grand Kingdom PS4/PS Vita Game's N. American Release Delayed to June 28"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.lfpress.com/2016/06/10/3m-donation-helps-target-medicine',
+ 'originallink': [u'http://www.lfpress.com/2016/06/10/3m-donation-helps-target-medicine'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=London&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=London&ict=clu_bl'],
+ 'snippet': [u'Both London hospitals will benefit from a $600,000 donation by 3M Canada to help fund research into personalized medicine. The diversified products maker, whose business lines include life sciences products, on Friday announced the donation to the\xa0...'],
+ 'sublinks': [u'http://www.newswire.ca/news-releases/3m-canada-funds-personalized-medicine-at-londons-hospitals-582500981.html'],
+ 'topstory': [u'3M donation helps target medicine']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.wsfa.com/story/32165115/2016-birmingham-heart-walk-at-uptown',
+ 'originallink': [u'http://www.wsfa.com/story/32165115/2016-birmingham-heart-walk-at-uptown'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Cardiovascular+disease&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Cardiovascular+disease&ict=clu_bl'],
+ 'snippet': [u'The Birmingham Heart Walk takes place on Saturday. Activities begin at 7:30 a.m. at Uptown at the BJCC. WBRC is a proud sponsor of the annual walk.'],
+ 'sublinks': [u'https://www.collective-evolution.com/2016/06/11/study-finds-eating-100-g-of-chocolate-everyday-can-lower-your-risk-of-heart-disease-stroke/'],
+ 'topstory': [u'2016 Birmingham Heart Walk at Uptown']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.rappler.com/nation/136113-fatalities-samar-diarrhea-outbreak',
+ 'originallink': [u'http://www.rappler.com/nation/136113-fatalities-samar-diarrhea-outbreak'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Samar&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Samar&ict=clu_bl'],
+ 'snippet': [u'TACLOBAN CITY, Philippines - The number of fatalities caused by a diarrhea outbreak in Samar has reached 33, up from the 13 deaths reported a week earlier.'],
+ 'sublinks': [u'http://interaksyon.com/article/128921/33-dead-as-doh-8-declares-diarrhea-outbreak-in-samar'],
+ 'topstory': [u'Fatalities in Samar due to diarrhea outbreak rise to 33']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [u'Walmart to stop accepting Visa cards in Canadian stores'],
+ 'extraslink': [u'http://globalnews.ca/news/2755692/walmart-to-stop-accepting-visa-cards-in-canadian-stores/'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/business/walmart-canada-visa-1.3630956',
+ 'originallink': [u'http://www.cbc.ca/news/business/walmart-canada-visa-1.3630956'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Visa&ict=clu_top',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Walmart+Canada&ict=clu_top',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Visa&ict=clu_top',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Walmart+Canada&ict=clu_top'],
+ 'snippet': [u'Walmart Canada says its customers will no longer be allowed to use Visa cards to make purchases at the store. In a written statement, representatives from the store say that fees applied to Visa cards are "unacceptably high.'],
+ 'sublinks': [],
+ 'topstory': [u"Walmart Canada to stop accepting Visa cards due to 'unacceptably high' fees"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.psu.com/review/30237/Anima--Gate-of-Memories',
+ 'originallink': [u'http://www.psu.com/review/30237/Anima--Gate-of-Memories'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Reviews&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=PlayStation+4&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Video+games&ict=clu_bl'],
+ 'snippet': [u"A pen and paper RPG's universe is brought to virtual life. Does it survive the transition? submit to reddit \xb7 By Garri Bagdasarov on 11 June 2016."],
+ 'sublinks': [],
+ 'topstory': [u'Anima: Gate of Memories PS4 Review']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://nintendoenthusiast.com/news/reggie-fils-aimes-mii-being-sent-out-to-3ds-owners-via-streetpass-plaza/',
+ 'originallink': [u'http://nintendoenthusiast.com/news/reggie-fils-aimes-mii-being-sent-out-to-3ds-owners-via-streetpass-plaza/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Electronic+Entertainment+Expo&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Electronic+Entertainment+Expo&ict=clu_bl'],
+ 'snippet': [u"Nintendo of America's president, Reggie \u201cRegginator\u201d Fils-Aime is making his rounds on 3DS' all over via the StreetPass Mii Plaza."],
+ 'sublinks': [u'https://mynintendonews.com/2016/06/10/nintendo-of-america-starts-national-streetpass-week-e3-2016-edition/'],
+ 'topstory': [u"Reggie-Fils Aime's Mii Being Sent Out to 3DS Owners Via StreetPass Plaza"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.beyond.ca/suzuki-shamed-amidst-fuel-scandal/57107.html',
+ 'originallink': [u'http://www.beyond.ca/suzuki-shamed-amidst-fuel-scandal/57107.html'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Suzuki&ict=clu_bl'],
+ 'snippet': [u'Suzuki Motor Company, often associated with compact fuel efficient cars is now knee deep in the fall out from admitting to publishing false fuel economy data on some of their cars.'],
+ 'sublinks': [],
+ 'topstory': [u'Suzuki Shamed Amidst Fuel Scandal']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.winnipegfreepress.com/local/the-healers-382549761.html',
+ 'originallink': [u'http://www.winnipegfreepress.com/local/the-healers-382549761.html'],
+ 'related': [],
+ 'snippet': [u'Biologist Allen Grolla (from left), Dr. Paul Sandstrom, Dr. Jim Strong, Dr. Matthew Gilmour, lab technician Yvon Deschambault and Dr.'],
+ 'sublinks': [],
+ 'topstory': [u'The healers']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://globalnews.ca/news/2755832/experts-dispute-health-canada-claims-on-w-18-drug/',
+ 'originallink': [u'http://globalnews.ca/news/2755832/experts-dispute-health-canada-claims-on-w-18-drug/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=W-18&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Fentanyl&ict=clu_bl'],
+ 'snippet': [u'Experts are questioning widely circulated Health Canada claims that the drug W-18 is 100 times more powerful than fentanyl. What is this?'],
+ 'sublinks': [],
+ 'topstory': [u'Experts dispute Health Canada claims on W-18 drug']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://kitchener.ctvnews.ca/air-quality-alert-for-parts-of-southwestern-ontario-1.2941670',
+ 'originallink': [u'http://kitchener.ctvnews.ca/air-quality-alert-for-parts-of-southwestern-ontario-1.2941670'],
+ 'related': [],
+ 'snippet': [u'WINDSOR, Ont. -- Government officials say there are high levels of pollution in the air in parts of southwestern Ontario. Environment Canada and the Ontario environment ministry have issued a special air quality statement for Windsor, Essex and\xa0...'],
+ 'sublinks': [],
+ 'topstory': [u'Air quality alert for parts of southwestern Ontario']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [u'Hundreds of new Ontario engineering jobs for General Motors Canada, including Oshawa jobs'],
+ 'extraslink': [u'http://www.durhamregion.com/news-story/6716785-hundreds-of-new-ontario-engineering-jobs-for-general-motors-canada-including-oshawa-jobs/'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'https://www.thestar.com/business/2016/06/10/general-motors-to-create-700-technical-jobs-in-ontario.html',
+ 'originallink': [u'https://www.thestar.com/business/2016/06/10/general-motors-to-create-700-technical-jobs-in-ontario.html'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=General+Motors&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Oshawa&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=General+Motors&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Oshawa&ict=clu_bl'],
+ 'snippet': [u'Oshawa carmaker says it has already started hiring engineers and software developers to help develop driverless car. Prime Minister Justin Trudeau drives a 2017 Chevrolet Bolt EV with Ontario Premier Kathleen Wynne as passenger at General Motors in\xa0...'],
+ 'sublinks': [u'http://www.theglobeandmail.com/report-on-business/international-business/us-business/gm-switches-gears-by-adding-engineering-muscle-to-canada/article30396906/'],
+ 'topstory': [u'General Motors to create 700 technical jobs in Ontario']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/canada/calgary/wildfire-alberta-fortmcmurray-royalties-1.3622811',
+ 'originallink': [u'http://www.cbc.ca/news/canada/calgary/wildfire-alberta-fortmcmurray-royalties-1.3622811'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Fort+McMurray&ict=clu_bl'],
+ 'snippet': [u'Alberta is still many months away from knowing exactly what the wildfires around Fort McMurray will mean for the economy, but some costs, such as the royalty revenues the province will miss out on this year, are starting to take shape.'],
+ 'sublinks': [],
+ 'topstory': [u"Tallying Alberta's oil revenue losses from Fort McMurray wildfires"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://globalnews.ca/news/2755591/b-c-citizens-in-favour-of-absentee-tax-says-new-poll/',
+ 'originallink': [u'http://globalnews.ca/news/2755591/b-c-citizens-in-favour-of-absentee-tax-says-new-poll/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=British+Columbia&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=British+Columbia&ict=clu_bl'],
+ 'snippet': [u'WATCH: A new survey shows that a vast majority of British Columbians support a tax on absentee homeowners. But would that ease the affordability crisis?'],
+ 'sublinks': [u'http://vancouversun.com/news/local-news/heavy-support-for-tax-on-absentee-b-c-homeowners-says-pollster'],
+ 'topstory': [u'B.C. citizens in favour of absentee home tax, says new poll']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://segmentnext.com/2016/06/11/game-awards-2016-confirmed-december-1-e3-2016-posters/',
+ 'originallink': [u'http://segmentnext.com/2016/06/11/game-awards-2016-confirmed-december-1-e3-2016-posters/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=The+Game+Awards&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=The+Game+Awards&ict=clu_bl'],
+ 'snippet': [u'We finally have the exact date on which The Game Awards 2016 are going to be held, and if the mind blowing winners from 2015 are any indication, this year is also going to be worth the wait.'],
+ 'sublinks': [u'http://www.polygon.com/2016/6/10/11906490/the-game-awards-2016-date'],
+ 'topstory': [u'The Game Awards 2016 Confirmed for December 1 by E3 2016 Posters']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.automobilemag.com/news/2017-honda-ridgeline-gets-in-on-the-truck-bed-testing-action/',
+ 'originallink': [u'http://www.automobilemag.com/news/2017-honda-ridgeline-gets-in-on-the-truck-bed-testing-action/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Chevrolet&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Chevrolet&ict=clu_bl'],
+ 'snippet': [u"Earlier this week, Chevrolet launched a scathing ad campaign that shows how the Ford F-150's aluminum truck bed holds up to abuse."],
+ 'sublinks': [u'http://www.topspeed.com/trucks/truck-news/2016-chevy-silverado-vs-2016-ford-f-150-ar173501.html'],
+ 'topstory': [u'2017 Honda Ridgeline Gets in on the Truck Bed Testing Action']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.techtimes.com/articles/164452/20160611/google-chromecast-bests-apple-tv-in-sales-researcher-says.htm',
+ 'originallink': [u'http://www.techtimes.com/articles/164452/20160611/google-chromecast-bests-apple-tv-in-sales-researcher-says.htm'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Chromecast&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Chromecast&ict=clu_bl'],
+ 'snippet': [u'Google Chromecast outsells Apple TV in the first quarter of this year, says IHS. At $35, the Chromecast is among the most affordable video streaming devices in the segment.'],
+ 'sublinks': [u'http://gazettereview.com/2016/06/best-apps-for-chromecast/'],
+ 'topstory': [u'Google Chromecast Bests Apple TV In Sales, Researcher Says']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World',
+ 'extras': [u'Day 6: Ramadan, too valuable to waste',
+            u'For Muslims, fasting during Ramadan offers an opportunity for self-reflection and spiritual rejuvenation'],
+ 'extraslink': [u'http://www.vanguardngr.com/2016/06/ramadan-valuable-waste/',
+                u'http://www.latimes.com/socal/weekend/news/tn-wknd-et-ramadan-begins-20160611-story.html'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/canada/toronto/meet-your-neighbour-ramadan-1.3629933',
+ 'originallink': [u'http://www.cbc.ca/news/canada/toronto/meet-your-neighbour-ramadan-1.3629933'],
+ 'related': [],
+ 'snippet': [u'When he first came to Canada from Turkey more than a decade ago, Olcay Seki became used to observing Ramadan alone with his family.'],
+ 'sublinks': [],
+ 'topstory': [u"'Meet Your Neighbour' project brings strangers together for Ramadan dinner"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.timescolonist.com/business/busy-tourism-season-boosts-employment-in-capital-region-1.2276382',
+ 'originallink': [u'http://www.timescolonist.com/business/busy-tourism-season-boosts-employment-in-capital-region-1.2276382'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Canada&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Canada&ict=clu_bl'],
+ 'snippet': [u"Greater Victoria's unemployment rate fell to 5.7 per cent last month as the region's tourism sector geared up for a record season."],
+ 'sublinks': [u'http://globalnews.ca/news/2755280/albertas-unemployment-rate-hits-levels-not-seen-since-1990s/'],
+ 'topstory': [u'Busy tourism season boosts employment in capital region']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/canada/newfoundland-labrador/phone-scam-fraud-cra-1.3625269',
+ 'originallink': [u'http://www.cbc.ca/news/canada/newfoundland-labrador/phone-scam-fraud-cra-1.3625269'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Canada+Revenue+Agency&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Canada+Revenue+Agency&ict=clu_bl'],
+ 'snippet': [u'The Royal Newfoundland Constabulary is warning the public that a phone scam from fraudsters claiming to be police officers or investigators with the Canada Revenue Agency is picking up steam.'],
+ 'sublinks': [u'http://edmonton.ctvnews.ca/police-canada-revenue-agency-issue-warning-over-telephone-scam-1.2939230'],
+ 'topstory': [u'Phone scamming fraudsters posing as CRA changing tactics, making hundreds of calls']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.intelligencer.ca/2016/06/10/environment-plan-slammed',
+ 'originallink': [u'http://www.intelligencer.ca/2016/06/10/environment-plan-slammed'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Ontario&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Ontario&ict=clu_bl'],
+ 'snippet': [u'BELLEVILLE - The Conservatives say it will make Ontario a less competitive jurisdiction, NDP members contend action is needed but rural dwellers need to be more of a priority.'],
+ 'sublinks': [u'https://www.thestar.com/opinion/commentary/2016/06/10/ontarios-bold-but-vague-climate-change-plan-walkom.html'],
+ 'topstory': [u'Environment plan slammed']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.phonedog.com/2016/06/11/moto-360-1st-gen-wont-get-android-wear-20-update',
+ 'originallink': [u'http://www.phonedog.com/2016/06/11/moto-360-1st-gen-wont-get-android-wear-20-update'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Android+Wear&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Android+Wear&ict=clu_bl'],
+ 'snippet': [u'Last month at its I/O developer conference, Google gave us a peek at Android Wear 2.0, the next major update for its wearables platform.'],
+ 'sublinks': [u'http://timesofindia.indiatimes.com/tech/more-gadgets/Moto-360-first-gen-smartwatch-wont-get-Android-Wear-2-0-update/articleshow/52705073.cms'],
+ 'topstory': [u"Moto 360 (1st Gen.) won't get Android Wear 2.0 update"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.autoguide.com/auto-news/2016/06/2017-nissan-maxima-gets-small-price-bump-adds-standard-apple-carplay.html',
+ 'originallink': [u'http://www.autoguide.com/auto-news/2016/06/2017-nissan-maxima-gets-small-price-bump-adds-standard-apple-carplay.html'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Nissan+Maxima&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Nissan+Maxima&ict=clu_bl'],
+ 'snippet': [u"The 2017 Nissan Maxima is about $100 more expensive then last year's model, with a starting MSRP of $33,395. One of the biggest changes is the addition of Apple CarPlay to every single model, accessed through the standard NissanConnect infotainment\xa0..."],
+ 'sublinks': [u'http://www.automobilemag.com/news/2017-nissan-maxima-adds-apple-carplay-new-visual-packages/'],
+ 'topstory': [u'2017 Nissan Maxima Gets Small Price Bump, Adds Standard Apple CarPlay']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.power-eetimes.com/news/materials-database-leads-battery-technologies-beyond-lithium',
+ 'originallink': [u'http://www.power-eetimes.com/news/materials-database-leads-battery-technologies-beyond-lithium'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Electric+vehicles&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Electric+vehicles&ict=clu_bl'],
+ 'snippet': [u'An open materials database project in the US has released new apps and compounds that are changing the way batteries are designed.'],
+ 'sublinks': [u'http://www.virtual-strategy.com/2016/06/10/prba-urges-crackdown-non-compliant-lithium-ion-battery-manufacturers-china'],
+ 'topstory': [u'Materials database leads to battery technologies beyond lithium']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World',
+ 'extras': [u'Joe Biden Writes An Open Letter To Stanford Survivor',
+            u'Brock Turner case: A million signatures turned in as state lawmakers join push to remove judge',
+            u"The unsung villain in Brock Turner's lenient sentence: probation officers"],
+ 'extraslink': [u'https://www.buzzfeed.com/tomnamako/joe-biden-writes-an-open-letter-to-stanford-survivor',
+                u'http://www.mercurynews.com/crime-courts/ci_30000955/stanford-rape-case-state-lawmakers-sign-effort-remove',
+                u'http://www.theguardian.com/commentisfree/2016/jun/10/stanford-sexual-assault-case-brock-turner-probation-officers-lenient-sentence'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/trending/brock-turner-mugshot-stanford-rape-case-images-sex-assault-1.3629147',
+ 'originallink': [u'http://www.cbc.ca/news/trending/brock-turner-mugshot-stanford-rape-case-images-sex-assault-1.3629147'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Stanford+University&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Stanford+University&ict=clu_bl'],
+ 'snippet': [u'The story of a star athlete at an elite American university who sexually assaulted an unconscious woman behind a dumpster has been everywhere this week.'],
+ 'sublinks': [u'http://www.ctvnews.ca/world/ex-stanford-swimmer-used-drugs-before-college-documents-show-1.2941771'],
+ 'topstory': [u"Status and race in the Stanford rape case: Why Brock Turner's mug shot matters"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World',
+ 'extras': [u"Trooping the Colour begins for the Queen's official 90th birthday with thousands attending",
+            u"Neon At 90: The Queen's green outfit divides opinion at Trooping The Colour",
+            u"Britain's queen wows in green at 90th birthday parade"],
+ 'extraslink': [u'http://www.dailymail.co.uk/news/article-3636413/Thousands-gather-outside-Buckingham-Palace-ahead-Trooping-Colour-Queen-s-official-90th-birthday-celebrations-Princess-Charlotte-steal-spotlight.html',
+                u'http://www.telegraph.co.uk/fashion/people/neon-at-90-the-queens-green-outfit-divides-opinion-at-trooping-t/',
+                u'http://news.asiaone.com/news/world/britains-queen-wows-green-90th-birthday-parade'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/multimedia/the-queen-at-90-canadians-share-their-birthday-wishes-1.3536415',
+ 'originallink': [u'http://www.cbc.ca/news/multimedia/the-queen-at-90-canadians-share-their-birthday-wishes-1.3536415'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Elizabeth+II&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Elizabeth+II&ict=clu_bl'],
+ 'snippet': [u'Queen Elizabeth marked her 90th birthday on April 21. Official celebrations are being held in London this weekend. (Toby Melville/Reuters).'],
+ 'sublinks': [u'https://www.thestar.com/news/world/2016/06/11/queen-elizabeth-ii-royal-family-mark-90th-birthday-with-parade.html'],
+ 'topstory': [u'The Queen at 90: Canadians share their birthday wishes']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.winnipegfreepress.com/business/a-valeant-effort-in-steinbach-382560921.html',
+ 'originallink': [u'http://www.winnipegfreepress.com/business/a-valeant-effort-in-steinbach-382560921.html'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Valeant+Pharmaceuticals&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Valeant+Pharmaceuticals&ict=clu_bl'],
+ 'snippet': [u'Steinbach mayor Chris Goertzen (far left), CEO Joseph Papa (middle) and Provencher MP Ted Falk (right). Valeant Pharmaceuticals is investing another $15 million into its Steinbach production facility even while the company is in the midst of a major\xa0...'],
+ 'sublinks': [u'http://www.thecarillon.com/local/Valeant-announces-major-Steinbach-investment-382526411.html'],
+ 'topstory': [u'A Valeant effort in Steinbach']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.muskokaregion.com/news-story/6715757-mpac-strike-may-be-on-horizon/',
+ 'originallink': [u'http://www.muskokaregion.com/news-story/6715757-mpac-strike-may-be-on-horizon/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Municipal+Property+Assessment+Corporation&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Municipal+Property+Assessment+Corporation&ict=clu_bl'],
+ 'snippet': [u'Staff at MPAC were outside their Bracebridge office during their lunch break staging a 15-minute information picket. A strike deadline is set.'],
+ 'sublinks': [u'http://www.stcatharinesstandard.ca/2016/06/09/opseu-organized-mpac-workers-could-strike-june-17'],
+ 'topstory': [u'MPAC strike may be on horizon']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://bc.ctvnews.ca/man-rescued-from-crane-at-port-of-vancouver-1.2941733',
+ 'originallink': [u'http://bc.ctvnews.ca/man-rescued-from-crane-at-port-of-vancouver-1.2941733'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Vancouver+Fraser+Port+Authority&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Vancouver&ict=clu_bl'],
+ 'snippet': [u'A worker is recovering from a broken leg and minor head injury after stumbling from a crane platform at the Port of Vancouver Friday night.'],
+ 'sublinks': [],
+ 'topstory': [u'Man rescued from crane at Port of Vancouver']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World\xc2\xa0',
+ 'extras': [u'Day 6: Ramadan, too valuable to waste',
+            u'For Muslims, fasting during Ramadan offers an opportunity for self-reflection and spiritual rejuvenation'],
+ 'extraslink': [u'http://www.vanguardngr.com/2016/06/ramadan-valuable-waste/',
+                u'http://www.latimes.com/socal/weekend/news/tn-wknd-et-ramadan-begins-20160611-story.html'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/canada/toronto/meet-your-neighbour-ramadan-1.3629933',
+ 'originallink': [u'http://www.cbc.ca/news/canada/toronto/meet-your-neighbour-ramadan-1.3629933'],
+ 'related': [],
+ 'snippet': [u'When he first came to Canada from Turkey more than a decade ago, Olcay Seki became used to observing Ramadan alone with his family.'],
+ 'sublinks': [u'http://www.dailysabah.com/istanbul/2016/06/11/turkeys-various-faith-groups-meet-at-iftar-dinner-in-taksim'],
+ 'topstory': [u"'Meet Your Neighbour' project brings strangers together for Ramadan dinner"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World',
+ 'extras': [u'England vs Russia LIVE: Dele Alli shines as England dominate early exchanges',
+            u"Robbie Savage column: Wayne Rooney is always England's scapegoat - it's about time he had some help",
+            u'The Latest: French minister says 1 Brit seriously injured'],
+ 'extraslink': [u'http://www.theweek.co.uk/england-vs-russia/72886/england-vs-russia-live-rooney-kane-and-alli-start-but-no-vardy',
+                u'http://www.mirror.co.uk/sport/football/news/robbie-savage-column-wayne-rooney-8157828',
+                u'http://www.usnews.com/news/sports/articles/2016-06-11/the-latest-vardy-on-bench-for-england-at-euro-2016'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'https://www.theguardian.com/football/live/2016/jun/11/england-v-russia-euro-2016-live',
+ 'originallink': [u'https://www.theguardian.com/football/live/2016/jun/11/england-v-russia-euro-2016-live'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=England+national+football+team&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=UEFA+Euro+2016&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=England+national+football+team&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=UEFA+Euro+2016&ict=clu_bl'],
+ 'snippet': [u'Well, that was a fine display from England, confident and smooth from back to front. there was a lovely balance to the team. Just no goals.'],
+ 'sublinks': [u'http://www.cbc.ca/news/world/euro-2016-france-security-1.3630683'],
+ 'topstory': [u'England v Russia: Euro 2016 \u2013 live!']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World',
+ 'extras': [u"Assad forces 'bombed Daraya' after food delivery",
+            u'Syrian besieged town of Darayya receives food aid for first time since 2012',
+            u'Some relief at long last for Syrians'],
+ 'extraslink': [u'http://english.alarabiya.net/en/News/middle-east/2016/06/10/France-outraged-by-Syrian-bombing-of-Daraya-after-food-aid.html',
+                u'http://aranews.net/2016/06/syrian-besieged-town-darayya-receives-food-aid-first-time-since-2012/',
+                u'http://gulfnews.com/opinion/editorials/some-relief-at-long-last-for-syrians-1.1843505'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.ctvnews.ca/world/western-backed-forces-encircle-key-is-held-town-in-northern-syria-1.2940808',
+ 'originallink': [u'http://www.ctvnews.ca/world/western-backed-forces-encircle-key-is-held-town-in-northern-syria-1.2940808'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Syria&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Darayya&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=United+Nations&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Syria&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Darayya&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=United+Nations&ict=clu_bl'],
+ 'snippet': [u'BEIRUT -- Kurdish-led fighters completed their encirclement Friday of a key town held by the Islamic State group in northern Syria, part of a Western-backed offensive that could see a major strategic victory over the militants.'],
+ 'sublinks': [u'http://www.cnn.com/2016/06/11/middleeast/syria-food-aid-strikes/index.html'],
+ 'topstory': [u'Western-backed forces encircle key IS-held town in northern Syria']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.theglobeandmail.com/globe-investor/inside-the-market/market-updates/the-close-tsx-falls-as-energy-shares-drop-with-oil/article30397109/',
+ 'originallink': [u'http://www.theglobeandmail.com/globe-investor/inside-the-market/market-updates/the-close-tsx-falls-as-energy-shares-drop-with-oil/article30397109/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=TSX&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=TSX&ict=clu_bl'],
+ 'snippet': [u'Canadian stocks fell a third day, with energy producers sinking with the price of oil as investors braced for a series of key events later this month that could renew turbulence in financial markets.'],
+ 'sublinks': [u'http://www.bnn.ca/News/2016/6/10/TSX-falls-sharply-energy-companies-lead-decline.aspx'],
+ 'topstory': [u'The close: TSX falls as energy shares drop with oil']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.irishtimes.com/business/transport-and-tourism/air-canada-rouge-to-fly-dublin-to-vancouver-direct-1.2680523',
+ 'originallink': [u'http://www.irishtimes.com/business/transport-and-tourism/air-canada-rouge-to-fly-dublin-to-vancouver-direct-1.2680523'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Air+Canada+Rouge&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Air+Canada+Rouge&ict=clu_bl'],
+ 'snippet': [u"Air Canada Rouge, the leisure offshoot of Canada's national airline, has begun direct services from Dublin Airport to Vancouver."],
+ 'sublinks': [u'http://www.straight.com/blogra/716186/air-canada-meets-growing-demand-travel-dublin-nonstop-service-vancouver'],
+ 'topstory': [u'Air Canada Rouge to fly Dublin to Vancouver direct']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.newstalk770.com/syn/110/109027/canadas-oldest-operating-airport-turns-90',
+ 'originallink': [u'http://www.newstalk770.com/syn/110/109027/canadas-oldest-operating-airport-turns-90'],
+ 'related': [],
+ 'snippet': [u"Saturday marks the 90th anniversary of the volunteer run Cooking Lake Airport. It's an airport of distinction - the oldest operating public airport in the country."],
+ 'sublinks': [],
+ 'topstory': [u"Canada's oldest operating airport turns 90"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World\xc2\xa0',
+ 'extras': [u'England vs Russia LIVE: Dele Alli shines as England dominate early exchanges',
+            u"Robbie Savage column: Wayne Rooney is always England's scapegoat - it's about time he had some help",
+            u'The Latest: French minister says 1 Brit seriously injured'],
+ 'extraslink': [u'http://www.theweek.co.uk/england-vs-russia/72886/england-vs-russia-live-rooney-kane-and-alli-start-but-no-vardy',
+                u'http://www.mirror.co.uk/sport/football/news/robbie-savage-column-wayne-rooney-8157828',
+                u'http://www.usnews.com/news/sports/articles/2016-06-11/the-latest-vardy-on-bench-for-england-at-euro-2016'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'https://www.theguardian.com/football/live/2016/jun/11/england-v-russia-euro-2016-live',
+ 'originallink': [u'https://www.theguardian.com/football/live/2016/jun/11/england-v-russia-euro-2016-live'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=England+national+football+team&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=UEFA+Euro+2016&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=England+national+football+team&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=UEFA+Euro+2016&ict=clu_bl'],
+ 'snippet': [u"43 min: \u201cWhat is the idea behind Kane taking corners? Complete waste,\u201d harrumphs Niall Bickersteth. I'm usually all for a leftfield move but I agree, this one needs to be canned."],
+ 'sublinks': [u'http://www.cbc.ca/news/world/euro-2016-france-security-1.3630683'],
+ 'topstory': [u'England v Russia: Euro 2016 \u2013 live!']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World\xc2\xa0',
+ 'extras': [u"Assad forces 'bombed Daraya' after food delivery",
+            u'Syrian besieged town of Darayya receives food aid for first time since 2012',
+            u'Some relief at long last for Syrians'],
+ 'extraslink': [u'http://english.alarabiya.net/en/News/middle-east/2016/06/10/France-outraged-by-Syrian-bombing-of-Daraya-after-food-aid.html',
+                u'http://aranews.net/2016/06/syrian-besieged-town-darayya-receives-food-aid-first-time-since-2012/',
+                u'http://gulfnews.com/opinion/editorials/some-relief-at-long-last-for-syrians-1.1843505'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.ctvnews.ca/world/western-backed-forces-encircle-key-is-held-town-in-northern-syria-1.2940808',
+ 'originallink': [u'http://www.ctvnews.ca/world/western-backed-forces-encircle-key-is-held-town-in-northern-syria-1.2940808'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Syria&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Darayya&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=United+Nations&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Syria&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Darayya&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=United+Nations&ict=clu_bl'],
+ 'snippet': [u'BEIRUT -- Kurdish-led fighters completed their encirclement Friday of a key town held by the Islamic State group in northern Syria, part of a Western-backed offensive that could see a major strategic victory over the militants.'],
+ 'sublinks': [u'http://www.cnn.com/2016/06/11/middleeast/syria-food-aid-strikes/index.html'],
+ 'topstory': [u'Western-backed forces encircle key IS-held town in northern Syria']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.abqjournal.com/790247/star-center-hosts-jehovahs-witness-conventions.html',
+ 'originallink': [u'http://www.abqjournal.com/790247/star-center-hosts-jehovahs-witness-conventions.html'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Cornwall&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Cornwall&ict=clu_bl'],
+ 'snippet': [u'Convention participants listen to a speaker whose image is shown on two large screens at the Santa Ana Star Center last weekend. Organizers divided the convention into three separate events so that the expected number of attendees could be\xa0...'],
+ 'sublinks': [u'http://www.tribdem.com/news/spiritual-instruction-jehovah-s-witnesses-flock-to-annual-conference-in/article_fa459d02-2f81-11e6-8310-8be7e6d1a7c4.html'],
+ 'topstory': [u"Star Center hosts Jehovah's Witness conventions"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World',
+ 'extras': [u'LOTTO RESULTS: Winning National Lottery numbers for Saturday, June 11, 2016'],
+ 'extraslink': [u'http://www.stokesentinel.co.uk/LOTTO-RESULTS-Winning-National-Lottery-numbers/story-29389099-detail/story.html'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://barrie.ctvnews.ca/no-winning-ticket-for-friday-night-s-50-million-lotto-max-jackpot-1.2941660',
+ 'originallink': [u'http://barrie.ctvnews.ca/no-winning-ticket-for-friday-night-s-50-million-lotto-max-jackpot-1.2941660'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Lotteries&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=National+Lottery&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Lotteries&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=National+Lottery&ict=clu_bl'],
+ 'snippet': [u"No winning ticket was sold for the $50 million dollar jackpot in Friday night's Lotto Max draw. However, one of the two MaxMillions prizes that were available was won by a ticket purchased in British Columbia."],
+ 'sublinks': [u'http://globalnews.ca/news/2755696/no-winning-ticket-for-lotto-max-jackpot-climbs-to-55-million/'],
+ 'topstory': [u"No winning ticket for Friday night's $50 million Lotto Max jackpot"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'https://www.washingtonpost.com/news/capital-weather-gang/wp/2016/06/10/super-hot-on-saturday-with-a-slight-thunderstorm-risk-late/',
+ 'originallink': [u'https://www.washingtonpost.com/news/capital-weather-gang/wp/2016/06/10/super-hot-on-saturday-with-a-slight-thunderstorm-risk-late/'],
+ 'related': [],
+ 'snippet': [u'Saturday will most almost certainly be the hottest day of the year so far. But the heat may fuel some hit or miss thunderstorms late in the day, as a cold front approaches.'],
+ 'sublinks': [],
+ 'topstory': [u'Super hot on Saturday with a slight thunderstorm risk late']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [u"Canada's not-so-great expectations about house prices"],
+ 'extraslink': [u'http://www.macleans.ca/economy/economicanalysis/canadas-not-so-great-expectations-about-house-prices/'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/business/this-week-in-business-1.3629530',
+ 'originallink': [u'http://www.cbc.ca/news/business/this-week-in-business-1.3629530'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Vancouver&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Toronto&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Vancouver&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Toronto&ict=clu_bl'],
+ 'snippet': [u"Canada's shrinking auto industry got a big boost from GM this week, with news the automaker is adding more than 700 new jobs at various facilities across Ontario."],
+ 'sublinks': [u'http://vancouversun.com/news/local-news/vancouver-housing-market-source-of-worry-says-bank-of-canada'],
+ 'topstory': [u'More warnings on sky-high housing costs, and pricey produce at the grocery store: BUSINESS WEEK WRAP']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [u'A Word Of Caution For Natural Gas Bulls'],
+ 'extraslink': [u'http://seekingalpha.com/article/3981241-word-caution-natural-gas-bulls'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.theglobeandmail.com/report-on-business/industry-news/energy-and-resources/us-production-rise-expected-to-dent-canadian-natural-gas-price-growth/article30374675/',
+ 'originallink': [u'http://www.theglobeandmail.com/report-on-business/industry-news/energy-and-resources/us-production-rise-expected-to-dent-canadian-natural-gas-price-growth/article30374675/'],
+ 'related': [],
+ 'snippet': [u'Lower prices and increasing competition from the United States are expected to add to the woes of Canadian natural gas producers over the summer, but the picture then brightens, according to a report from the National Energy Board.'],
+ 'sublinks': [u'http://www.pipelinenewsnorth.ca/news/industry-news/higher-natural-gas-prices-lower-supply-by-2018-neb-1.2275801'],
+ 'topstory': [u'US production rise expected to dent Canadian natural gas price growth']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World\xc2\xa0',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.abqjournal.com/790247/star-center-hosts-jehovahs-witness-conventions.html',
+ 'originallink': [u'http://www.abqjournal.com/790247/star-center-hosts-jehovahs-witness-conventions.html'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Cornwall&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Cornwall&ict=clu_bl'],
+ 'snippet': [u'Convention participants listen to a speaker whose image is shown on two large screens at the Santa Ana Star Center last weekend. Organizers divided the convention into three separate events so that the expected number of attendees could be\xa0...'],
+ 'sublinks': [u'http://www.tribdem.com/news/spiritual-instruction-jehovah-s-witnesses-flock-to-annual-conference-in/article_fa459d02-2f81-11e6-8310-8be7e6d1a7c4.html'],
+ 'topstory': [u"Star Center hosts Jehovah's Witness conventions"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Canada\xc2\xa0',
+ 'extras': [u'Walmart to stop accepting Visa cards in Canadian stores'],
+ 'extraslink': [u'http://globalnews.ca/news/2755692/walmart-to-stop-accepting-visa-cards-in-canadian-stores/'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/business/walmart-canada-visa-1.3630956',
+ 'originallink': [u'http://www.cbc.ca/news/business/walmart-canada-visa-1.3630956'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Visa&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Walmart+Canada&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Visa&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Walmart+Canada&ict=clu_bl'],
+ 'snippet': [u'Walmart Canada says its customers will no longer be allowed to use Visa cards to make purchases at the store. In a written statement, representatives from the store say that fees applied to Visa cards are "unacceptably high.'],
+ 'sublinks': [u'http://kitchener.ctvnews.ca/wal-mart-canada-no-longer-accepting-visa-cards-due-to-unacceptably-high-fees-1.2941788'],
+ 'topstory': [u"Walmart Canada to stop accepting Visa cards due to 'unacceptably high' fees"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Canada\xc2\xa0',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/canada/montreal/montreal-woman-killed-quebec-pit-bull-ban-1.3630599',
+ 'originallink': [u'http://www.cbc.ca/news/canada/montreal/montreal-woman-killed-quebec-pit-bull-ban-1.3630599'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Montreal&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Montreal&ict=clu_bl'],
+ 'snippet': [u'The family of a woman mauled by a dog earlier this week wants pit bulls to be banned in Quebec. Christiane Vadnais was found dead in her Pointe-aux-Trembles backyard Wednesday after she was attacked by what police describe as a pit bull.'],
+ 'sublinks': [u'http://www.theglobeandmail.com/life/health-and-fitness/health/would-a-pit-bull-ban-have-prevented-montreal-womans-death-after-attack/article30392552/'],
+ 'topstory': [u'Family of Montreal woman killed by dog wants Quebec-wide pit bull ban']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World',
+ 'extras': [u'Turkish jets kill 13 PKK terrorists in Lice district of Turkey, Gara region of N. Iraq',
+            u'13 PKK terrorists killed in air operation: Turkish military',
+            u'Kurdish militant group TAK claims Istanbul bombing - website'],
+ 'extraslink': [u'http://www.dailysabah.com/war-on-terror/2016/06/11/turkish-jets-kill-13-pkk-terrorists-in-lice-district-of-turkey-gara-region-of-n-iraq',
+                u'http://www.yenisafak.com/en/news/13-pkk-terrorists-killed-in-air-operation-turkish-military-2479231',
+                u'http://www.swissinfo.ch/eng/kurdish-militant-group-tak-claims-istanbul-bombing---website/42217754'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://ca.reuters.com/article/topNews/idCAKCN0YX05I',
+ 'originallink': [u'http://ca.reuters.com/article/topNews/idCAKCN0YX05I'],
+ 'related': [u"/news/section?cf=all&hl=en&pz=1&ned=ca&q=Kurdistan+Workers'+Party&ict=clu_bl",
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Istanbul&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Turkey&ict=clu_bl',
+             u"/news/section?cf=all&hl=en&pz=1&ned=ca&q=Kurdistan+Workers'+Party&ict=clu_bl",
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Istanbul&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Turkey&ict=clu_bl'],
+ 'snippet': [u'DIYARBAKIR, Turkey (Reuters) - Turkish warplanes killed 13 suspected Kurdistan Workers Party (PKK) militants on Saturday in the southeast province of Diyarbakir, military sources said.'],
+ 'sublinks': [u'http://www.dailymail.co.uk/wires/reuters/article-3636546/Turkish-jets-kill-13-Kurdish-PKK-militants-southeast-Turkey--military-sources.html'],
+ 'topstory': [u'Turkish jets kill 13 Kurdish PKK militants: military sources']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.brandonsun.com/world/breaking-news/official-says-2-people-dead-in-plane-crash-in-tennessee-382578141.html?thx=y',
+ 'originallink': [u'http://www.brandonsun.com/world/breaking-news/official-says-2-people-dead-in-plane-crash-in-tennessee-382578141.html?thx=y'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Collegedale&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Collegedale&ict=clu_bl'],
+ 'snippet': [u'COLLEGEDALE, Tenn. - Authorities say two people were killed when a small plane crashed at an airport in Tennessee. Two others in the plane were injured.'],
+ 'sublinks': [u'http://www.chattanoogan.com/2016/6/11/325932/Two-Killed-Two-Injured-In-Crash-Of.aspx'],
+ 'topstory': [u'Official says 2 people dead in plane crash in Tennessee']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.ctvnews.ca/politics/liberals-outline-funding-boost-for-co-op-housing-providers-1.2941625',
+ 'originallink': [u'http://www.ctvnews.ca/politics/liberals-outline-funding-boost-for-co-op-housing-providers-1.2941625'],
+ 'related': [],
+ 'snippet': [u'OTTAWA -- Co-operative housing providers are being given a multi-million-dollar financial boost by the federal government to help thousands of low-income tenants stay in their homes.'],
+ 'sublinks': [u'http://www.digitaljournal.com/pr/2970480'],
+ 'topstory': [u'Liberals outline funding boost for co-op housing providers']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.theglobeandmail.com/report-on-business/industry-news/energy-and-resources/penn-west-strikes-deal-to-sell-saskatchewan-oil-assets/article30405001/',
+ 'originallink': [u'http://www.theglobeandmail.com/report-on-business/industry-news/energy-and-resources/penn-west-strikes-deal-to-sell-saskatchewan-oil-assets/article30405001/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Penn+West+Exploration&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Penn+West+Exploration&ict=clu_bl'],
+ 'snippet': [u'Penn West Petroleum Ltd. has struck a deal to sell Saskatchewan oil assets for $975-million, easing the risk of default for the debt-saddled producer.'],
+ 'sublinks': [u'http://ca.reuters.com/article/businessNews/idCAKCN0YW2HP'],
+ 'topstory': [u'Penn West strikes deal to sell Saskatchewan oil assets']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.yourrenewablenews.com/wind+turbine+components+industry+-+the+structure+of+a+modern+wind+turbine%3B+an+overview+2016+%E2%80%93+2024_132992.html',
+ 'originallink': [u'http://www.yourrenewablenews.com/wind+turbine+components+industry+-+the+structure+of+a+modern+wind+turbine%3B+an+overview+2016+%E2%80%93+2024_132992.html'],
+ 'related': [],
+ 'snippet': [u'Wind energy is gaining priority over fossil fuels in the power mix of both developed and developing nations as it is capable of addressing power requirements of nations in an environmentally sustainable way.'],
+ 'sublinks': [],
+ 'topstory': [u'Wind turbine components industry - The structure of a modern wind turbine; an overview 2016 \u2013 2024']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Canada\xc2\xa0',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/canada/british-columbia/bill-bentley-robert-dziekanski-sues-rcmp-1.3630564',
+ 'originallink': [u'http://www.cbc.ca/news/canada/british-columbia/bill-bentley-robert-dziekanski-sues-rcmp-1.3630564'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Royal+Canadian+Mounted+Police&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Royal+Canadian+Mounted+Police&ict=clu_bl'],
+ 'snippet': [u"A Mountie who responded the night a Polish immigrant died at Vancouver's airport has filed a lawsuit against the RCMP alleging negligence and harassment."],
+ 'sublinks': [u'http://globalnews.ca/news/2755293/officer-acquitted-in-dziekanski-case-suing-government/'],
+ 'topstory': [u'Mountie Bill Bentley in Robert Dziekanski case sues RCMP for negligence, harassment']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Canada\xc2\xa0',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/canada/toronto/go-bus-bomb-threat-1.3630838',
+ 'originallink': [u'http://www.cbc.ca/news/canada/toronto/go-bus-bomb-threat-1.3630838'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Ontario+Highway+407&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Ontario+Highway+407&ict=clu_bl'],
+ 'snippet': [u'Police have arrested a 28-year-old Hamilton man after he allegedly told another passenger that he was carrying a bomb on GO Transit bus travelling on Highway 407 near Derry Road in Mississauga.'],
+ 'sublinks': [u'https://www.thestar.com/news/gta/2016/06/11/man-in-custody-after-bomb-threat-on-go-bus.html'],
+ 'topstory': [u'GO Transit bus locked down, then evacuated, after bomb threat']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business\xc2\xa0',
+ 'extras': [u'Hundreds of new Ontario engineering jobs for General Motors Canada, including Oshawa jobs'],
+ 'extraslink': [u'http://www.durhamregion.com/news-story/6716785-hundreds-of-new-ontario-engineering-jobs-for-general-motors-canada-including-oshawa-jobs/'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'https://www.thestar.com/business/2016/06/10/general-motors-to-create-700-technical-jobs-in-ontario.html',
+ 'originallink': [u'https://www.thestar.com/business/2016/06/10/general-motors-to-create-700-technical-jobs-in-ontario.html'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=General+Motors&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Oshawa&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=General+Motors&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Oshawa&ict=clu_bl'],
+ 'snippet': [u'Oshawa carmaker says it has already started hiring engineers and software developers to help develop driverless car. Prime Minister Justin Trudeau drives a 2017 Chevrolet Bolt EV with Ontario Premier Kathleen Wynne as passenger at General Motors in\xa0...'],
+ 'sublinks': [u'http://www.theglobeandmail.com/report-on-business/international-business/us-business/gm-switches-gears-by-adding-engineering-muscle-to-canada/article30396906/'],
+ 'topstory': [u'General Motors to create 700 technical jobs in Ontario']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/canada/manitoba/yazidi-refugee-efforts-in-winnipeg-slow-despite-calls-for-feds-to-act-1.3623023',
+ 'originallink': [u'http://www.cbc.ca/news/canada/manitoba/yazidi-refugee-efforts-in-winnipeg-slow-despite-calls-for-feds-to-act-1.3623023'],
+ 'related': [],
+ 'snippet': [u'The Jewish community in Winnipeg has raised more than $250,000 to bring seven families of Yazidi refugees to the city, but the process remains slow - despite calls for the federal government to step up relocation efforts for displaced Yazidi people.'],
+ 'sublinks': [],
+ 'topstory': [u'Yazidi refugee efforts in Winnipeg slow despite calls for feds to act']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World',
+ 'extras': [u'(2nd LD) S. Korea continues crackdown on Chinese fishing in neutral waters',
+            u'Chinese piracy'],
+ 'extraslink': [u'http://english.yonhapnews.co.kr/news/2016/06/11/0200000000AEN20160611001952315.html',
+                u'http://www.koreatimes.co.kr/www/news/opinon/2016/06/202_206721.html'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.military.com/daily-news/2016/06/11/south-korea-sends-military-boats-repel-chinese-fishermen.html',
+ 'originallink': [u'http://www.military.com/daily-news/2016/06/11/south-korea-sends-military-boats-repel-chinese-fishermen.html'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=South+Korea&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Fishing&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=United+Nations+Command&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=South+Korea&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Fishing&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=United+Nations+Command&ict=clu_bl'],
+ 'snippet': [u"South Korean naval forces crack down on China's illegal fishing around Ganghwa island, South Korea on June 10. (South Korean Defense Ministry photo via AP)."],
+ 'sublinks': [u'http://interaksyon.com/article/128930/south-korea-un-command-join-patrols-to-halt-illegal-chinese-fishing'],
+ 'topstory': [u'South Korea Sends Military Boats to Repel Chinese Fishermen']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.ctvnews.ca/world/5-indian-men-who-raped-danish-tourist-get-life-prison-sentence-1.2939848',
+ 'originallink': [u'http://www.ctvnews.ca/world/5-indian-men-who-raped-danish-tourist-get-life-prison-sentence-1.2939848'],
+ 'related': [],
+ 'snippet': [u'NEW DELHI -- Five Indians who raped a Danish tourist after she asked for directions in New Delhi were sentenced to life in prison Friday for the attack two years ago that highlighted the plague of sexual violence in the country.'],
+ 'sublinks': [u'http://indianexpress.com/article/cities/delhi/danish-woman-gangrape-case-all-5-convicts-get-imprisonment-till-remainder-of-life-2846405/'],
+ 'topstory': [u'5 Indian men who raped Danish tourist get life prison sentence']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/politics/stealth-fighter-contracts-1.3629403',
+ 'originallink': [u'http://www.cbc.ca/news/politics/stealth-fighter-contracts-1.3629403'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Lockheed+Martin+F-35+Lightning+II&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Lockheed+Martin+F-35+Lightning+II&ict=clu_bl'],
+ 'snippet': [u'U.S. defence giant Lockheed Martin is warning Canada that $825 million in aerospace industrial contracts signed with Canadian companies to build and equip F-35 jets would be moved to other partner nations if the Trudeau government decides to buy a\xa0...'],
+ 'sublinks': [u'http://www.dailymail.co.uk/wires/reuters/article-3635564/Lockheed-shift-F-35-fighter-work-away-Canada.html'],
+ 'topstory': [u'Lockheed Martin warns it will pull $825M in F-35 contracts if Canada buys another jet']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.mining.com/copper-price-big-loser-commodities-rally/',
+ 'originallink': [u'http://www.mining.com/copper-price-big-loser-commodities-rally/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Copper&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Copper&ict=clu_bl'],
+ 'snippet': [u'Amid broad advance in metals and energy, copper price sinks to lowest in four months - is China and world economy worse off than is currently believed?'],
+ 'sublinks': [u'http://marketrealist.com/2016/06/copper-traded-weakness-friday/'],
+ 'topstory': [u'Copper price big loser as other commodities rally']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business\xc2\xa0',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/canada/calgary/wildfire-alberta-fortmcmurray-royalties-1.3622811',
+ 'originallink': [u'http://www.cbc.ca/news/canada/calgary/wildfire-alberta-fortmcmurray-royalties-1.3622811'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Fort+McMurray&ict=clu_bl'],
+ 'snippet': [u'Alberta is still many months away from knowing exactly what the wildfires around Fort McMurray will mean for the economy, but some costs, such as the royalty revenues the province will miss out on this year, are starting to take shape.'],
+ 'sublinks': [],
+ 'topstory': [u"Tallying Alberta's oil revenue losses from Fort McMurray wildfires"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business\xc2\xa0',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.timescolonist.com/business/busy-tourism-season-boosts-employment-in-capital-region-1.2276382',
+ 'originallink': [u'http://www.timescolonist.com/business/busy-tourism-season-boosts-employment-in-capital-region-1.2276382'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Canada&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Canada&ict=clu_bl'],
+ 'snippet': [u"Greater Victoria's unemployment rate fell to 5.7 per cent last month as the region's tourism sector geared up for a record season."],
+ 'sublinks': [u'http://globalnews.ca/news/2755280/albertas-unemployment-rate-hits-levels-not-seen-since-1990s/'],
+ 'topstory': [u'Busy tourism season boosts employment in capital region']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.kelownacapnews.com/news/382541961.html',
+ 'originallink': [u'http://www.kelownacapnews.com/news/382541961.html'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Toilets&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Toilets&ict=clu_bl'],
+ 'snippet': [u"Lake Country RCMP are asking for the public's help to capture the thief responsible for stealing tiolets from a new home under construction in the 13000 block of Lake Hill Road."],
+ 'sublinks': [u'http://www.castanet.net/news/Kelowna/167952/Thieves-steal-No-1-and-2'],
+ 'topstory': [u'Lake Country RCMP look to flush out toilet thief']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.timescolonist.com/news/local/girl-13-says-she-was-followed-by-man-in-esquimalt-park-1.2276216',
+ 'originallink': [u'http://www.timescolonist.com/news/local/girl-13-says-she-was-followed-by-man-in-esquimalt-park-1.2276216'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Victoria+Police+Department&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Esquimalt&ict=clu_bl'],
+ 'snippet': [u'Victoria police are hoping to speak with a man who appears to have tried to follow a 13-year-old girl in Esquimalt. Police were called Thursday evening after the teen told her parents that a man followed her while she walked through a park near the '],
+ 'sublinks': [],
+ 'topstory': [u'Girl, 13, says she was followed by man in Esquimalt park']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://vancouverisland.ctvnews.ca/man-in-hospital-after-truck-slams-into-utility-pole-causes-major-power-outage-in-saanich-1.2941740',
+ 'originallink': [u'http://vancouverisland.ctvnews.ca/man-in-hospital-after-truck-slams-into-utility-pole-causes-major-power-outage-in-saanich-1.2941740'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Saanich&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Saanich&ict=clu_bl'],
+ 'snippet': [u'A man is recovering in hospital after the pickup truck he was driving veered off the road and slammed into a power pole, knocking out power to more than a thousand homes in the Saanich area.'],
+ 'sublinks': [u'http://www.timescolonist.com/news/local/accused-arsonist-in-saanich-townhouse-fire-stays-in-custody-1.2276377'],
+ 'topstory': [u'Man in hospital after truck slams into utility pole, causes major power outage in Saanich']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business\xc2\xa0',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/canada/newfoundland-labrador/phone-scam-fraud-cra-1.3625269',
+ 'originallink': [u'http://www.cbc.ca/news/canada/newfoundland-labrador/phone-scam-fraud-cra-1.3625269'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Canada+Revenue+Agency&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Canada+Revenue+Agency&ict=clu_bl'],
+ 'snippet': [u'The Royal Newfoundland Constabulary is warning the public that a phone scam from fraudsters claiming to be police officers or investigators with the Canada Revenue Agency is picking up steam.'],
+ 'sublinks': [u'http://edmonton.ctvnews.ca/police-canada-revenue-agency-issue-warning-over-telephone-scam-1.2939230'],
+ 'topstory': [u'Phone scamming fraudsters posing as CRA changing tactics, making hundreds of calls']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology\xc2\xa0',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/arts/kirby-planet-robobot-game-review-1.3630062',
+ 'originallink': [u'http://www.cbc.ca/news/arts/kirby-planet-robobot-game-review-1.3630062'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Video+games&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Video+games&ict=clu_bl'],
+ 'snippet': [u"Kirby, the sentient, marshmallow-like creature who can eat anything and anyone in his path, has been around since 1992, when he first appeared in Kirby's Dream Land for the Nintendo Game Boy."],
+ 'sublinks': [u'http://www.polygon.com/2016/6/10/11907078/kirby-planet-robobot-review'],
+ 'topstory': [u'Kirby: Planet Robobot is Nintendo at its whimsical best']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology\xc2\xa0',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://canadajournal.net/technology/2017-jaguar-f-pace-review-big-cat-takes-first-steps-fiercely-fought-suv-market-48982-2016/',
+ 'originallink': [u'http://canadajournal.net/technology/2017-jaguar-f-pace-review-big-cat-takes-first-steps-fiercely-fought-suv-market-48982-2016/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Jaguar+Cars&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Jaguar+Cars&ict=clu_bl'],
+ 'snippet': [u'The vehicle it resisted for so long turns out to be its best: the 2017 Jaguar F-Pace does an excellent job of putting just as much emphasis on sport as on utility.'],
+ 'sublinks': [u'http://www.ecanadanow.com/2017-jaguar-f-pace-review-jaguars-first-suv-leaves-positive-impressions/99363/'],
+ 'topstory': [u"The 2017 Jaguar F-Pace Is Proof Crossovers Don't Have To Suck (Video)"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://london.ctvnews.ca/highways-depot-building-consumed-by-fire-1.2941814',
+ 'originallink': [u'http://london.ctvnews.ca/highways-depot-building-consumed-by-fire-1.2941814'],
+ 'related': [],
+ 'snippet': [u'A fire destroyed the Wiarton highways depot building on Jenny Street early Saturday. There were also several vehicles destroyed including snowploughs and pickup trucks.'],
+ 'sublinks': [],
+ 'topstory': [u'Highways depot building consumed by fire']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World',
+ 'extras': [u'PROTESTS AGAINST MICHEL TEMER IN 34 CITIES'],
+ 'extraslink': [u'http://plus55.com/politics/2016/06/protests-michel-temer-34-cities'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.channelnewsasia.com/news/business/rousseff-called-as/2863862.html',
+ 'originallink': [u'http://www.channelnewsasia.com/news/business/rousseff-called-as/2863862.html'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Dilma+Rousseff&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Brazil&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Dilma+Rousseff&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Brazil&ict=clu_bl'],
+ 'snippet': [u'President Dilma Rousseff, suspended from office pending her impeachment trial, has been called as a defense witness for a key figure in the Petrobras corruption scandal, Brazilian media reported.'],
+ 'sublinks': [u'http://www.ctvnews.ca/world/brazil-president-suggests-referendum-after-impeachment-trial-1.2940865'],
+ 'topstory': [u'Rousseff called as witness in Brazil corruption case']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://hometownsource.com/2016/06/11/bbb-june-15-2016-designated-as-minnesota-elder-financial-abuse-awareness-day/',
+ 'originallink': [u'http://hometownsource.com/2016/06/11/bbb-june-15-2016-designated-as-minnesota-elder-financial-abuse-awareness-day/'],
+ 'related': [],
+ 'snippet': [u'Better Business Bureau of Minnesota and North Dakota has requested and been granted a proclamation by Governor Mark Dayton designating Wednesday, June 15, 2016, as \u201cMinnesota Elder Financial Abuse Awareness Day.'],
+ 'sublinks': [u'http://www.recorderonline.com/news/elder-abuse-prevention-training-to-be-offered/article_ac2d1ec0-2f8f-11e6-85d1-030f8a3a82b6.html'],
+ 'topstory': [u'BBB: June 15, 2016, designated as Minnesota Elder Financial Abuse Awareness Day']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology\xc2\xa0',
+ 'extras': [u"Hands-free phone use by drivers 'equally distracting'"],
+ 'extraslink': [u'http://www.bbc.co.uk/news/uk-36475180'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.ecanadanow.com/hands-free-devices-in-the-car-are-still-dangerous-study/99362/',
+ 'originallink': [u'http://www.ecanadanow.com/hands-free-devices-in-the-car-are-still-dangerous-study/99362/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Mobile+phones&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Driving&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Mobile+phones&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Driving&ict=clu_bl'],
+ 'snippet': [u'TORONTO - A new British research study has concluded that driving and using a cell phone with a hands-free device is just as distracting as holding onto it.'],
+ 'sublinks': [u'http://www.smh.com.au/technology/mobiles/even-handsfree-mobile-phones-are-dangerous-for-drivers-20160609-gpf69q.html'],
+ 'topstory': [u'Hands-free Devices In The Car Are Still Dangerous: Study']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology\xc2\xa0',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://techcrunch.com/2016/06/10/dango-mind-melds-with-emoji-using-deep-learning-and-suggests-them-while-you-type/',
+ 'originallink': [u'http://techcrunch.com/2016/06/10/dango-mind-melds-with-emoji-using-deep-learning-and-suggests-them-while-you-type/'],
+ 'related': [],
+ 'snippet': [u'Dango is an emoji suggestion chatbot - wait, where are you going? Stay with me, this is actually pretty cool. Okay, so Dango is one of those virtual assistants that lives in your chat apps, and this one is based on a neural network that has been '],
+ 'sublinks': [u'http://canadajournal.net/technology/new-app-uses-neural-networks-choose-perfect-emoji-video-49052-2016/'],
+ 'topstory': [u'Dango mind-melds with emoji using deep learning and suggests them while you type']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Entertainment\xc2\xa0',
+ 'extras': [u'Share Tweet Share Share'],
+ 'extraslink': [u'http://www.nme.com/blogs/nme-blogs/i-m-sorry-but-that-version-of-us-doesn-t-exist-any-more-tegan-and-sara-on-going-pop-and-speaking-out'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://exclaim.ca/music/article/tegan_and_sara-transformers',
+ 'originallink': [u'http://exclaim.ca/music/article/tegan_and_sara-transformers'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Tegan+And+Sara&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Tegan+And+Sara&ict=clu_bl'],
+ 'snippet': [u'For 36 years, Tegan and Sara Quin have shared a face and a voice. They are two wholes but also two halves - a seemingly impossible math riddle to navigate and negotiate as people, sisters, musicians and business partners.'],
+ 'sublinks': [u'http://www.lfpress.com/2016/06/10/tegan--sara-mumford--sons-paul-mccartney-and-the-stones-top-this-weeks-new-music'],
+ 'topstory': [u'\u200bTegan and Sara']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://globalnews.ca/news/2755746/construction-worker-killed-by-driverless-truck-in-perth-county/',
+ 'originallink': [u'http://globalnews.ca/news/2755746/construction-worker-killed-by-driverless-truck-in-perth-county/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Perth+County&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Perth+County&ict=clu_bl'],
+ 'snippet': [u'PERTH, Ont. - Perth County Provincial Police are investigating a fatal accident at a construction site south of Sebringville, Ont.'],
+ 'sublinks': [u'http://www.inews880.com/syn/104/94785/construction-worker-fatal'],
+ 'topstory': [u'Construction worker killed by driverless truck in Perth County']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Entertainment\xc2\xa0',
+ 'extras': [u'The Bachelor Canada'],
+ 'extraslink': [u'https://en.wikipedia.org/wiki/The_Bachelor_Canada'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://mytoba.ca/featured/kenora-woman-chosen-bachelorette/',
+ 'originallink': [u'http://mytoba.ca/featured/kenora-woman-chosen-bachelorette/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=The+Bachelorette&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=The+Bachelorette&ict=clu_bl'],
+ 'snippet': [u"\u201cThis opportunity came at the perfect time for me and I couldn't be more prepared to embark upon this lifelong adventure.\u201d The 27-year-old will have her choice of 20 eligible bachelors."],
+ 'sublinks': [],
+ 'topstory': [u'Kenora woman chosen as Bachelorette']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Entertainment\xc2\xa0',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://thestarphoenix.com/news/local-news/sasktel-centre-preps-for-garth-brooks',
+ 'originallink': [u'http://thestarphoenix.com/news/local-news/sasktel-centre-preps-for-garth-brooks'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Garth+Brooks&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Saskatoon&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=SaskTel+Centre&ict=clu_bl'],
+ 'snippet': [u'CEO Will Lofdahl in the calm before the storm of multiple Garth Brooks concerts at SaskTel Centre , Tuesday, June 07, 2016. Greg Pender / The StarPhoenix.'],
+ 'sublinks': [],
+ 'topstory': [u'SaskTel Centre transforms to host Garth Brooks']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Entertainment\xc2\xa0',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.thesudburystar.com/2016/06/11/bored-sault-youth-support-tagger-facing-charges',
+ 'originallink': [u'http://www.thesudburystar.com/2016/06/11/bored-sault-youth-support-tagger-facing-charges'],
+ 'related': [],
+ 'snippet': [u'Amanda Jabbour credits work by a Sault Ste. Marie tagger for getting youth to speak about what they want to see in the community. Tweet.'],
+ 'sublinks': [u'http://saultonline.com/2016/06/arts-council-is-having-a-agm/'],
+ 'topstory': [u'Bored Sault youth support tagger facing charges']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Sports\xc2\xa0',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.foxsportsasia.com/motorsports/formula-1/news/detail/item166977/fp3-vettel-flies-into-p1-magnussen-calls-for-red-flag/',
+ 'originallink': [u'http://www.foxsportsasia.com/motorsports/formula-1/news/detail/item166977/fp3-vettel-flies-into-p1-magnussen-calls-for-red-flag/'],
+ 'related': [],
+ 'snippet': [u'Ahead of the qualifiers for the Canadian Grand Prix, Ferrari driver Sebastian Vettel pipped his rivals and claimed top spot in the final practice session.'],
+ 'sublinks': [],
+ 'topstory': [u'FP3: Vettel flies into P1, Magnussen calls for red flag']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Sports\xc2\xa0',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.sportsnet.ca/baseball/mlb/blue-jays-notebook-grilli-earns-spot-primary-set-man/',
+ 'originallink': [u'http://www.sportsnet.ca/baseball/mlb/blue-jays-notebook-grilli-earns-spot-primary-set-man/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Toronto+Blue+Jays&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Toronto+Blue+Jays&ict=clu_bl'],
+ 'snippet': [u"Toronto Blue Jays pitcher Jason Grilli has earned the team's set-up role. (Frank Gunn/CP). headshot Shi Davidi June 11, 2016, 3:37 PM."],
+ 'sublinks': [u'http://www.cbssports.com/fantasy/baseball/news/blue-jays-anthony-alford-released-from-hospital-diagnosed-with-concussion/'],
+ 'topstory': [u'Blue Jays Notebook: Grilli earns spot as primary set-up man']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Sports\xc2\xa0',
+ 'extras': [u'Steve Kerr blasts Warriors for poor performance against Cavs in Game 3'],
+ 'extraslink': [u'http://www.cbc.ca/sports/basketball/nba/warriors-cavaliers-nba-finals-1.3628167'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.tsn.ca/warriors-push-cavaliers-to-the-brink-1.505476',
+ 'originallink': [u'http://www.tsn.ca/warriors-push-cavaliers-to-the-brink-1.505476'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Cleveland+Cavaliers&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Golden+State+Warriors&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Cleveland+Cavaliers&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Golden+State+Warriors&ict=clu_bl'],
+ 'snippet': [u'NBA @NBA 15m Steph Curry (38 points) and Kyrie Irving (34 points) duel in #NBAFinals Game 4! https://t.co/mXmWPDFBKj. Reply \xb7 Retweet \xb7 Favorite \xb7 NBA @NBA 2h The @warriors splash down #NBAFinals record 17 three-pointers in Game 4! https://t.'],
+ 'sublinks': [u'http://www.foxsports.com/nba/story/cleveland-cavaliers-kevin-love-never-enough-critics-concussion-injury-lebron-james-061116'],
+ 'topstory': [u'Warriors push Cavaliers to the brink']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Sports\xc2\xa0',
+ 'extras': [u'Muhammad Ali a champion for his faith until the end'],
+ 'extraslink': [u'http://espn.go.com/boxing/story/_/id/16110408/muhammad-ali-champion-faith-end'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.ctvnews.ca/sports/the-world-watched-as-ali-s-goodbye-created-memorable-moments-1.2941723',
+ 'originallink': [u'http://www.ctvnews.ca/sports/the-world-watched-as-ali-s-goodbye-created-memorable-moments-1.2941723'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Muhammad+Ali&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Muhammad+Ali&ict=clu_bl'],
+ 'snippet': [u'LOUISVILLE, Ky. -- As Muhammad Ali\'s youngest son rode in his father\'s funeral procession through the streets of the city he adored, he noticed scores of children lining the route, pumping their fists, shouting "Ali!'],
+ 'sublinks': [u'https://www.thestar.com/opinion/letters_to_the_editors/2016/06/11/alis-greatest-victories-were-outside-the-ring.html'],
+ 'topstory': [u"The world watched as Ali's goodbye created memorable moments"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Stanley Cup Final\xc2\xa0',
+ 'extras': [u'Crosby, Kessel, Murray in discussion for Conn Smythe Trophy',
+            u"The Thrill is back in Phil Kessel's game as Pittsburgh Penguins' leading scorer in "],
+ 'extraslink': [u'http://www.cbc.ca/sports/hockey/nhl/conn-smythe-crosby-kessel-murray-1.3621276',
+                u'http://news.nationalpost.com/sports/nhl/the-thrill-is-back-in-kessels-game-as-penguins-leading-scorer-in-playoffs'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://espn.go.com/nhl/story/_/id/16102332/nhl-2016-stanley-cup-playoffs-four-reasons-san-jose-sharks-push-pittsburgh-penguins-stanley-cup-finals-seven-games',
+ 'originallink': [u'http://espn.go.com/nhl/story/_/id/16102332/nhl-2016-stanley-cup-playoffs-four-reasons-san-jose-sharks-push-pittsburgh-penguins-stanley-cup-finals-seven-games'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Pittsburgh+Penguins&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=San+Jose+Sharks&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Stanley+Cup&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Pittsburgh+Penguins&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=San+Jose+Sharks&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Stanley+Cup&ict=clu_bl'],
+ 'snippet': [u'PITTSBURGH -- Before the Stanley Cup ',
+             u' between the Pittsburgh Penguins and San Jose Sharks, the ',
+             u' experts at ESPN each predicted the winner and how many games it would take.'],
+ 'sublinks': [u'http://sports.yahoo.com/news/sharks-sink-penguins-stay-alive-nhl-playoffs-035711839--nhl.html'],
+ 'topstory': [u'Four reasons the Stanley Cup ', u' will go seven games']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Stanley Cup Final\xc2\xa0',
+ 'extras': [u"Sharks' have grim ",
+            u' history when they go down 0-2',
+            u"Sharks' Patrick Marleau scores, but could face discipline"],
+ 'extraslink': [u'http://www.mercurynews.com/sharks/ci_29962238/sharks-have-grim-nhl-playoff-history-when-they',
+                u'http://www.torontosun.com/2016/05/31/sharks-patrick-marleau-scores-but-could-face-discipline'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.metronews.ca/views/metro-views/2016/06/05/are-canadians-watching-the-nhl-playoffs.html',
+ 'originallink': [u'http://www.metronews.ca/views/metro-views/2016/06/05/are-canadians-watching-the-nhl-playoffs.html'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=San+Jose+Sharks&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Pittsburgh+Penguins&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Stanley+Cup+Finals&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=San+Jose+Sharks&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Pittsburgh+Penguins&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Stanley+Cup+Finals&ict=clu_bl'],
+ 'snippet': [u'A San Jose Sharks fan walks outside of SAP Center at San Jose before Game 3 of the ',
+             u' Stanley Cup Final series between the Sharks and the Pittsburgh Penguins in San Jose, Calif.'],
+ 'sublinks': [u'http://www.forbes.com/sites/alishagrauso/2016/06/06/perfect-storm-of-obstacles-undermining-ratings-for-nhls-2016-stanley-cup-final/'],
+ 'topstory': [u'Poll: With no Canadian teams, are you watching the ', u'?']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Stanley Cup Final\xc2\xa0',
+ 'extras': [u"Sidney Crosby earns Penguins' praise as he closes in on second Stanley Cup"],
+ 'extraslink': [u'https://www.theguardian.com/sport/2016/jun/09/pittsburgh-penguins-sidney-crosby-stanley-cup-nhl'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.nj.com/devils/index.ssf/2016/06/nhl_playoffs_penguins_vs_sharks_game_4_live_score.html',
+ 'originallink': [u'http://www.nj.com/devils/index.ssf/2016/06/nhl_playoffs_penguins_vs_sharks_game_4_live_score.html'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Pittsburgh+Penguins&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=San+Jose+Sharks&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Pittsburgh+Penguins&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=San+Jose+Sharks&ict=clu_bl'],
+ 'snippet': [u'The San Jose Sharks, trailing 2-1, try to even the best-of-seven ',
+             u' Stanley Cup ',
+             u' in Game 4 against the Pittsburgh Penguins at SAP Center in San Jose, Calif.'],
+ 'sublinks': [u'http://www.sltrib.com/sports/3979413-155/nhl-playoffs-down-3-1-sharks-face'],
+ 'topstory': [u': Penguins vs. Sharks Game 4 LIVE SCORE UPDATES, Stanley Cup Finals (6/6/16)']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Stanley Cup Final\xc2\xa0',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://espn.go.com/nhl/story/_/id/16050169/nhl-2016-stanley-cup-playoffs-pittsburgh-penguins-rookie-goalie-matt-murray-channeling-ken-dryden',
+ 'originallink': [u'http://espn.go.com/nhl/story/_/id/16050169/nhl-2016-stanley-cup-playoffs-pittsburgh-penguins-rookie-goalie-matt-murray-channeling-ken-dryden'],
+ 'related': [],
+ 'snippet': [u'Dryden, 23 at the time, had played in only six ',
+             u' games late in that 1970-71 regular season before getting the nod in the ',
+             u'. Murray, 22, appeared in 19 regular-season games before getting the ',
+             u" gig because of Marc-Andre Fleury's concussion."],
+ 'sublinks': [],
+ 'topstory': [u'Penguins goalie Matt Murray has played more like a Hall of Famer than a rookie']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Science\xc2\xa0',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cantechletter.com/2016/06/pentictons-dominion-radio-astrophysical-observatory-holds-open-house/',
+ 'originallink': [u'http://www.cantechletter.com/2016/06/pentictons-dominion-radio-astrophysical-observatory-holds-open-house/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Dominion+Radio+Astrophysical+Observatory&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Dominion+Radio+Astrophysical+Observatory&ict=clu_bl'],
+ 'snippet': [u'If you find yourself in the Okanagan today, you could be in for a treat. An internationally renowned observatory is opening its doors to the public, for Saturday only.'],
+ 'sublinks': [u'http://canadajournal.net/science/open-house-dominion-radio-astrophysical-observatory-49036-2016/'],
+ 'topstory': [u"Penticton's acclaimed Dominion Radio Astrophysical Observatory holds open house"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Science\xc2\xa0',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/technology/arctic-amplification-melting-glaciers-greenland-1.3625158',
+ 'originallink': [u'http://www.cbc.ca/news/technology/arctic-amplification-melting-glaciers-greenland-1.3625158'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Greenland&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Greenland&ict=clu_bl'],
+ 'snippet': [u'2015 was a record year for high temperatures and melting glaciers in western Greenland, a heating effect that is amplifying itself and could lead to accelerated warming in the Arctic.'],
+ 'sublinks': [u'https://www.washingtonpost.com/news/capital-weather-gang/wp/2016/06/10/greenland-witnessed-its-highest-june-temperature-ever-recorded-on-thursday/'],
+ 'topstory': [u'Warming temperatures and melting glaciers are accelerating Arctic warming: Bob McDonald']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Science\xc2\xa0',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.lakeconews.com/index.php?option=com_content&view=article&id=46682:space-news-nasa-radar-finds-ice-age-record-in-mars-polar-cap&catid=1:latest&Itemid=197',
+ 'originallink': [u'http://www.lakeconews.com/index.php?option=com_content&view=article&id=46682:space-news-nasa-radar-finds-ice-age-record-in-mars-polar-cap&catid=1:latest&Itemid=197'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Dust+storms&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Dust+storms&ict=clu_bl'],
+ 'snippet': [u"Scientists using radar data from NASA's Mars Reconnaissance Orbiter (MRO) have found a record of the most recent Martian ice age recorded in the planet's north polar ice cap."],
+ 'sublinks': [u'http://www.clarksvilleonline.com/2016/06/11/nasas-mars-reconnaissance-orbiter-data-shows-dust-storm-pattern-mars/'],
+ 'topstory': [u"Space News: NASA radar finds ice age record in Mars' polar cap"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Science\xc2\xa0',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.couriermail.com.au/news/sydney-storm-aftermath-homes-at-risk-in-15-coastal-erosion-hotspots/news-story/d357a826ac046074aabe8be5c7283ed5',
+ 'originallink': [u'http://www.couriermail.com.au/news/sydney-storm-aftermath-homes-at-risk-in-15-coastal-erosion-hotspots/news-story/d357a826ac046074aabe8be5c7283ed5'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Sydney&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Sydney&ict=clu_bl'],
+ 'snippet': [u'Fifteen areas containing at least 75 homes have been red-flagged along the NSW coast as \u201cerosion hot-spots\u201d at risk during a major storm.'],
+ 'sublinks': [u'http://www.netnewsledger.com/2016/06/09/climate-change-raising-oceans-threatening-shores/'],
+ 'topstory': [u'They fell into beachside honey trap']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health\xc2\xa0',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.niagarafallsreview.ca/2016/06/11/ride-to-conquer-cancer-has-some-brotherly-love',
+ 'originallink': [u'http://www.niagarafallsreview.ca/2016/06/11/ride-to-conquer-cancer-has-some-brotherly-love'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=The+Ride+to+Conquer+Cancer&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=The+Ride+to+Conquer+Cancer&ict=clu_bl'],
+ 'snippet': [u'The Niagara Parkway in Niagara Falls, Ont. was the start and finish line for some of the 4,253 participates in the ninth annual Enbridge Ride To Conquer Cancer on Saturday, June 11, 2016 who helped to raise $17.3 million for the Princess Margaret '],
+ 'sublinks': [u'http://www.insidetoronto.com/news-story/6718377-thousands-leave-exhibition-place-on-enbridge-ride-to-conquer-cancer-they-ll-return-sunday/'],
+ 'topstory': [u'Brotherly love at Ride to Conquer Cancer']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health\xc2\xa0',
+ 'extras': [u'MS breakthrough: Replacing diseased immune system halts progression, allows repair'],
+ 'extraslink': [u'https://www.sciencedaily.com/releases/2016/06/160609222439.htm'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/canada/ottawa/ms-treatment-impressive-results-ottawa-lancet-1.3609031',
+ 'originallink': [u'http://www.cbc.ca/news/canada/ottawa/ms-treatment-impressive-results-ottawa-lancet-1.3609031'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Multiple+sclerosis&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Stem-cell+therapy&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Multiple+sclerosis&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Stem-cell+therapy&ict=clu_bl'],
+ 'snippet': [u'"We kill you and then we rescue you." This is what Jennifer Molson remembers doctors saying to her about the high-stakes procedure she would undergo in 2002 as part of an Ottawa study that has yielded some promising results in multiple sclerosis patients.'],
+ 'sublinks': [u'http://www.inquisitr.com/3190108/ms-cure-immune-system-replacement-reverses-devastating-disease-offers-hope-to-millions/'],
+ 'topstory': [u"Ottawa doctors' high-risk MS treatment yields 'impressive' results, Lancet finds"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health\xc2\xa0',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/canada/nova-scotia/doctor-assisted-death-hospital-health-authority-patients-1.3629484',
+ 'originallink': [u'http://www.cbc.ca/news/canada/nova-scotia/doctor-assisted-death-hospital-health-authority-patients-1.3629484'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Nova+Scotia&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Nova+Scotia&ict=clu_bl'],
+ 'snippet': [u"Four Nova Scotians want to die with the help of a doctor and their cases are being assessed to determine whether that's possible, the Nova Scotia Health Authority said Friday."],
+ 'sublinks': [u'http://globalnews.ca/news/2754415/4-nova-scotians-assessed-for-assisted-dying-access-health-authority/'],
+ 'topstory': [u'4 Nova Scotians being assessed for possible doctor-assisted death']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health\xc2\xa0',
+ 'extras': [u'Dorchester Relay for Life reaches success'],
+ 'extraslink': [u'http://www.stardem.com/life/article_bf5a85b8-2629-5c54-bf2a-93dae757972d.html'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://blackburnnews.com/chatham/chatham-news/2016/06/11/chathams-relay-life-goes-tonight/',
+ 'originallink': [u'http://blackburnnews.com/chatham/chatham-news/2016/06/11/chathams-relay-life-goes-tonight/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Relay+For+Life&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Cancer&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Relay+For+Life&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Cancer&ict=clu_bl'],
+ 'snippet': [u"The Canadian Cancer Society may be cutting back the hours for this year's Relay for Life in Chatham, but it's not cutting back its fundraising goal."],
+ 'sublinks': [u'http://www.jconline.com/story/news/2016/06/11/relay-life-draws-crowds-despite-heat-wave/85710716/'],
+ 'topstory': [u"Chatham's Relay For Life Goes Tonight"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 90, in process_item
+    url2 = url_normalize(url)
+TypeError: 'module' object is not callable

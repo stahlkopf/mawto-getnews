@@ -1,0 +1,419 @@
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World',
+ 'extras': [u'ISIS claims blasts near Shiite shrine in Damascus',
+            u'Suicide, car bomb blasts hit Damascus suburb, at least eight dead',
+            u'ISIS claims responsibility for deadly bombings near Shiite shrine',
+            u'Sayyidah Zaynab'],
+ 'extraslink': [u'http://english.alarabiya.net/en/News/middle-east/2016/06/11/Twin-explosions-hit-suburb-of-Damascus-housing-renowned-Shiite-shrine.html',
+                u'http://www.jpost.com/Breaking-News/Suicide-car-bomb-blasts-hit-Damascus-suburb-at-least-eight-dead-456515',
+                u'http://www.csmonitor.com/World/Middle-East/2016/0611/ISIS-claims-responsibility-for-deadly-bombings-near-Shiite-shrine',
+                u'https://en.wikipedia.org/wiki/Sayyidah_Zaynab'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/world/syria-isis-suicide-bomb-shrine-june11-1.3630987',
+ 'originallink': [u'http://www.cbc.ca/news/world/syria-isis-suicide-bomb-shrine-june11-1.3630987'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Damascus&ict=clu_top',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Syria&ict=clu_top',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=News&ict=clu_top',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Damascus&ict=clu_top',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Syria&ict=clu_top',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=News&ict=clu_top'],
+ 'snippet': [u"The Islamic State in Iraq and Syria group (ISIS) claimed responsibility for suicide and car bomb blasts that struck a Damascus suburb Saturday near Syria's holiest Shia Muslim shrine."],
+ 'sublinks': [],
+ 'topstory': [u'ISIS claims responsibility for deadly bombings near Muslim shrine in Syria']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 104, in process_item
+    resp = r.db(self.rdb_database).table(self.table_name0).insert(link, return_changes = True).run()
+NameError: global name 'link' is not defined
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Science',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.castanet.net/news/Penticton/167988/Learning-about-the-universe',
+ 'originallink': [u'http://www.castanet.net/news/Penticton/167988/Learning-about-the-universe'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Dominion+Radio+Astrophysical+Observatory&ict=clu_top',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Dominion+Radio+Astrophysical+Observatory&ict=clu_top'],
+ 'snippet': [u'People learned about the universe and the whole ball of wax at an open house, Saturday, at the Dominion Radio Astrophysical Observatory, DRAO, near Penticton.'],
+ 'sublinks': [],
+ 'topstory': [u'Learning about the universe']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 104, in process_item
+    resp = r.db(self.rdb_database).table(self.table_name0).insert(link, return_changes = True).run()
+NameError: global name 'link' is not defined
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World\xc2\xa0',
+ 'extras': [u'Euro 2016: One Critical After Marseille Clashes',
+            u"Robbie Savage column: Wayne Rooney is always England's scapegoat - it's about time he had some help",
+            u'The Latest: Dier Scores, Gives England 1-0 Lead Over Russia'],
+ 'extraslink': [u'http://news.sky.com/story/1710452/euro-2016-one-critical-after-marseille-clashes',
+                u'http://www.mirror.co.uk/sport/football/news/robbie-savage-column-wayne-rooney-8157828',
+                u'http://www.nytimes.com/aponline/2016/06/11/sports/soccer/ap-soc-euro-2016-the-latest.html'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://globalnews.ca/news/2755898/brits-behaving-badly-english-soccer-hooligans-continue-to-fight-in-marseille/',
+ 'originallink': [u'http://globalnews.ca/news/2755898/brits-behaving-badly-english-soccer-hooligans-continue-to-fight-in-marseille/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=England+national+football+team&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=UEFA+Euro+2016&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=England+national+football+team&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=UEFA+Euro+2016&ict=clu_bl'],
+ 'snippet': [u'MARSEILLE, France - England fans rioted Saturday at the Old Port in Marseille and police used tear gas for a third straight day in an attempt to disperse rowdy crowds only hours before England was to play Russia at the European Championship.'],
+ 'sublinks': [u'http://www.dailymail.co.uk/sport/football/article-3636506/England-vs-Russia-Euro-2016-LIVE-score.html'],
+ 'topstory': [u'Brits behaving badly: English soccer hooligans continue to fight in Marseille']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 104, in process_item
+    resp = r.db(self.rdb_database).table(self.table_name0).insert(link, return_changes = True).run()
+NameError: global name 'link' is not defined
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Science',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.themarshalltown.com/2016/06/11/sydney-storm-lessons-from-a-tempest/',
+ 'originallink': [u'http://www.themarshalltown.com/2016/06/11/sydney-storm-lessons-from-a-tempest/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Collaroy&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Sydney&ict=clu_bl'],
+ 'snippet': [u"Rob Stokes, the NSW Planning Minister, might have seemed like something of a prophet had his own property on Sydney's northern beaches not been flooded during the Sydney storm."],
+ 'sublinks': [],
+ 'topstory': [u'Sydney storm: Lessons from a tempest']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 104, in process_item
+    resp = r.db(self.rdb_database).table(self.table_name0).insert(link, return_changes = True).run()
+NameError: global name 'link' is not defined
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World\xc2\xa0',
+ 'extras': [u"Kelantan's Ramadan etiquette for non-Muslims"],
+ 'extraslink': [u'http://www.freemalaysiatoday.com/category/nation/2016/06/11/kelantans-ramadan-etiquette-for-non-muslims/'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'https://ask.naij.com/religion/carpenter-was-beaten-by-unknown-youngsters-for-eating-during-ramadan-i24816.html',
+ 'originallink': [u'https://ask.naij.com/religion/carpenter-was-beaten-by-unknown-youngsters-for-eating-during-ramadan-i24816.html'],
+ 'related': [],
+ 'snippet': [u'The group of uknown people stabbed the innocent carpenter! Read this article to find out more. Ask Naij. ramadan. The level of violence nowadays is extremely high.'],
+ 'sublinks': [u'http://www.oleantimesherald.com/news/breaking-the-fast-islamic-society-comes-together-for-ramadan/article_a87bb724-2f98-11e6-847e-53f5dd8ba447.html'],
+ 'topstory': [u'Carpenter was beaten by unknown youngsters for eating during Ramadan']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 104, in process_item
+    resp = r.db(self.rdb_database).table(self.table_name0).insert(link, return_changes = True).run()
+NameError: global name 'link' is not defined
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://globalnews.ca/news/2755921/rally-held-to-protect-crab-park-from-proposed-port-of-vancouver-expansion/',
+ 'originallink': [u'http://globalnews.ca/news/2755921/rally-held-to-protect-crab-park-from-proposed-port-of-vancouver-expansion/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Vancouver+Fraser+Port+Authority&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Vancouver+Fraser+Port+Authority&ict=clu_bl'],
+ 'snippet': [u'Protesters are gathering in Crab Park Saturday afternoon, calling on the Port of Vancouver to reconsider a project that they say could ruin the waterfront.'],
+ 'sublinks': [u'http://www.maritimeprofessional.com/news/vancouver-fraser-port-responds-community-290988'],
+ 'topstory': [u'Rally held to protect Crab Park from proposed Port of Vancouver expansion']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 104, in process_item
+    resp = r.db(self.rdb_database).table(self.table_name0).insert(link, return_changes = True).run()
+NameError: global name 'link' is not defined
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Canada\xc2\xa0',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/canada/ottawa/rideau-sinkhole-update-saturday-shops-reopen-1.3630878',
+ 'originallink': [u'http://www.cbc.ca/news/canada/ottawa/rideau-sinkhole-update-saturday-shops-reopen-1.3630878'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Ottawa&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Rideau+Street&ict=clu_bl',
+             u"/news/section?cf=all&hl=en&pz=1&ned=ca&q=Hudson's+Bay&ict=clu_bl"],
+ 'snippet': [u'Three days after a massive sinkhole swallowed a stretch of Rideau Street, two major businesses have reopened - and the local councillor is encouraging Ottawans to return to the area.'],
+ 'sublinks': [],
+ 'topstory': [u"Hudson's Bay, Chapters reopen as Rideau sinkhole repairs continue"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 104, in process_item
+    resp = r.db(self.rdb_database).table(self.table_name0).insert(link, return_changes = True).run()
+NameError: global name 'link' is not defined
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Canada\xc2\xa0',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/canada/saskatchewan/man-dead-regina-crash-1.3630988',
+ 'originallink': [u'http://www.cbc.ca/news/canada/saskatchewan/man-dead-regina-crash-1.3630988'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Regina&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Regina&ict=clu_bl'],
+ 'snippet': [u'A man is dead after crashing into a cement sound barrier in Regina early Saturday morning. Police were dispatched at approximately 1 a.m.'],
+ 'sublinks': [u'http://globalnews.ca/news/2755742/19-year-old-male-dead-after-single-vehicle-collision-in-north-regina/'],
+ 'topstory': [u'Man, 19, dead in Regina after crashing into sound barrier wall']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 104, in process_item
+    resp = r.db(self.rdb_database).table(self.table_name0).insert(link, return_changes = True).run()
+NameError: global name 'link' is not defined
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World',
+ 'extras': [u'Chinese piracy'],
+ 'extraslink': [u'http://www.koreatimes.co.kr/www/news/opinon/2016/06/202_206721.html'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://english.yonhapnews.co.kr/news/2016/06/11/0200000000AEN20160611001952315.html',
+ 'originallink': [u'http://english.yonhapnews.co.kr/news/2016/06/11/0200000000AEN20160611001952315.html'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=South+Korea&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Fishing&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=South+Korea&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Fishing&ict=clu_bl'],
+ 'snippet': [u"SEOUL, June 11 (Yonhap) -- South Korea's military resumed its crackdown operations near the tense sea border with North Korea Saturday as the country stepped up efforts to drive out illegal Chinese fishing there during the peak season for blue crabs."],
+ 'sublinks': [u'http://www.nwaonline.com/news/2016/jun/11/s-korea-chases-off-chinese-fishermen-20/?news-world'],
+ 'topstory': [u'(2nd LD) S. Korea continues crackdown on Chinese fishing in neutral waters']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 104, in process_item
+    resp = r.db(self.rdb_database).table(self.table_name0).insert(link, return_changes = True).run()
+NameError: global name 'link' is not defined
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.irishtimes.com/life-and-style/health-family/muhammad-ali-s-toughest-fight-parkinson-s-disease-1.2677015',
+ 'originallink': [u'http://www.irishtimes.com/life-and-style/health-family/muhammad-ali-s-toughest-fight-parkinson-s-disease-1.2677015'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Muhammad+Ali&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Muhammad+Ali&ict=clu_bl'],
+ 'snippet': [u"\u201cFloat like a butterfly, sting like a bee.\u201d Muhammad Ali was more than a fighter in the boxing ring. He fought against racism, refused to be drafted during the Vietnam War, and he fought Parkinson's disease for more than 30 years until his death "],
+ 'sublinks': [u'http://www.slate.com/articles/health_and_science/medical_examiner/2016/06/what_caused_muhammad_ali_s_parkinson_s_disease_it_s_nearly_impossible_to.html'],
+ 'topstory': [u"Muhammad Ali's toughest fight? Parkinson's disease"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 104, in process_item
+    resp = r.db(self.rdb_database).table(self.table_name0).insert(link, return_changes = True).run()
+NameError: global name 'link' is not defined
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.gamespot.com/articles/more-details-on-kanye-wests-game-coming-next-week/1100-6440677/',
+ 'originallink': [u'http://www.gamespot.com/articles/more-details-on-kanye-wests-game-coming-next-week/1100-6440677/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=The+Game+Awards&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=The+Game+Awards&ict=clu_bl'],
+ 'snippet': [u"Gamers looking forward to learning more about Kanye West's next game don't have much longer to wait. As part of Geoff Keighley's YouTube Live E3 event, more details on the game, called Only One, will be announced on Monday, June 13."],
+ 'sublinks': [u'http://gamerant.com/the-game-awards-2016-date/'],
+ 'topstory': [u"More Details on Kanye West's Game Coming Next Week"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 104, in process_item
+    resp = r.db(self.rdb_database).table(self.table_name0).insert(link, return_changes = True).run()
+NameError: global name 'link' is not defined
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.yourrenewablenews.com/wind+turbine+components+industry+-+the+structure+of+a+modern+wind+turbine%3B+an+overview+2016+%E2%80%93+2024_132992.html',
+ 'originallink': [u'http://www.yourrenewablenews.com/wind+turbine+components+industry+-+the+structure+of+a+modern+wind+turbine%3B+an+overview+2016+%E2%80%93+2024_132992.html'],
+ 'related': [],
+ 'snippet': [u'Wind energy is gaining priority over fossil fuels in the power mix of both developed and developing nations as it is capable of addressing power requirements of nations in an environmentally sustainable way.'],
+ 'sublinks': [],
+ 'topstory': [u'Wind turbine components industry - The structure of a modern wind turbine; an overview 2016 \u2013 2024']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 89, in process_item
+    dbid = hashlib.sha1(urltools.normalize(url)).hexdigest()
+  File "/usr/local/lib/python2.7/dist-packages/urltools/urltools.py", line 91, in normalize
+    path = normalize_path(parts.path)
+  File "/usr/local/lib/python2.7/dist-packages/urltools/urltools.py", line 211, in normalize_path
+    npath = normpath(unquote(path, exceptions=QUOTE_EXCEPTIONS['path']))
+  File "/usr/local/lib/python2.7/dist-packages/urltools/urltools.py", line 267, in unquote
+    res.append(c + h[2:])
+UnicodeDecodeError: 'utf8' codec can't decode byte 0x93 in position 0: invalid start byte
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://calgaryherald.com/business/energy/how-far-can-oil-rally-investors-wager-on-surge-above-100',
+ 'originallink': [u'http://calgaryherald.com/business/energy/how-far-can-oil-rally-investors-wager-on-surge-above-100'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Petroleum&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Petroleum&ict=clu_bl'],
+ 'snippet': [u"Oil investors are buying contracts that will only pay out if crude rises well above $100 a barrel over the next four years - a clear sign some believe today's bust is sowing the seeds of the next boom."],
+ 'sublinks': [u'http://timesofoman.com/article/85773/Opinion/Columnist/To-the-average-Russian-the-country%27s-economy-seems-to-be-structured-around-exchanging-barrels-of-oil'],
+ 'topstory': [u'How far can oil rally? Investors wager on surge above $100']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 104, in process_item
+    resp = r.db(self.rdb_database).table(self.table_name0).insert(link, return_changes = True).run()
+NameError: global name 'link' is not defined
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://vancouverisland.ctvnews.ca/suspect-57-charged-in-arsons-at-saanich-townhouse-and-home-depot-1.2938741',
+ 'originallink': [u'http://vancouverisland.ctvnews.ca/suspect-57-charged-in-arsons-at-saanich-townhouse-and-home-depot-1.2938741'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Saanich&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Saanich&ict=clu_bl'],
+ 'snippet': [u'A 57-year-old man accused of intentionally setting a massive fire that destroyed an unfinished Saanich townhouse complex has been charged.'],
+ 'sublinks': [u'http://vancouverisland.ctvnews.ca/man-in-hospital-after-truck-slams-into-utility-pole-causes-major-power-outage-in-saanich-1.2941740'],
+ 'topstory': [u'Suspect, 57, charged in arsons at Saanich townhouse and Home Depot']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 104, in process_item
+    resp = r.db(self.rdb_database).table(self.table_name0).insert(link, return_changes = True).run()
+NameError: global name 'link' is not defined
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.northwestsignal.net/news/family/article_88b09b00-c88c-5441-b4b7-75c48aa49a97.html',
+ 'originallink': [u'http://www.northwestsignal.net/news/family/article_88b09b00-c88c-5441-b4b7-75c48aa49a97.html'],
+ 'related': [],
+ 'snippet': [u'WAUSEON - Fulton County Job and Family Services - Adult Protective Services Unit encourages all Fulton County Residents to wear purple in recognition of \u201cElder Abuse Awareness Day\u201d Wednesday, June 15.'],
+ 'sublinks': [u'http://www.thenorthwestern.com/story/news/2016/06/10/world-elder-abuse-awareness-day/85697274/'],
+ 'topstory': [u'Elder Abuse Awareness recognized']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 104, in process_item
+    resp = r.db(self.rdb_database).table(self.table_name0).insert(link, return_changes = True).run()
+NameError: global name 'link' is not defined
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Entertainment\xc2\xa0',
+ 'extras': [u'Police: Suspect specifically targeted Christina Grimmie',
+            u'A look at other attacks on celebrities by apparent strangers',
+            u"'The Voice' Alum Christina Grimmie on the Billboard Charts",
+            u"The Latest: Witness describes 'chaos' after singer shot"],
+ 'extraslink': [u'http://www.orlandosentinel.com/news/breaking-news/os-christina-grimmie-dead-orlando-20160611-story.html',
+                u'http://www.newsobserver.com/entertainment/celebrities/article83214102.html',
+                u'http://www.billboard.com/articles/columns/chart-beat/7401233/the-voice-christina-grimmie-shooting-death-billboard-charts',
+                u'http://www.dailymail.co.uk/wires/ap/article-3636647/The-Latest-singer-posted-Facebook-hours-shooting.html'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'https://www.thestar.com/entertainment/2016/06/11/the-voice-singer-christina-grimmie-dies-after-shooting.html',
+ 'originallink': [u'https://www.thestar.com/entertainment/2016/06/11/the-voice-singer-christina-grimmie-dies-after-shooting.html'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Christina+Grimmie&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=The+Voice&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Christina+Grimmie&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=The+Voice&ict=clu_bl'],
+ 'snippet': [u'22-year-old singer was killed while signing autographs for fans after a concert in Florida. By Mike SchneiderAssociated Press. 2:45 PM, Sat.'],
+ 'sublinks': [u'http://www.people.com/people/article/0,,21012289,00.html'],
+ 'topstory': [u"Celebrities respond to death of 'The Voice' singer Christina Grimmie as details emerge"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 104, in process_item
+    resp = r.db(self.rdb_database).table(self.table_name0).insert(link, return_changes = True).run()
+NameError: global name 'link' is not defined
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Technology',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://mobilesyrup.com/2016/06/10/lenovo-shows-off-smart-shoes-wearable-prototype-at-tech-world-2016/',
+ 'originallink': [u'http://mobilesyrup.com/2016/06/10/lenovo-shows-off-smart-shoes-wearable-prototype-at-tech-world-2016/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Lenovo&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Lenovo&ict=clu_bl'],
+ 'snippet': [u"In case prototypes of a bendable wrist phone and tablet weren't enough, Lenovo also showcased a pair of pre-lease \u201csmart shoes\u201d that can count your steps and play games at its recent Tech World conference."],
+ 'sublinks': [u'http://www.techtimes.com/articles/164376/20160611/lenovo-shows-off-a-pair-of-smart-shoes-heres-what-they-can-do.htm'],
+ 'topstory': [u"Lenovo shows off 'smart shoes' wearable prototype at Tech World 2016"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 104, in process_item
+    resp = r.db(self.rdb_database).table(self.table_name0).insert(link, return_changes = True).run()
+NameError: global name 'link' is not defined
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://blackburnnews.com/windsor/windsor-news/2016/06/10/humane-society-launches-investigation-south-windsor/',
+ 'originallink': [u'http://blackburnnews.com/windsor/windsor-news/2016/06/10/humane-society-launches-investigation-south-windsor/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Windsor&ict=clu_bl'],
+ 'snippet': [u"A number of dogs are now in the care of the Windsor/Essex County Humane Society after being found in \u201cfilthy conditions.\u201d It's being labelled a puppy mill investigation and it began Thursday when the humane society received a tip, as BlackburnNews."],
+ 'sublinks': [],
+ 'topstory': [u'Humane Society Investigating Puppy Mill']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 104, in process_item
+    resp = r.db(self.rdb_database).table(self.table_name0).insert(link, return_changes = True).run()
+NameError: global name 'link' is not defined
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Entertainment\xc2\xa0',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/canada/edmonton/fort-mcmurray-food-bank-prepared-for-reopening-rush-1.3631013',
+ 'originallink': [u'http://www.cbc.ca/news/canada/edmonton/fort-mcmurray-food-bank-prepared-for-reopening-rush-1.3631013'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Fort+McMurray&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Fort+McMurray&ict=clu_bl'],
+ 'snippet': [u'The food bank in Fort McMurray is back up and running, and could see more people coming through its doors in the next week alone than during the entire month before the wildfire.'],
+ 'sublinks': [u'http://www.cknw.com/syn/98/129880/lawyers-offer-free-legal-advice-to-fort-mcmurray-fire-victims'],
+ 'topstory': [u'Fort McMurray food bank prepared for reopening rush']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 104, in process_item
+    resp = r.db(self.rdb_database).table(self.table_name0).insert(link, return_changes = True).run()
+NameError: global name 'link' is not defined
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Sports\xc2\xa0',
+ 'extras': [u"'Playoff Barnes' shines as Warriors near NBA title",
+            u'Steve Kerr blasts Warriors for poor performance against Cavs in Game 3'],
+ 'extraslink': [u'http://www.sfgate.com/warriors/article/Playoff-Barnes-shines-as-Warriors-near-NBA-8043142.php',
+                u'http://www.cbc.ca/sports/basketball/nba/warriors-cavaliers-nba-finals-1.3628167'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.ctvnews.ca/sports/golden-state-one-win-away-from-repeat-nba-title-1.2941847',
+ 'originallink': [u'http://www.ctvnews.ca/sports/golden-state-one-win-away-from-repeat-nba-title-1.2941847'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Cleveland+Cavaliers&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Golden+State+Warriors&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=The+NBA+Finals&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Cleveland+Cavaliers&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Golden+State+Warriors&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=The+NBA+Finals&ict=clu_bl'],
+ 'snippet': [u"CLEVELAND -- Golden State has now won 88 games this season, when factoring in the regular season and the playoffs. That's another NBA record to add to its collection, one more than the Chicago Bulls totalled in their 1995-96 season."],
+ 'sublinks': [u'http://sports.yahoo.com/news/splash-brothers-generate-wave-momentum-win-over-cavs-055548508--nba.html'],
+ 'topstory': [u'Golden State one win away from repeat NBA title']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 104, in process_item
+    resp = r.db(self.rdb_database).table(self.table_name0).insert(link, return_changes = True).run()
+NameError: global name 'link' is not defined
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Sports\xc2\xa0',
+ 'extras': [u'Toronto Blue Jays recent draft picks dominated by pitching',
+            u"Orioles recap: Edwin Encarnacion homer in 10th lifts Jays past O's"],
+ 'extraslink': [u'http://www.cbc.ca/sports/baseball/mlb/toronto-blue-jays-draft-1.3624884',
+                u'http://www.baltimoresun.com/sports/orioles/bs-sp-orioles-game-recap-0611-20160610-story.html'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.sportsnet.ca/baseball/mlb/encarnacion-gives-blue-jays-another-moment-cherish/',
+ 'originallink': [u'http://www.sportsnet.ca/baseball/mlb/encarnacion-gives-blue-jays-another-moment-cherish/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Toronto+Blue+Jays&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Baltimore+Orioles&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Baseball&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Toronto+Blue+Jays&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Baltimore+Orioles&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Baseball&ict=clu_bl'],
+ 'snippet': [u'Edwin Encarnacion was the hero for the Blue Jays, hitting the walkoff homer in the 10th inning to get them a 4-3 win over the Orioles.'],
+ 'sublinks': [u'https://www.thestar.com/sports/bluejays/2016/06/10/encarnacion-goes-deep-in-extras-as-blue-jays-edge-orioles.html'],
+ 'topstory': [u'Encarnacion gives Blue Jays another moment to cherish']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 104, in process_item
+    resp = r.db(self.rdb_database).table(self.table_name0).insert(link, return_changes = True).run()
+NameError: global name 'link' is not defined

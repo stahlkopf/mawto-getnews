@@ -10,6 +10,8 @@ import json
 import yaml
 import ast
 import sys
+import hashlib
+from urltools import *
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
@@ -43,10 +45,9 @@ def byteify(input):
 
 
 class RethinkdbPipeline(object):
-
-    table_name = "ArticleStatus"
-    table_name0 = "ArticleIndex"
-    table_name2 = "ArticleGnews"
+    table_name1 = "ArticleIndex"
+    table_name2 = "ArticleStatus"
+    table_name3 = "ArticleGnews"
 
 
     def __init__(self, rdb_host, rdb_database, rdb_port, rdb_authkey):
@@ -83,24 +84,24 @@ class RethinkdbPipeline(object):
 
         links = {k: ''.join(v) for k, v in data2.items() if k.startswith('link')}
         link = {k: ''.join(v) for k, v in data2.items() if k.startswith('link')}
+
+        x=links.get('link')
+        url=''.join(x).decode('utf-8')
+        dbid = hashlib.sha1(urltools.normalize(url)).hexdigest()
+        link.update({'id': dbid})
+
+        links.update({'id': dbid})
         links.update({'dateinserted':r.now()})
         links.update({'summarizable':1})
         links.update({'summarized':0})
         links.update({'animated':0})
-        response = r.db(self.rdb_database).table(self.table_name).insert(links, conflict='error').run()
+        data2.update({'id': dbid})
+        response = r.db(self.rdb_database).table(self.table_name1).insert(link, conflict='error').run()
         error = response.get('first_error')
 
         if error:
-            print (" ")
+            print (error)
         else:
-            resp = r.db(self.rdb_database).table(self.table_name0).insert(link, return_changes = True).run()
-
-            if resp.get('generated_keys'):
-               keyid = resp.get('generated_keys')[0]
-               print (keyid)
-               url = resp.get('changes')[0]['new_val']['link']
-               print (url)
-               r.db(self.rdb_database).table(self.table_name).get(url).update({'id': keyid}).run()
-               data2.update({'id': keyid})
-               r.db(self.rdb_database).table(self.table_name2).insert(data2).run()
+            r.db(self.rdb_database).table(self.table_name2).insert(links).run()
+            r.db(self.rdb_database).table(self.table_name3).insert(data2).run()
         return item

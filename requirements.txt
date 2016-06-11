@@ -12,3 +12,4 @@ schedule
 scrapy-heroku
 scrapyd
 scrapyd-client
+urltools

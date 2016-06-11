@@ -1,0 +1,110 @@
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World\xc2\xa0',
+ 'extras': [u"Kelantan's Ramadan etiquette for non-Muslims"],
+ 'extraslink': [u'http://www.freemalaysiatoday.com/category/nation/2016/06/11/kelantans-ramadan-etiquette-for-non-muslims/'],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.bloodyelbow.com/2016/6/11/11909196/ramadan-mma-spiritual-cleanse-in-a-violent-existence-why-fighters-abstain-ufc',
+ 'originallink': [u'http://www.bloodyelbow.com/2016/6/11/11909196/ramadan-mma-spiritual-cleanse-in-a-violent-existence-why-fighters-abstain-ufc'],
+ 'related': [],
+ 'snippet': [u'Karim Zidan looks at the Holy Month of Ramadan and why many Muslim fighters prioritize its importance over their athletic endeavours.'],
+ 'sublinks': [u'http://www.salon.com/2016/06/11/9_things_everyone_should_know_about_ramadan_partner/'],
+ 'topstory': [u'Ramadan & MMA: A spiritual cleanse in a violent existence']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 104, in process_item
+    resp = r.db(self.rdb_database).table(self.table_name0).insert(link, return_changes = True).run()
+NameError: global name 'link' is not defined
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Science',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.cbc.ca/news/technology/light-pollution-drowns-out-milky-way-for-third-of-world-population-1.3629865',
+ 'originallink': [u'http://www.cbc.ca/news/technology/light-pollution-drowns-out-milky-way-for-third-of-world-population-1.3629865'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Pollution&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Pollution&ict=clu_bl'],
+ 'snippet': [u"More than one-third of the world's population can no longer see the Milky Way because of man-made lights. Among those missing out on awe-inspiring Milky Way views: nearly 80 per cent of North Americans and 60 per cent of Europeans."],
+ 'sublinks': [u'http://www.space.com/33138-light-pollution-world-sky-atlas.html'],
+ 'topstory': [u"Lights drown out Milky Way for third of world's population"]}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 104, in process_item
+    resp = r.db(self.rdb_database).table(self.table_name0).insert(link, return_changes = True).run()
+NameError: global name 'link' is not defined
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.dailymail.co.uk/wires/ap/article-3636935/Plane-crash-near-Chattanooga-kills-2-people.html',
+ 'originallink': [u'http://www.dailymail.co.uk/wires/ap/article-3636935/Plane-crash-near-Chattanooga-kills-2-people.html'],
+ 'related': [],
+ 'snippet': [u'COLLEGEDALE, Tenn. (AP) - Officials say a small plane has crashed in Tennessee, killing two passengers and injuring two others. Amy Maxwell, a spokesman for Hamilton County Emergency Services, said a single-engine plane crashed around 12:50 p.m.'],
+ 'sublinks': [],
+ 'topstory': [u'Plane crash near Chattanooga kills 2 people']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 104, in process_item
+    resp = r.db(self.rdb_database).table(self.table_name0).insert(link, return_changes = True).run()
+NameError: global name 'link' is not defined
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Health',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://feweek.co.uk/2016/06/11/changing-perceptions-on-mental-health/',
+ 'originallink': [u'http://feweek.co.uk/2016/06/11/changing-perceptions-on-mental-health/'],
+ 'related': [u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Mental+health&ict=clu_bl',
+             u'/news/section?cf=all&hl=en&pz=1&ned=ca&q=Mental+health&ict=clu_bl'],
+ 'snippet': [u"Gareth Parry has depression, which hasn't stopped him from rising to the top of his organisation. He explains here why apprentice employers need to change their own perceptions of people with mental health issues."],
+ 'sublinks': [u'http://www.albanydailystar.com/health/one-out-of-five-new-yorker-has-mental-ilness-waco-technology-time-9908.html'],
+ 'topstory': [u'Changing perceptions on mental health']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 104, in process_item
+    resp = r.db(self.rdb_database).table(self.table_name0).insert(link, return_changes = True).run()
+NameError: global name 'link' is not defined
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'Business',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://www.yourrenewablenews.com/wind+turbine+components+industry+-+the+structure+of+a+modern+wind+turbine%3B+an+overview+2016+%E2%80%93+2024_132992.html',
+ 'originallink': [u'http://www.yourrenewablenews.com/wind+turbine+components+industry+-+the+structure+of+a+modern+wind+turbine%3B+an+overview+2016+%E2%80%93+2024_132992.html'],
+ 'related': [],
+ 'snippet': [u'Wind energy is gaining priority over fossil fuels in the power mix of both developed and developing nations as it is capable of addressing power requirements of nations in an environmentally sustainable way.'],
+ 'sublinks': [],
+ 'topstory': [u'Wind turbine components industry - The structure of a modern wind turbine; an overview 2016 \u2013 2024']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 89, in process_item
+    dbid = md5.new(urltools.normalize(url)).digest()
+  File "/usr/local/lib/python2.7/dist-packages/urltools/urltools.py", line 91, in normalize
+    path = normalize_path(parts.path)
+  File "/usr/local/lib/python2.7/dist-packages/urltools/urltools.py", line 211, in normalize_path
+    npath = normpath(unquote(path, exceptions=QUOTE_EXCEPTIONS['path']))
+  File "/usr/local/lib/python2.7/dist-packages/urltools/urltools.py", line 267, in unquote
+    res.append(c + h[2:])
+UnicodeDecodeError: 'utf8' codec can't decode byte 0x93 in position 0: invalid start byte
+ERROR [scrapy] ( scraper.py:234, in _itemproc_finished) ______ Error processing {'category': 'World',
+ 'extras': [],
+ 'extraslink': [],
+ 'gpost': [],
+ 'gpostsnip': [],
+ 'link': u'http://hometownsource.com/2016/06/11/bbb-june-15-2016-designated-as-minnesota-elder-financial-abuse-awareness-day/',
+ 'originallink': [u'http://hometownsource.com/2016/06/11/bbb-june-15-2016-designated-as-minnesota-elder-financial-abuse-awareness-day/'],
+ 'related': [],
+ 'snippet': [u'Better Business Bureau of Minnesota and North Dakota has requested and been granted a proclamation by Governor Mark Dayton designating Wednesday, June 15, 2016, as \u201cMinnesota Elder Financial Abuse Awareness Day.'],
+ 'sublinks': [u'http://www.recorderonline.com/news/elder-abuse-prevention-training-to-be-offered/article_ac2d1ec0-2f8f-11e6-85d1-030f8a3a82b6.html'],
+ 'topstory': [u'BBB: June 15, 2016, designated as Minnesota Elder Financial Abuse Awareness Day']}
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 588, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/b/Documents/github/mawto-getnews/getnews/pipelines.py", line 104, in process_item
+    resp = r.db(self.rdb_database).table(self.table_name0).insert(link, return_changes = True).run()
+NameError: global name 'link' is not defined
